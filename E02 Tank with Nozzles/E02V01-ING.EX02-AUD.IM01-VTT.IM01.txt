@@ -1,0 +1,4 @@
+Tanks is named as MISSING MAP
+Tank symbol is very small. 
+* Trimmed curves have radius of 0.04 mm
+* Lines' lengths are 0.06 mm
