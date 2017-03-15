@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="ISO10628-V2017" CompanyName="" Date="2016-12-08" Time="00:12:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="94.4348" Y="258.9144" Z="0" />
+    <Max X="134.5627" Y="328.3578" Z="0" />
+  </Extent>
+  <Drawing Name="Import5.dwg" Title="import5" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0" />
+    <Extent>
+      <Min X="94.4348" Y="258.9144" Z="0" />
+      <Max X="134.5627" Y="328.3578" Z="0" />
+    </Extent>
+    <Label ID="XMP_1" ComponentName="Equipment Tag">
+      <Extent>
+        <Min X="101.3382" Y="281.1247" Z="0" />
+        <Max X="127.4114" Y="281.1247" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="114.4688" Y="285.1653" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7430" String="T-1000" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="101.3382" Y="281.1247" Z="0" />
+          <Max X="127.4114" Y="281.1247" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="107.9505" Y="285.1653" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Equipment ID="A0105" ComponentName="ISO 0105 - Tank Vessel with dished ends">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="10" Y="2.5" Z="0" />
+          <Max X="10" Y="27.5" Z="0" />
+        </Extent>
+        <Coordinate X="10" Y="27.5" Z="0" />
+        <Coordinate X="10" Y="2.5" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="241.92739777004306" EndAngle="298.072601240948">
+        <Circle Radius="21.249920168170252">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+          <Extent>
+            <Min X="-10" Y="-0" Z="0" />
+            <Max X="10" Y="2.5" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="21.2499" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <TrimmedCurve StartAngle="61.927513500474504" EndAngle="118.07248551051657">
+        <Circle Radius="21.250000647304844">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+          <Extent>
+            <Min X="-10" Y="27.5" Z="0" />
+            <Max X="10" Y="30" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="-0" Y="8.75" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-10" Y="2.5" Z="0" />
+          <Max X="-10" Y="27.5" Z="0" />
+        </Extent>
+        <Coordinate X="-10" Y="27.5" Z="0" />
+        <Coordinate X="-10" Y="2.5" Z="0" />
+      </Line>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_7430" ComponentName="ISO 0105 - Tank Vessel with dished ends" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139" TagName="T-1000">
+    <PersistentID Identifier="63b29fd6-7785-4083-afa8-4e9673d3880d" />
+    <Extent>
+      <Min X="94.4348" Y="258.9144" Z="0" />
+      <Max X="134.5627" Y="328.3578" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="114.4688" Y="258.9153" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="2" Y="2.3" Z="1" />
+    <GenericAttributes Number="8" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="0105_Tank_Vessel_dished_ends" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="1.4306/5" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="T" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="1000" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="UpperLimitDesignTemperature" Format="double" Units="° Celsius" Value="100" AttributeURI="http://data.posccaesar.org/rdl/RDS360449" />
+      <GenericAttribute Name="LowerLimitDesignTemperatur" Format="double" Units="° Celsius" Value="-45" AttributeURI="http://data.posccaesar.org/rdl/RDS360494" />
+      <GenericAttribute Name="UpperLimitDesignPressure" Format="double" Units="barg" Value="0.1" AttributeURI="http://data.posccaesar.org/rdl/RDS1470835011" />
+      <GenericAttribute Name="LowerLimitDesignPressure" Format="double" Units="barg" Value="-0.1" AttributeURI="http://data.posccaesar.org/rdl/RDS360674" />
+    </GenericAttributes>
+    <GenericAttributes Number="11" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="ISO0105_Tank_Vessel_dished_ends" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Status" />
+      <GenericAttribute Name="Medium" Format="string" Value="Air" />
+      <GenericAttribute Name="RegNo" Format="string" Value="2062" />
+      <GenericAttribute Name="Status" Format="string" Value="New" />
+      <GenericAttribute Name="Tag" Format="string" Value="T-1000" />
+    </GenericAttributes>
+  </Equipment>
+</PlantModel>

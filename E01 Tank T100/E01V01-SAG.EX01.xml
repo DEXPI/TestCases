@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMpLantPIDProfileSchema_4.0.1.xsd">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="Comos" Date="2016-08-30" Time="12:18:26" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Distance="mm" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0" Y="0" Z="0" />
+    <Max X="841" Y="594" Z="0" />
+  </Extent>
+  <Drawing Name="FB.001" Type="PID" Title="P&amp;ID diagram acc. EN 10628, DIN A1">
+    <Presentation Layer="" Color="16777215" LineType="0" LineWeight="" R="1.000" G="1.000" B="1.000" />
+    <Extent>
+      <Min X="0" Y="0" Z="0" />
+      <Max X="841" Y="594" Z="0" />
+    </Extent>
+    <Label ID="XMP_3" ComponentClass="Label" ComponentClassURI="SAGTBD">
+      <Extent>
+        <Min X="204.5" Y="412.06" Z="0" />
+        <Max X="214.02" Y="417" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="204.5" Y="412.06" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.1" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="204.5" Y="416" Z="0" />
+          <Max X="205.5" Y="417" Z="0" />
+        </Extent>
+        <Coordinate X="204.5" Y="417" Z="0" />
+        <Coordinate X="205.5" Y="416" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.1" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="204.5" Y="416" Z="0" />
+          <Max X="205.5" Y="417" Z="0" />
+        </Extent>
+        <Coordinate X="205.5" Y="417" Z="0" />
+        <Coordinate X="204.5" Y="416" Z="0" />
+      </Line>
+      <Text Font="Arial" Width="8.04" Height="3.52777777777778" Justification="LeftTop" TextAngle="0" SlantAngle="0" DependantAttribute="[TagName]" ItemID="XMP_1">
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="205.98" Y="412.06" Z="0" />
+          <Max X="214.02" Y="416.01" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="205" Y="416.5" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="ShapeCatalogue">
+    <Equipment ID="XMC_1" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/page/RDS445139" ComponentName="@30|M00|A50|A10|A10|A10|A10|A70" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-10" Y="-15" Z="0" />
+        <Max X="10" Y="15" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A3B0N6X2LD" Format="string" />
+        <GenericAttribute Name="Description" Value="Tank" Format="string" />
+        <GenericAttribute Name="Name" Value="A70" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A10|A10|A10|A10|A70" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A10|A10|A10|A10|A70" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A10|A10|A10|A10|A70" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA10§&gt;13DA10§&gt;13DA10§&gt;13DA10§&gt;13PA70" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="DexpiAttributes" Number="4">
+        <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628-X2062A-A01" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssignmentClass" />
+        <GenericAttribute Name="RDL - ID" Value="RDS445139" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/page/RDS445139" Format="string" />
+        <GenericAttribute Name="ComponentClass" Value="Tank" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Systemdata" Number="3">
+        <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+        <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+        <GenericAttribute Name="Pipe cut mode" Value="Pipe separative" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Accessories" Number="1">
+        <GenericAttribute Name="Agitator" Value="No agitator" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS16045622" />
+      </GenericAttributes>
+      <GenericAttributes Set="Graphicaloptions" Number="1">
+        <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Proteus" Number="7">
+        <GenericAttribute Name="Sandbox ID" Value="RDS445139" Format="string" />
+        <GenericAttribute Name="Sandbox URI" Value="http://data.posccaesar.org/rdl/page/RDS445139" Format="string" />
+        <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+        <GenericAttribute Name="ComponentClass" Value="Tank" Format="string" />
+        <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A10|A10|A10|A70" Format="string" />
+        <GenericAttribute Name="XML class" Value="Equipment" Format="string" />
+        <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A09" Format="string" />
+      </GenericAttributes>
+      <Line>
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-10" Y="-12.5" Z="0" />
+          <Max X="-10" Y="12.5" Z="0" />
+        </Extent>
+        <Coordinate X="-10" Y="-12.5" Z="0" />
+        <Coordinate X="-10" Y="12.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="10" Y="-12.5" Z="0" />
+          <Max X="10" Y="12.5" Z="0" />
+        </Extent>
+        <Coordinate X="10" Y="-12.5" Z="0" />
+        <Coordinate X="10" Y="12.5" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="61.927513064147" EndAngle="118.072486935853">
+        <Circle Radius="21.25">
+          <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-21.25" Y="-27.5" Z="0" />
+            <Max X="21.25" Y="15" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="-6.25" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <TrimmedCurve StartAngle="241.927513064147" EndAngle="298.072486935853">
+        <Circle Radius="21.25">
+          <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-21.25" Y="-15" Z="0" />
+            <Max X="21.25" Y="27.5" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="6.25" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation Layer="2" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="7.5" Y="-10" Z="0" />
+          <Max X="7.5" Y="13.5" Z="0" />
+        </Extent>
+        <Coordinate X="7.5" Y="-10" Z="0" />
+        <Coordinate X="7.5" Y="13.5" Z="0" />
+      </Line>
+      <ConnectionPoints NumPoints="1">
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="0" Y="0" Z="0" />
+        </Extent>
+        <Node ID="XMC_2" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="1">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_1" TagName="T100" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/page/RDS445139" ComponentName="@30|M00|A50|A10|A10|A10|A10|A70" ComponentType="Explicit" Status="Current">
+    <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="202.5" Y="396.5" Z="0" />
+      <Max X="222.5" Y="426.5" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="212.5" Y="411.5" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <PersistentID Identifier="A3SR0WJQLF" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A3SR0WJQLF" Format="string" />
+      <GenericAttribute Name="Description" Value="Tank" Format="string" />
+      <GenericAttribute Name="Name" Value="T100" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A10.A13T100" Format="string" />
+      <GenericAttribute Name="Label" Value="T100" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A10.A13T100" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A10.A13T100" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA10§&gt;08UA13§&gt;08UA10§&gt;08PT100" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="DexpiAttributes" Number="9">
+      <GenericAttribute Name="CylinderLength" Value="4" Units="m" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/CylinderLength" />
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Value="DISHED HEADS VESSEL" Format="string" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="NominalDiameter" Value="20" Units="m" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS366794" />
+      <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628-X2062A-A01" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssignmentClass" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Value="T" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Value="100" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="RDL - ID" Value="RDS445139" Format="string" />
+      <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/page/RDS445139" Format="string" />
+      <GenericAttribute Name="ComponentClass" Value="Tank" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Systemdata" Number="3">
+      <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+      <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+      <GenericAttribute Name="Pipe cut mode" Value="Pipe separative" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Accessories" Number="1">
+      <GenericAttribute Name="Agitator" Value="No agitator" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS16045622" />
+    </GenericAttributes>
+    <GenericAttributes Set="Graphicaloptions" Number="1">
+      <GenericAttribute Name="Labeling" Value="No labeling" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Proteus" Number="8">
+      <GenericAttribute Name="Sandbox ID" Value="RDS445139" Format="string" />
+      <GenericAttribute Name="Sandbox URI" Value="http://data.posccaesar.org/rdl/page/RDS445139" Format="string" />
+      <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+      <GenericAttribute Name="ComponentClass" Value="Tank" Format="string" />
+      <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A10|A10|A10|A70" Format="string" />
+      <GenericAttribute Name="XML class" Value="Equipment" Format="string" />
+      <GenericAttribute Name="TagName" Value="T100" Format="string" />
+      <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A09" Format="string" />
+    </GenericAttributes>
+    <ConnectionPoints NumPoints="1">
+      <Extent>
+        <Min X="212.5" Y="411.5" Z="0" />
+        <Max X="212.5" Y="411.5" Z="0" />
+      </Extent>
+      <Node ID="XMP_2" Name="Origin">
+        <Position>
+          <Location X="212.5" Y="411.5" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <GenericAttributes Number="1">
+        <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+      </GenericAttributes>
+    </ConnectionPoints>
+  </Equipment>
+</PlantModel>
+<!--debug dll compiled on 30.08.2016 11:50:10-->

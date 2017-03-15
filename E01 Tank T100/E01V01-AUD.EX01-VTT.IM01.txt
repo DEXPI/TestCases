@@ -1,0 +1,5 @@
+Presentaion elements contain LineWeightAsDouble elements. Proteus Schema 4.0.1 does not allow this.
+
+<Presentation R="0" G="0" B="0" LineWeight="0">
+    <LineWeightAsDouble>0</LineWeightAsDouble>
+</Presentation>
