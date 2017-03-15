@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="Dexpi" CompanyName="" Date="2016-08-30" Time="00:08:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="182" Y="204.8177" Z="0" />
+    <Max X="222" Y="275.129" Z="0" />
+  </Extent>
+  <Drawing Name="Milestone_1.dwg" Title="Milestone_1" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0">
+      <LineWeightAsDouble>0</LineWeightAsDouble>
+    </Presentation>
+    <Extent>
+      <Min X="182" Y="204.8177" Z="0" />
+      <Max X="222" Y="275.129" Z="0" />
+    </Extent>
+    <Label ID="XMP_1" ComponentName="Equipment Tag">
+      <Extent>
+        <Min X="189.0786" Y="218.4594" Z="0" />
+        <Max X="208.7334" Y="218.4594" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="199" Y="222.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Line>
+        <Presentation R="0.12941176470588237" G="0.15686274509803921" B="0.18823529411764706" LineWeight="0.5">
+          <LineWeightAsDouble>0.5</LineWeightAsDouble>
+        </Presentation>
+        <Extent>
+          <Min X="-9.9214" Y="-4.0406" Z="0" />
+          <Max X="9.7334" Y="-4.0406" Z="0" />
+        </Extent>
+        <Coordinate X="-9.9214" Y="-4.0406" Z="0" />
+        <Coordinate X="9.7334" Y="-4.0406" Z="0" />
+      </Line>
+      <Text Justification="CenterCenter" Width="0" Height="5" DependantAttribute="#(Equipment.Tag)" ItemID="XMP_592" String="T-100" Font="Calibri">
+        <Presentation Color="0" R="0" G="1" B="0" LineWeight="0">
+          <LineWeightAsDouble>0</LineWeightAsDouble>
+        </Presentation>
+        <Extent>
+          <Min X="182" Y="205.129" Z="0" />
+          <Max X="182" Y="205.129" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="182" Y="205.129" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Equipment ID="ISO_Vessel_-_Dished_Heads" ComponentName="ISO Vessel - Dished Heads">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5">
+          <LineWeightAsDouble>0.5</LineWeightAsDouble>
+        </Presentation>
+        <Extent>
+          <Min X="-0" Y="1" Z="0" />
+          <Max X="0" Y="13" Z="0" />
+        </Extent>
+        <Coordinate X="-0" Y="1" Z="0" />
+        <Coordinate X="0" Y="13" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5">
+          <LineWeightAsDouble>0.5</LineWeightAsDouble>
+        </Presentation>
+        <Extent>
+          <Min X="8" Y="1" Z="0" />
+          <Max X="8" Y="13" Z="0" />
+        </Extent>
+        <Coordinate X="8" Y="1" Z="0" />
+        <Coordinate X="8" Y="13" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="61.927513064147035" EndAngle="118.07248693585296">
+        <Circle Radius="8.4999999999999982">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5">
+            <LineWeightAsDouble>0.5</LineWeightAsDouble>
+          </Presentation>
+          <Extent>
+            <Min X="-0" Y="13" Z="-0" />
+            <Max X="8" Y="14" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="4" Y="5.5" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <TrimmedCurve StartAngle="240.25511870305775" EndAngle="299.7448812969422">
+        <Circle Radius="8.0622577482985509">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5">
+            <LineWeightAsDouble>0.5</LineWeightAsDouble>
+          </Presentation>
+          <Extent>
+            <Min X="-0" Y="-0.0623" Z="-0" />
+            <Max X="8" Y="1" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="4" Y="8" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_592" ComponentName="ISO Vessel - Dished Heads" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139" TagName="T-100">
+    <PersistentID Identifier="fb111497-a066-4f90-b114-0fc1820c0d28" />
+    <Extent>
+      <Min X="182" Y="204.8177" Z="0" />
+      <Max X="222" Y="275.129" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="182" Y="205.129" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="5" Y="5" Z="5" />
+    <GenericAttributes Number="3" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="DISHED HEADS VESSEL" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="T" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="100" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+    </GenericAttributes>
+    <GenericAttributes Number="25" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="Dished Heads Vessel" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="" />
+      <GenericAttribute Name="Status" Format="string" Value="" />
+      <GenericAttribute Name="Tag" Format="string" Value="T-100" />
+      <GenericAttribute Name="EquipmentSpec" Format="string" Value="" />
+      <GenericAttribute Name="Weight" Format="string" Value="" />
+      <GenericAttribute Name="MaterialOfConstruction" Format="string" Value="" />
+      <GenericAttribute Name="Area" Format="string" Value="" />
+      <GenericAttribute Name="Diameter" Format="string" Value="" />
+      <GenericAttribute Name="Capacity" Format="string" Value="22m3" />
+      <GenericAttribute Name="DesignPressure" Format="string" Value="0,1barg" />
+      <GenericAttribute Name="DesignTemperature" Format="string" Value="100GradC" />
+      <GenericAttribute Name="Trim" Format="string" Value="" />
+      <GenericAttribute Name="InsulationType" Format="string" Value="" />
+      <GenericAttribute Name="Insulation" Format="string" Value="" />
+      <GenericAttribute Name="Height" Format="string" Value="4000mm" />
+      <GenericAttribute Name="Width" Format="string" Value="2000mm" />
+      <GenericAttribute Name="OperatingPressure" Format="string" Value="" />
+      <GenericAttribute Name="OperatingTemperature" Format="string" Value="" />
+      <GenericAttribute Name="NumberOfTrays" Format="integer" Value="" />
+    </GenericAttributes>
+  </Equipment>
+</PlantModel>
