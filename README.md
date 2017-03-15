@@ -1,3 +1,3 @@
-# DEXPI Home
+# DEXPI Test Cases
 
-A place to track issues pertaining to development and other concerns.
+A place to track all test cases.
