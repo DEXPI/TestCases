@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="ISO10628-V2017" CompanyName="" Date="2016-12-08" Time="00:12:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0.26" Y="0.395" Z="0" />
+    <Max X="0.5401" Y="0.825" Z="0" />
+  </Extent>
+  <Drawing Name="Import5.dwg" Title="import5" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0" />
+    <Extent>
+      <Min X="0.26" Y="0.395" Z="0" />
+      <Max X="0.5401" Y="0.825" Z="0" />
+    </Extent>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Equipment ID="SP80B1E87317254ED2B14B798DEE432AE5" ComponentName="MISSING MAP">
+      <TrimmedCurve StartAngle="59.999999999999993" EndAngle="119.99999999999999">
+        <Circle Radius="0.040106405893856931">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+          <Extent>
+            <Min X="0.2399" Y="0.4246" Z="0" />
+            <Max X="0.2801" Y="0.43" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0.26" Y="0.3899" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.2399" Y="0.3654" Z="0" />
+          <Max X="0.2399" Y="0.4246" Z="0" />
+        </Extent>
+        <Coordinate X="0.2399" Y="0.4246" Z="0" />
+        <Coordinate X="0.2399" Y="0.3654" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.2801" Y="0.3654" Z="0" />
+          <Max X="0.2801" Y="0.4246" Z="0" />
+        </Extent>
+        <Coordinate X="0.2801" Y="0.4246" Z="0" />
+        <Coordinate X="0.2801" Y="0.3654" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="239.99999999999997" EndAngle="300">
+        <Circle Radius="0.040106405893856931">
+          <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+          <Extent>
+            <Min X="0.2399" Y="0.36" Z="0" />
+            <Max X="0.2801" Y="0.3654" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0.26" Y="0.4001" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_7303" ComponentName="MISSING MAP" ComponentClass="MISSING MAP" ComponentClassURI="MAP NOT FOUND FOR ISO0105_Tank_Vessel_dished_ends">
+    <PersistentID Identifier="0d26aff4-fcd1-43ba-a64d-733be0b316b3" />
+    <Extent>
+      <Min X="0.26" Y="0.395" Z="0" />
+      <Max X="0.5401" Y="0.825" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="0.26" Y="0.395" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <GenericAttributes Number="3" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="0105_Tank_Vessel_dished_ends" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="T" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+    </GenericAttributes>
+    <GenericAttributes Number="16" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="ISO0105_Tank_Vessel_dished_ends" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Status" />
+      <GenericAttribute Name="Medium" Format="string" Value="" />
+      <GenericAttribute Name="Material" Format="string" Value="" />
+      <GenericAttribute Name="RegNo" Format="string" Value="2062" />
+      <GenericAttribute Name="Status" Format="string" Value="New" />
+      <GenericAttribute Name="Tag" Format="string" Value="T4750" />
+      <GenericAttribute Name="DesTempMax" Format="string" Value="" />
+      <GenericAttribute Name="DesTempMin" Format="string" Value="" />
+      <GenericAttribute Name="DesPressMax" Format="string" Value="" />
+      <GenericAttribute Name="DesPressMin" Format="string" Value="" />
+    </GenericAttributes>
+  </Equipment>
+</PlantModel>
