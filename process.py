@@ -4,6 +4,8 @@ import os
 import re
 import glob
 
+from pandas import pivot_table
+
 PARTNERS = {
     'AUD': 'Autodesk',
     'AVV': 'Aveva',
@@ -46,10 +48,9 @@ if __name__ == '__main__':
         exported_version = EXPORT_VERSION_PATTERN.findall(name)[0]
         exported_df.loc[len(exported_df)] = [test_case, vendors[0], test_case_version, exported_version]
 
-    print(exported_df)
+    # print(exported_df)
 
     columns = ['TestCase', 'VendorFrom', 'TestCaseVersion', 'ExportVersion', 'VendorTo', 'ImportVersion']
-
     imported_df = pd.DataFrame(columns=columns)
 
     for item in imported:
@@ -61,7 +62,8 @@ if __name__ == '__main__':
         imported_version = IMPORT_VERSION_PATTERN.findall(name)[0]
         imported_df.loc[len(imported_df)] = [test_case, vendors[0], test_case_version, exported_version, vendors[1], imported_version]
 
-    print(imported_df)
+    print(imported_df.pivot_table(index=['VendorTo'], columns='VendorFrom',
+                   aggfunc='count'))
 
 
 
