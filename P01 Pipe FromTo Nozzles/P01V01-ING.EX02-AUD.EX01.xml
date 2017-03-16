@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="ISO10628-V2017" CompanyName="" Date="2016-12-08" Time="00:12:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0.23" Y="0.41" Z="0" />
+    <Max X="0.565" Y="0.8475" Z="0" />
+  </Extent>
+  <Drawing Name="Import5.dwg" Title="import5" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0" />
+    <Extent>
+      <Min X="0.23" Y="0.41" Z="0" />
+      <Max X="0.565" Y="0.8475" Z="0" />
+    </Extent>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Equipment ID="SPBDD98F7C78B149F7BDA05772123D0388" ComponentName="Kreiselpumpe horizontal">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.2225" Y="0.42" Z="0" />
+          <Max X="0.2375" Y="0.42" Z="0" />
+        </Extent>
+        <Coordinate X="0.2225" Y="0.42" Z="0" />
+        <Coordinate X="0.2375" Y="0.42" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.23" Y="0.42" Z="0" />
+          <Max X="0.2375" Y="0.4275" Z="0" />
+        </Extent>
+        <Coordinate X="0.23" Y="0.4275" Z="0" />
+        <Coordinate X="0.2375" Y="0.42" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.23" Y="0.4125" Z="0" />
+          <Max X="0.2375" Y="0.42" Z="0" />
+        </Extent>
+        <Coordinate X="0.2375" Y="0.42" Z="0" />
+        <Coordinate X="0.23" Y="0.4125" Z="0" />
+      </Line>
+      <Circle Radius="0.0075">
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.2225" Y="0.4125" Z="0" />
+          <Max X="0.2375" Y="0.4275" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="0.23" Y="0.42" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </Equipment>
+  </ShapeCatalogue>
+  <PipingNetworkSystem ID="PNS_7269" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359">
+    <PipingNetworkSegment ID="XMP_7267" ComponentName="Primary Style" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://posccaesar.org/rdl/RDS267704" TagName="?-?-?-?">
+      <PersistentID Identifier="1f5820b2-4dbb-49fe-9b2c-63d170c5e2be" />
+      <Extent>
+        <Min X="0.24" Y="0.42" Z="0" />
+        <Max X="0.2725" Y="0.42" Z="0" />
+      </Extent>
+      <GenericAttributes Number="1" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="PRIMARY LINE SEGMENT" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      </GenericAttributes>
+      <GenericAttributes Number="29" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="Primary Line Segment" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Status" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="Material" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="?-?-?-?" />
+        <GenericAttribute Name="Size" Format="string" Value="" />
+        <GenericAttribute Name="Spec" Format="string" Value="CS300" AttributeURI="http://sandbox.dexpi.org/rdl/Idontknow" />
+        <GenericAttribute Name="Tracing" Format="string" Value="" />
+        <GenericAttribute Name="InsulationType" Format="string" Value="" />
+        <GenericAttribute Name="Insulation" Format="string" Value="" />
+        <GenericAttribute Name="PaintCode" Format="string" Value="" />
+        <GenericAttribute Name="To" Format="string" Value="" />
+        <GenericAttribute Name="From" Format="string" Value="" />
+        <GenericAttribute Name="TestingFluid" Format="string" Value="" />
+        <GenericAttribute Name="TestPressure" Format="string" Value="" />
+        <GenericAttribute Name="PostWeldHeatTreatment" Format="string" Value="" />
+        <GenericAttribute Name="LineNumber" Format="string" Value="" />
+        <GenericAttribute Name="DesTempMax" Format="string" Value="" />
+        <GenericAttribute Name="DesPressMax" Format="string" Value="" />
+        <GenericAttribute Name="TracingTemp" Format="string" Value="" />
+        <GenericAttribute Name="OpTemp" Format="string" Value="" />
+        <GenericAttribute Name="Spec Part" Format="string" Value="" />
+      </GenericAttributes>
+      <Connection />
+      <CenterLine NumPoints="2">
+        <Presentation R="0" G="0" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0.24" Y="0.42" Z="0" />
+          <Max X="0.2725" Y="0.42" Z="0" />
+        </Extent>
+        <Coordinate X="0.24" Y="0.42" Z="0" />
+        <Coordinate X="0.2725" Y="0.42" Z="0" />
+      </CenterLine>
+    </PipingNetworkSegment>
+  </PipingNetworkSystem>
+  <Equipment ID="XMP_7270" ComponentName="Kreiselpumpe horizontal" ComponentClass="CentrifugalPump" ComponentClassURI="http://posccaesar.org/rdl/RDS416834" TagName="P4712">
+    <PersistentID Identifier="1f16a9b5-1544-48a3-b0c6-bcfcce82ee16" />
+    <Extent>
+      <Min X="0.23" Y="0.42" Z="0" />
+      <Max X="0.4675" Y="0.8475" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="0.23" Y="0.42" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <GenericAttributes Number="4" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="CENTRIFUGAL PUMP" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="P" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="RotationalSpeed" Format="double" Units="RevolutionPerSecond" Value="0" AttributeURI="http://posccaesar.org/rdl/RDS361034" />
+    </GenericAttributes>
+    <GenericAttributes Number="23" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="Centrifugal Pump" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Status" />
+      <GenericAttribute Name="Medium" Format="string" Value="" />
+      <GenericAttribute Name="Material" Format="string" Value="" />
+      <GenericAttribute Name="RegNo" Format="string" Value="" />
+      <GenericAttribute Name="Status" Format="string" Value="New" />
+      <GenericAttribute Name="Tag" Format="string" Value="P4712" />
+      <GenericAttribute Name="DesTempMax" Format="string" Value="" />
+      <GenericAttribute Name="DesTempMin" Format="string" Value="" />
+      <GenericAttribute Name="DesPressMax" Format="string" Value="" />
+      <GenericAttribute Name="DesPressMin" Format="string" Value="" />
+      <GenericAttribute Name="FlowCapacity" Format="string" Value="" />
+      <GenericAttribute Name="Power" Format="string" Value="" />
+      <GenericAttribute Name="TotalDynamicHead" Format="string" Value="" />
+      <GenericAttribute Name="Voltage" Format="double" Units="Volts" Value="0" AttributeURI="http://posccaesar.org/rdl/RDS372374" />
+      <GenericAttribute Name="PhaseAngle" Format="string" Value="3" AttributeURI="http://posccaesar.org/rdl/RDS54808339156" />
+      <GenericAttribute Name="InsulationType" Format="string" Value="" />
+      <GenericAttribute Name="Insulation" Format="string" Value="" />
+    </GenericAttributes>
+  </Equipment>
+</PlantModel>

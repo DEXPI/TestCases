@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="ISO10628-V2017" CompanyName="" Date="2016-12-08" Time="00:12:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="440" Y="320" Z="0" />
+    <Max X="540.6445" Y="400.9594" Z="0" />
+  </Extent>
+  <Drawing Name="TestCases.dwg" Title="import5" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0" />
+    <Extent>
+      <Min X="440" Y="320" Z="0" />
+      <Max X="540.6445" Y="400.9594" Z="0" />
+    </Extent>
+    <Label ID="XMP_1" ComponentName="Tag">
+      <Extent>
+        <Min X="516.24999874168088" Y="366.24999909100325" Z="0" />
+        <Max X="516.24999874168088" Y="366.24999909100325" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="516.25" Y="366.25" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7544" String="N-1" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="516.24999874168088" Y="366.24999909100325" Z="0" />
+          <Max X="516.24999874168088" Y="366.24999909100325" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="516.25" Y="366.25" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_2" ComponentName="Tag">
+      <Extent>
+        <Min X="516.25010969412733" Y="386.235662547919" Z="0" />
+        <Max X="516.25010969412733" Y="386.235662547919" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="516.2501" Y="386.2357" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7516" String="N-3" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="516.25010969412733" Y="386.235662547919" Z="0" />
+          <Max X="516.25010969412733" Y="386.235662547919" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="516.2501" Y="386.2357" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_3" ComponentName="Equipment Tag">
+      <Extent>
+        <Min X="509.1964" Y="400.9594" Z="0" />
+        <Max X="540.6445" Y="400.9594" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="525.0144" Y="405" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7531" String="H-1008" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="509.1964" Y="400.9594" Z="0" />
+          <Max X="540.6445" Y="400.9594" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="517.1524" Y="405" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_4" ComponentName="Tag">
+      <Extent>
+        <Min X="480.00010969412733" Y="372.49999909100325" Z="0" />
+        <Max X="480.00010969412733" Y="372.49999909100325" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="480.0001" Y="372.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7535" String="80-75HB13-MNb-47112" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="480.00010969412733" Y="372.49999909100325" Z="0" />
+          <Max X="480.00010969412733" Y="372.49999909100325" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="480.0001" Y="372.5" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_5" ComponentName="Tag">
+      <Extent>
+        <Min X="487.49999874168083" Y="343.74999909100325" Z="0" />
+        <Max X="487.49999874168083" Y="343.74999909100325" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="487.5" Y="343.75" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_7539" String="50-75HB13-WKa-10082" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="487.49999874168083" Y="343.74999909100325" Z="0" />
+          <Max X="487.49999874168083" Y="343.74999909100325" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="487.5" Y="343.75" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Nozzle ID="A2606" ComponentName="A2606">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="5" Y="-2.5" Z="0" />
+        <Coordinate X="5" Y="2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="0" Z="0" />
+        <Coordinate X="5" Y="0" Z="0" />
+      </Line>
+    </Nozzle>
+    <Equipment ID="A0306" ComponentName="A0306">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-12.5" Y="-5" Z="0" />
+          <Max X="12.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="12.5" Y="5" Z="0" />
+        <Coordinate X="-12.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-12.5" Y="-5" Z="0" />
+          <Max X="12.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-12.5" Y="5" Z="0" />
+        <Coordinate X="12.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-7.5" Y="-5" Z="0" />
+          <Max X="-7.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-7.5" Y="5" Z="0" />
+        <Coordinate X="-7.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="7.5" Y="-5" Z="0" />
+          <Max X="7.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="7.5" Y="5" Z="0" />
+        <Coordinate X="7.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0" Y="-5" Z="0" />
+          <Max X="0" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="5" Z="0" />
+        <Coordinate X="0" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="5" Z="0" />
+          <Max X="15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-15" Y="5" Z="0" />
+        <Coordinate X="15" Y="5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="15" Y="-5" Z="0" />
+          <Max X="15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="15" Y="5" Z="0" />
+        <Coordinate X="15" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="-5" Z="0" />
+          <Max X="15" Y="-5" Z="0" />
+        </Extent>
+        <Coordinate X="15" Y="-5" Z="0" />
+        <Coordinate X="-15" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="-5" Z="0" />
+          <Max X="-15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-15" Y="-5" Z="0" />
+        <Coordinate X="-15" Y="5" Z="0" />
+      </Line>
+    </Equipment>
+  </ShapeCatalogue>
+  <PipingNetworkSystem ID="PNS_7541" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359">
+    <PipingNetworkSegment ID="XMP_7535" ComponentName="ISO2501_Pipeline" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" TagName="80-75HB13-MNb-47112">
+      <PersistentID Identifier="84031a73-6419-49ca-9f04-945e29ad7dbb" />
+      <Extent>
+        <Min X="440" Y="370" Z="0" />
+        <Max X="515.0144" Y="370" Z="0" />
+      </Extent>
+      <GenericAttributes Number="8" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2501_Pipeline" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+        <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Format="string" Value="80" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
+        <GenericAttribute Name="PipingClassCodeAssignmentClass" Format="string" Value="75HB13" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassCodeAssignmentClass" />
+        <GenericAttribute Name="InsulationThickness" Format="double" Units="mm" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS4238040" />
+        <GenericAttribute Name="UpperLimitDesignTemperature" Format="double" Units="° Celsius" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS360449" />
+        <GenericAttribute Name="UpperLimitDesignPressure" Format="double" Units="barg" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS1470835011" />
+        <GenericAttribute Name="OperatingTemperature" Format="double" Units="° Celsius" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS357119" />
+      </GenericAttributes>
+      <GenericAttributes Number="22" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="ISO2501_Pipeline" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Status" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="405" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="80-75HB13-MNb-47112" />
+        <GenericAttribute Name="Tracing" Format="string" Value="" />
+        <GenericAttribute Name="InsulationType" Format="string" Value="" />
+        <GenericAttribute Name="PaintCode" Format="string" Value="" />
+        <GenericAttribute Name="To" Format="string" Value="H-1008?" />
+        <GenericAttribute Name="From" Format="string" Value="" />
+        <GenericAttribute Name="TestingFluid" Format="string" Value="" />
+        <GenericAttribute Name="TestPressure" Format="string" Value="" />
+        <GenericAttribute Name="PostWeldHeatTreatment" Format="string" Value="" />
+        <GenericAttribute Name="LineNumber" Format="string" Value="47112" />
+        <GenericAttribute Name="TracingTemp" Format="string" Value="" />
+        <GenericAttribute Name="Spec Part" Format="string" Value="" />
+      </GenericAttributes>
+      <Connection />
+      <CenterLine NumPoints="2">
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="440" Y="370" Z="0" />
+          <Max X="515.0144" Y="370" Z="0" />
+        </Extent>
+        <Coordinate X="440" Y="370" Z="0" />
+        <Coordinate X="515.0144" Y="370" Z="0" />
+      </CenterLine>
+    </PipingNetworkSegment>
+  </PipingNetworkSystem>
+  <PipingNetworkSystem ID="PNS_7507" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359">
+    <PipingNetworkSegment ID="XMP_7539" ComponentName="ISO2501_Pipeline" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" TagName="50-75HB13-WKa-10082">
+      <PersistentID Identifier="3c9c2074-a26a-4948-9d13-08c79d3cf4f3" />
+      <Extent>
+        <Min X="490" Y="320" Z="0" />
+        <Max X="515.0144" Y="390" Z="0" />
+      </Extent>
+      <GenericAttributes Number="8" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2501_Pipeline" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+        <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Format="string" Value="50" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
+        <GenericAttribute Name="PipingClassCodeAssignmentClass" Format="string" Value="75HB13" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassCodeAssignmentClass" />
+        <GenericAttribute Name="InsulationThickness" Format="double" Units="mm" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS4238040" />
+        <GenericAttribute Name="UpperLimitDesignTemperature" Format="double" Units="° Celsius" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS360449" />
+        <GenericAttribute Name="UpperLimitDesignPressure" Format="double" Units="barg" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS1470835011" />
+        <GenericAttribute Name="OperatingTemperature" Format="double" Units="° Celsius" Value="0" AttributeURI="http://data.posccaesar.org/rdl/RDS357119" />
+      </GenericAttributes>
+      <GenericAttributes Number="22" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="ISO2501_Pipeline" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Status" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="405" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="50-75HB13-WKa-10082" />
+        <GenericAttribute Name="Tracing" Format="string" Value="" />
+        <GenericAttribute Name="InsulationType" Format="string" Value="" />
+        <GenericAttribute Name="PaintCode" Format="string" Value="" />
+        <GenericAttribute Name="To" Format="string" Value="H-1008?" />
+        <GenericAttribute Name="From" Format="string" Value="" />
+        <GenericAttribute Name="TestingFluid" Format="string" Value="" />
+        <GenericAttribute Name="TestPressure" Format="string" Value="" />
+        <GenericAttribute Name="PostWeldHeatTreatment" Format="string" Value="" />
+        <GenericAttribute Name="LineNumber" Format="string" Value="10082" />
+        <GenericAttribute Name="TracingTemp" Format="string" Value="" />
+        <GenericAttribute Name="Spec Part" Format="string" Value="" />
+      </GenericAttributes>
+      <Connection />
+      <CenterLine NumPoints="2">
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="490" Y="320" Z="0" />
+          <Max X="490" Y="367.5" Z="0" />
+        </Extent>
+        <Coordinate X="490" Y="320" Z="0" />
+        <Coordinate X="490" Y="367.5" Z="0" />
+      </CenterLine>
+      <CenterLine NumPoints="3">
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="490" Y="372.5" Z="0" />
+          <Max X="490" Y="390" Z="0" />
+        </Extent>
+        <Coordinate X="490" Y="372.5" Z="0" />
+        <Coordinate X="490" Y="390" Z="0" />
+        <Coordinate X="515.0144" Y="390" Z="0" />
+      </CenterLine>
+    </PipingNetworkSegment>
+  </PipingNetworkSystem>
+  <Equipment ID="XMP_7531" ComponentName="A0306" ComponentClass="PlateAndShellHeatExchanger" ComponentClassURI="http://data.posccaesar.org/rdl/RDS441719" TagName="H-1008?">
+    <PersistentID Identifier="16e0ba17-77da-4851-815f-1bc53424cd8e" />
+    <Extent>
+      <Min X="520.0144" Y="366.4663" Z="0" />
+      <Max X="530.0144" Y="396.4663" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="525.0144" Y="381.4663" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="0" Y="1" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <GenericAttributes Number="8" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="0306_Heat_exchanger_of_plate_type" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="1.4306/8" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="H" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="1008" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="UpperLimitDesignTemperature" Format="double" Units="° Celsius" Value="100" AttributeURI="http://data.posccaesar.org/rdl/RDS360449" />
+      <GenericAttribute Name="LowerLimitDesignTemperatur" Format="double" Units="° Celsius" Value="-45" AttributeURI="http://data.posccaesar.org/rdl/RDS360494" />
+      <GenericAttribute Name="UpperLimitDesignPressure" Format="double" Units="barg" Value="60" AttributeURI="http://data.posccaesar.org/rdl/RDS1470835011" />
+      <GenericAttribute Name="LowerLimitDesignPressure" Format="double" Units="barg" Value="-1" AttributeURI="http://data.posccaesar.org/rdl/RDS360674" />
+    </GenericAttributes>
+    <GenericAttributes Number="11" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="ISO0306_Heat_exchanger_of_plate_type" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Status" />
+      <GenericAttribute Name="Medium" Format="string" Value="Air" />
+      <GenericAttribute Name="RegNo" Format="string" Value="2516" />
+      <GenericAttribute Name="Status" Format="string" Value="New" />
+      <GenericAttribute Name="Tag" Format="string" Value="H-1008?" />
+    </GenericAttributes>
+    <Nozzle ID="XMP_7544" ComponentName="A2606" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" TagName="N-1">
+      <PersistentID Identifier="77724b71-2439-485f-af95-b6b59942ea6e" />
+      <Extent>
+        <Min X="515.0144" Y="367.5" Z="0" />
+        <Max X="520.0144" Y="372.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="520.0144" Y="370" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="-1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="1" />
+      <GenericAttributes Number="2" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2606_Socket_connection_nozzle" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+      </GenericAttributes>
+      <GenericAttributes Number="15" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="ISO2606_Socket_connection_nozzle" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="X8160" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="N-1" />
+        <GenericAttribute Name="Type" Format="string" Value="N" />
+        <GenericAttribute Name="Size" Format="string" Value="80" />
+        <GenericAttribute Name="Spec" Format="string" Value="75HB13" />
+        <GenericAttribute Name="Number" Format="string" Value="1" />
+      </GenericAttributes>
+    </Nozzle>
+    <Nozzle ID="XMP_7516" ComponentName="A2606" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" TagName="N-3">
+      <PersistentID Identifier="a31ce594-bef4-49f8-b04a-80382c836887" />
+      <Extent>
+        <Min X="515.0144" Y="387.5" Z="0" />
+        <Max X="520.0144" Y="392.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="520.0144" Y="390" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="-1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="1" />
+      <GenericAttributes Number="2" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2606_Socket_connection_nozzle" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="MaterialOfConstructionCodeAssignmentClass" Format="string" Value="" AttributeURI="http://data.posccaesar.org/rdl/RDS1460719741" />
+      </GenericAttributes>
+      <GenericAttributes Number="15" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="ISO2606_Socket_connection_nozzle" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="X8160" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="N-3" />
+        <GenericAttribute Name="Type" Format="string" Value="N" />
+        <GenericAttribute Name="Size" Format="string" Value="50" />
+        <GenericAttribute Name="Spec" Format="string" Value="75HB13" />
+        <GenericAttribute Name="Number" Format="string" Value="3" />
+      </GenericAttributes>
+    </Nozzle>
+  </Equipment>
+</PlantModel>
