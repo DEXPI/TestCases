@@ -1,5 +1,0 @@
-Title:
-DEXPI Example PUMP PLATE HEAT EXCHANGER
-
-Description:
-This is the DEXPI Example Centrifugal Pump P4712 Plate Heat Exchanger H1008

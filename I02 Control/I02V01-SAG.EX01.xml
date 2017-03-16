@@ -1,0 +1,1338 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMpLantPIDProfileSchema_4.0.1.xsd">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="Comos" Date="2017-03-15" Time="10:24:52" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Distance="mm" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0" Y="0" Z="0" />
+    <Max X="420" Y="297" Z="0" />
+  </Extent>
+  <Drawing Name="FB.001" Type="PID" Title="P&amp;ID diagram acc. EN 10628, DIN A3">
+    <Presentation Layer="" Color="16777215" LineType="0" LineWeight="" R="1.000" G="1.000" B="1.000" />
+    <Extent>
+      <Min X="0" Y="0" Z="0" />
+      <Max X="420" Y="297" Z="0" />
+    </Extent>
+    <Label ID="XMP_17" ComponentClass="Label" ComponentClassURI="SAGTBD" ComponentName="OffPageReference">
+      <Extent>
+        <Min X="179.333333333333" Y="182" Z="0" />
+        <Max X="180.666666666667" Y="217" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="179.3333" Y="182" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="180" Y="182" Z="0" />
+          <Max X="180" Y="217" Z="0" />
+        </Extent>
+        <Coordinate X="180" Y="217" Z="0" />
+        <Coordinate X="180" Y="182" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="179.333333333333" Y="213" Z="0" />
+          <Max X="180" Y="215" Z="0" />
+        </Extent>
+        <Coordinate X="179.3333" Y="215" Z="0" />
+        <Coordinate X="180" Y="213" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="180" Y="213" Z="0" />
+          <Max X="180.666666666667" Y="215" Z="0" />
+        </Extent>
+        <Coordinate X="180.6667" Y="215" Z="0" />
+        <Coordinate X="180" Y="213" Z="0" />
+      </Line>
+    </Label>
+    <Label ID="XMP_20" ComponentClass="Label" ComponentClassURI="SAGTBD" ComponentName="OffPageReference">
+      <Extent>
+        <Min X="179.333333333333" Y="139.5" Z="0" />
+        <Max X="180.666666666667" Y="172" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="179.3333" Y="139.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="180" Y="139.5" Z="0" />
+          <Max X="180" Y="172" Z="0" />
+        </Extent>
+        <Coordinate X="180" Y="172" Z="0" />
+        <Coordinate X="180" Y="139.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="179.333333333333" Y="168" Z="0" />
+          <Max X="180" Y="170" Z="0" />
+        </Extent>
+        <Coordinate X="179.3333" Y="170" Z="0" />
+        <Coordinate X="180" Y="168" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+        <Extent>
+          <Min X="180" Y="168" Z="0" />
+          <Max X="180.666666666667" Y="170" Z="0" />
+        </Extent>
+        <Coordinate X="180.6667" Y="170" Z="0" />
+        <Coordinate X="180" Y="168" Z="0" />
+      </Line>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="ShapeCatalogue">
+    <PipingComponent ID="XMC_1" ComponentClass="TightShutOffValve" ComponentClassURI="http://posccaesar.org/rdl/RDS6331561" ComponentName="X8068" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-2.5" Y="-6" Z="0" />
+        <Max X="6.98" Y="6" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A382B2O2P6" Format="string" />
+        <GenericAttribute Name="Description" Value="2-way shut-off valve" Format="string" />
+        <GenericAttribute Name="Name" Value="A50" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A10|A30|A10|A10|A10|A50" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A10|A30|A10|A10|A10|A50" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A10|A30|A10|A10|A10|A50" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA10§&gt;13DA30§&gt;13DA10§&gt;13DA10§&gt;13DA10§&gt;13DA50" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="D" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="U" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="F" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Systemdata" Number="10">
+        <GenericAttribute Name="Function code" Value="2-way valve" Format="string" />
+        <GenericAttribute Name="Standard system" Value="EN/DIN metric" Format="string" />
+        <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+        <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+        <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+        <GenericAttribute Name="Pipe cut mode" Value="Segment separative" Format="string" />
+        <GenericAttribute Name="Sort parallel to the disconnected pipe segment" Value="0" Format="string" />
+        <GenericAttribute Name="VSUI attributes" Value="@N;@L;@D;Y00T00135.Y00A00744;Y00T00135.Y00A00746;Y00T00135.Y00A00052;Y00T00037.Y00A00457;Y00T00039.Y00A00176;Y00T00039.Y00A00186" Format="string" />
+        <GenericAttribute Name="Top node of pipe structure" Value="0" Format="string" />
+        <GenericAttribute Name="Disable dynamic connector generation" Value="0" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Accessories" Number="1">
+        <GenericAttribute Name="ActuatorType" Value="No actuator" Format="string" AttributeURI="SAGTBDY00T00037.Y00A00457" />
+      </GenericAttributes>
+      <GenericAttributes Set="Graphicaloptions" Number="2">
+        <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+        <GenericAttribute Name="Version of standard" Value="EN ISO 10628-2:2000" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <GenericAttributes Set="Designdata" Number="1">
+        <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00135.Y00A04155" />
+      </GenericAttributes>
+      <GenericAttributes Set="Equipmentlist" Number="47">
+        <GenericAttribute Name="Display in equipment bar" Value="1" Format="string" />
+        <GenericAttribute Name="Field 1" Value="/  /  bar" Format="string" />
+        <GenericAttribute Name="Field 2" Value="/  /  °C" Format="string" />
+        <GenericAttribute Name="Field 4" Value="/  /  m³/h" Format="string" />
+        <GenericAttribute Name="Field 5" Value="No actuator" Format="string" />
+        <GenericAttribute Name="Field 8" Value="/  bar" Format="string" />
+        <GenericAttribute Name="Field 9" Value="/  °C" Format="string" />
+        <GenericAttribute Name="Field 12" Value="bar" Format="string" />
+        <GenericAttribute Name="Field 13" Value="No value" Format="string" />
+        <GenericAttribute Name="Field 16" Value="kg" Format="string" />
+        <GenericAttribute Name="Field 17" Value="kg" Format="string" />
+        <GenericAttribute Name="Type of view" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view2" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view3" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view4" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view5" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view6" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view7" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view8" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view9" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view10" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view11" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view12" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view13" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view14" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view15" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view16" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view17" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view18" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view19" Value="Default" Format="string" />
+        <GenericAttribute Name="Link" Value="Operating pressure" Format="string" />
+        <GenericAttribute Name="Link2" Value="Operating temp." Format="string" />
+        <GenericAttribute Name="Link3" Value="Main constr. material" Format="string" />
+        <GenericAttribute Name="Link4" Value="Volume flow" Format="string" />
+        <GenericAttribute Name="Link5" Value="Actuator type" Format="string" />
+        <GenericAttribute Name="Link6" Value="Nominal size" Format="string" />
+        <GenericAttribute Name="Link7" Value="Nominal pressure" Format="string" />
+        <GenericAttribute Name="Link8" Value="Design pressure" Format="string" />
+        <GenericAttribute Name="Link9" Value="Design temp." Format="string" />
+        <GenericAttribute Name="Link10" Value="Pipe spec" Format="string" />
+        <GenericAttribute Name="Link11" Value="Safety position" Format="string" />
+        <GenericAttribute Name="Link12" Value="Test pressure" Format="string" />
+        <GenericAttribute Name="Link13" Value="(Ex) Zone" Format="string" />
+        <GenericAttribute Name="Link14" Value="Weight in filled condition" Format="string" />
+        <GenericAttribute Name="Link15" Value="Empty weight" Format="string" />
+        <GenericAttribute Name="Link16" Value="Count" Format="string" />
+        <GenericAttribute Name="Link17" Value="Lifecycle status" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Proteus" Number="8">
+        <GenericAttribute Name="Sandbox ID" Value="RDS6331561" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS6331561" Format="string" />
+        <GenericAttribute Name="Registration number" Value="X8068" Format="string" />
+        <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+        <GenericAttribute Name="Component class" Value="TightShutOffValve" Format="string" />
+        <GenericAttribute Name="ComponentName" Value="X8068" Format="string" />
+        <GenericAttribute Name="XML class" Value="PipingComponent" Format="string" />
+        <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A26" Format="string" />
+      </GenericAttributes>
+      <Line>
+        <Presentation Layer="25" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-5" Y="-2.5" Z="0" />
+          <Max X="-5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="-5" Y="2.5" Z="0" />
+        <Coordinate X="-5" Y="-2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="25" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="-5" Y="-2.5" Z="0" />
+        <Coordinate X="5" Y="2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="25" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="5" Y="2.5" Z="0" />
+        <Coordinate X="5" Y="-2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="25" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="5" Y="-2.5" Z="0" />
+        <Coordinate X="-5" Y="2.5" Z="0" />
+      </Line>
+      <Circle Radius="1">
+        <Presentation Layer="250" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-1" Y="4" Z="0" />
+          <Max X="1" Y="6" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="0" Y="5" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+      <ConnectionPoints NumPoints="3" FlowIn="1" FlowOut="2">
+        <Extent>
+          <Min X="-5" Y="0" Z="0" />
+          <Max X="5" Y="6.12303176911189E-16" Z="0" />
+        </Extent>
+        <Node ID="XMC_2" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_3" Name="DI1 /T:R ">
+          <Position>
+            <Location X="5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_4" Name="DO1 /T:R ">
+          <Position>
+            <Location X="-5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="3">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DI1 /T:R " Format="string" />
+          <GenericAttribute Name="NodeName2" Value="DO1 /T:R " Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </PipingComponent>
+    <Equipment ID="XMC_5" ComponentClass="Diaphragm" ComponentClassURI="http://posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-16" Y="-3.75" Z="0" />
+        <Max X="0" Y="3.75" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A384RS866P" Format="string" />
+        <GenericAttribute Name="Description" Value="Membrane" Format="string" />
+        <GenericAttribute Name="Name" Value="A40" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A10|A60|A10|A40" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A10|A60|A10|A40" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A10|A60|A10|A40" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA10§&gt;13DA60§&gt;13DA10§&gt;13EA40" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Systemdata" Number="5">
+        <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+        <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+        <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+        <GenericAttribute Name="Sort parallel to the disconnected pipe segment" Value="0" Format="string" />
+        <GenericAttribute Name="Top node of pipe structure" Value="0" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Graphicaloptions" Number="2">
+        <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+        <GenericAttribute Name="Version of standard" Value="EN ISO 10628-2:2000" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Proteus" Number="6">
+        <GenericAttribute Name="Sandbox ID" Value="RDS428939" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS428939" Format="string" />
+        <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+        <GenericAttribute Name="Component class" Value="Diaphragm" Format="string" />
+        <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A60|A10|A40" Format="string" />
+        <GenericAttribute Name="XML class" Value="Equipment" Format="string" />
+      </GenericAttributes>
+      <Line>
+        <Presentation Layer="35" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="0" Y="11.25" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="0" Z="0" />
+        <Coordinate X="0" Y="11.25" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="0" EndAngle="180">
+        <Circle Radius="3.75">
+          <Presentation Layer="35" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-3.75" Y="7.5" Z="0" />
+            <Max X="3.75" Y="15" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="11.25" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation Layer="35" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-3.75" Y="11.25" Z="0" />
+          <Max X="3.75" Y="11.25" Z="0" />
+        </Extent>
+        <Coordinate X="-3.75" Y="11.25" Z="0" />
+        <Coordinate X="3.75" Y="11.25" Z="0" />
+      </Line>
+      <ConnectionPoints NumPoints="3">
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="9.18454765366783E-16" Y="15" Z="0" />
+        </Extent>
+        <Node ID="XMC_6" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_7" Name="DS1  /T:R">
+          <Position>
+            <Location X="0" Y="15" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_8" Name="DS2  /T:R">
+          <Position>
+            <Location X="0" Y="7.5" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="3">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DS1  /T:R" Format="string" />
+          <GenericAttribute Name="NodeName2" Value="DS2  /T:R" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Equipment>
+    <ProcessInstrument ID="XMC_9" ComponentClass="ManualInputFunction" ComponentClassURI="SAGTBD000193" ComponentName="@30|M00|A60|A10|A10|H" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-8.5" Y="-6" Z="0" />
+        <Max X="8.5" Y="6" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A38FOFSVLM" Format="string" />
+        <GenericAttribute Name="Description" Value="Manual input/intervention" Format="string" />
+        <GenericAttribute Name="Name" Value="H" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A60|A10|A10|H" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A60|A10|A10|H" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A60|A10|A10|H" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13FA60§&gt;13FA10§&gt;13FA10§&gt;13FH" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="F" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="W" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="I" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Systemdata" Number="4">
+        <GenericAttribute Name="Signal use" Value="AHHH;AHH;AH;&lt;&gt;;AL;ALL;ALLL" Format="string" />
+        <GenericAttribute Name="VSUI attributes" Value="@N;@L;@D;Y00T00007.Y00A03643;Y00T00007.Y00A03642;Y00T00007.Y00A03310;Y00T00007.Y00A03305;Y00T00007.Y00A00448;Y00T00007.Y00A00305;Y00T00007.Y00A02202" Format="string" />
+        <GenericAttribute Name="Link to position" Value="@30|M00|A25|A10|H" Format="string" />
+        <GenericAttribute Name="Autodelete for not-connected connectors" Value="1" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Functiondata" Number="1">
+        <GenericAttribute Name="Measuring value" Value="H - Hand, manual input" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Graphicaloptions" Number="1">
+        <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata1" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" />
+        <GenericAttribute Name="Aggregate state" Value="None" Format="string" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata2" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" />
+        <GenericAttribute Name="Aggregate state" Value="None" Format="string" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Merge" Number="9">
+        <GenericAttribute Name="Merge active" Value="1" Format="string" />
+        <GenericAttribute Name="Apply unit-/location pointer" Value="No" Format="string" />
+        <GenericAttribute Name="Replace" Value="Also apply empty properties" Format="string" />
+        <GenericAttribute Name="Mix behavior" Value="Recursive merging" Format="string" />
+        <GenericAttribute Name="Priority" Value="Target" Format="string" />
+        <GenericAttribute Name="Behavior of connectors" Value="Standard procedure" Format="string" />
+        <GenericAttribute Name="Behavior of subobjects" Value="Mix subobjects" Format="string" />
+        <GenericAttribute Name="Priority2" Value="Target" Format="string" />
+        <GenericAttribute Name="Behavior for name/label" Value="Take from object with priority" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Safetyrequirements" Number="3">
+        <GenericAttribute Name="IP 1 (solids)" Value="Not protected" Format="string" />
+        <GenericAttribute Name="IP-code" Value="IP00" Format="string" />
+        <GenericAttribute Name="IP 2 (liquids)" Value="Not protected" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Proteus" Number="6">
+        <GenericAttribute Name="Sandbox ID" Value="SAGTBD000193" Format="string" />
+        <GenericAttribute Name="Sandbox URI" Value="SAGTBD000193" Format="string" />
+        <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+        <GenericAttribute Name="ComponentClass" Value="ManualInputFunction" Format="string" />
+        <GenericAttribute Name="ComponentName" Value="@30|M00|A60|A10|A10|H" Format="string" />
+        <GenericAttribute Name="XML class" Value="ProcessInstrument" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Serviceconditions" Number="2">
+        <GenericAttribute Name="Zone" Value="No value" Format="string" />
+        <GenericAttribute Name="Zone2" Value="No value" Format="string" />
+      </GenericAttributes>
+      <TrimmedCurve StartAngle="90" EndAngle="270">
+        <Circle Radius="5">
+          <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-7.5" Y="-5" Z="0" />
+            <Max X="2.5" Y="5" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="-2.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <TrimmedCurve StartAngle="270" EndAngle="450">
+        <Circle Radius="5">
+          <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-2.5" Y="-5" Z="0" />
+            <Max X="7.5" Y="5" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="2.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-2.5" Y="5" Z="0" />
+          <Max X="2.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-2.5" Y="5" Z="0" />
+        <Coordinate X="2.5" Y="5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-2.5" Y="-5" Z="0" />
+          <Max X="2.5" Y="-5" Z="0" />
+        </Extent>
+        <Coordinate X="-2.5" Y="-5" Z="0" />
+        <Coordinate X="2.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-7.5" Y="0" Z="0" />
+          <Max X="7.5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="-7.5" Y="0" Z="0" />
+        <Coordinate X="7.5" Y="0" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="5" Z="0" />
+          <Max X="0" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="5" Z="0" />
+        <Coordinate X="0" Y="5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="-5" Z="0" />
+          <Max X="0" Y="-5" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="-5" Z="0" />
+        <Coordinate X="0" Y="-5" Z="0" />
+      </Line>
+      <ConnectionPoints NumPoints="5">
+        <Extent>
+          <Min X="-7.5" Y="-5" Z="0" />
+          <Max X="7.5" Y="5" Z="0" />
+        </Extent>
+        <Node ID="XMC_10" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_11" Name="DI1">
+          <Position>
+            <Location X="-7.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_12" Name="DI2">
+          <Position>
+            <Location X="0" Y="5" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_13" Name="DI3">
+          <Position>
+            <Location X="0" Y="-5" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_14" Name="DI4">
+          <Position>
+            <Location X="7.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="5">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DI1" Format="string" />
+          <GenericAttribute Name="NodeName2" Value="DI2" Format="string" />
+          <GenericAttribute Name="NodeName3" Value="DI3" Format="string" />
+          <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </ProcessInstrument>
+  </ShapeCatalogue>
+  <InstrumentationLoopFunction ID="XMP_9" TagName="02" Status="Current">
+    <Presentation Layer="0" Color="0" LineType="0" LineWeight="0" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="0" Y="0" Z="0" />
+      <Max X="0" Y="0" Z="0" />
+    </Extent>
+    <PersistentID Identifier="A3VFR138FZ" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A3VFR138FZ" Format="string" />
+      <GenericAttribute Name="Description" Value="Manual input/intervention" Format="string" />
+      <GenericAttribute Name="Name" Value="02" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A20.A20.02" Format="string" />
+      <GenericAttribute Name="Label" Value="02" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.02" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.02" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA50§&gt;08P02" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Systemdata" Number="1">
+      <GenericAttribute Name="Group label" Value="02" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Safetyrequirements" Number="3">
+      <GenericAttribute Name="IP 1 (solids)" Value="Not protected" Format="string" />
+      <GenericAttribute Name="IP-code" Value="IP00" Format="string" />
+      <GenericAttribute Name="IP 2 (liquids)" Value="Not protected" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Positiondata" Number="3">
+      <GenericAttribute Name="Project number" Value="SO1" Format="string" />
+      <GenericAttribute Name="Complete function" Value="HC" Format="string" />
+      <GenericAttribute Name="Project description" Value="Base project iDB" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Proteus" Number="4">
+      <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+      <GenericAttribute Name="ComponentName" Value="@30|M00|A25|A10|H" Format="string" />
+      <GenericAttribute Name="XML class" Value="InstrumentationLoopFunction" Format="string" />
+      <GenericAttribute Name="TagName" Value="02" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="AutomationInterface" Number="2">
+      <GenericAttribute Name="Hierarchy name" Value="02" Format="string" />
+      <GenericAttribute Name="Generate hierarchy folder" Value="1" Format="string" />
+    </GenericAttributes>
+    <Association Type="is a collection including" ItemID="XMP_10" />
+  </InstrumentationLoopFunction>
+  <ProcessInstrumentationFunction ID="XMP_10" TagName="HC" ComponentClass="ManualInputFunction" ComponentClassURI="SAGTBD000193" ComponentName="@30|M00|A60|A10|A10|H" ComponentType="Explicit" Status="Current">
+    <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="131.5" Y="171" Z="0" />
+      <Max X="148.5" Y="183" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="140" Y="177" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <PersistentID Identifier="A3VFR12ZFZ" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A3VFR12ZFZ" Format="string" />
+      <GenericAttribute Name="Description" Value="Manual input/intervention" Format="string" />
+      <GenericAttribute Name="Name" Value="02" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A20.A20.02.02" Format="string" />
+      <GenericAttribute Name="Label" Value="HC" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.02.HC" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.02.HC" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA50§&gt;08P02§&gt;08F02" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="F" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="W" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="I" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Systemdata" Number="5">
+      <GenericAttribute Name="Signal use" Value="AHHH;AHH;AH;&lt;&gt;;AL;ALL;ALLL" Format="string" />
+      <GenericAttribute Name="Group label" Value="0202_HC" Format="string" />
+      <GenericAttribute Name="VSUI attributes" Value="@N;@L;@D;Y00T00007.Y00A03643;Y00T00007.Y00A03642;Y00T00007.Y00A03310;Y00T00007.Y00A03305;Y00T00007.Y00A00448;Y00T00007.Y00A00305;Y00T00007.Y00A02202" Format="string" />
+      <GenericAttribute Name="Link to position" Value="@30|M00|A25|A10|H" Format="string" />
+      <GenericAttribute Name="Autodelete for not-connected connectors" Value="1" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Functiondata" Number="3">
+      <GenericAttribute Name="Output and operation" Value="Central control station" Format="string" />
+      <GenericAttribute Name="Measuring value" Value="H - Hand, manual input" Format="string" />
+      <GenericAttribute Name="Complete function" Value="HC" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Graphicaloptions" Number="1">
+      <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Processdata1" Number="4">
+      <GenericAttribute Name="Medium" Value="None" Format="string" />
+      <GenericAttribute Name="Aggregate state" Value="None" Format="string" />
+      <GenericAttribute Name="Abrasive" Value="No" Format="string" />
+      <GenericAttribute Name="Corrosive" Value="No" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Processdata2" Number="4">
+      <GenericAttribute Name="Medium" Value="None" Format="string" />
+      <GenericAttribute Name="Aggregate state" Value="None" Format="string" />
+      <GenericAttribute Name="Abrasive" Value="No" Format="string" />
+      <GenericAttribute Name="Corrosive" Value="No" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Merge" Number="9">
+      <GenericAttribute Name="Merge active" Value="1" Format="string" />
+      <GenericAttribute Name="Apply unit-/location pointer" Value="No" Format="string" />
+      <GenericAttribute Name="Replace" Value="Also apply empty properties" Format="string" />
+      <GenericAttribute Name="Mix behavior" Value="Recursive merging" Format="string" />
+      <GenericAttribute Name="Priority" Value="Target" Format="string" />
+      <GenericAttribute Name="Behavior of connectors" Value="Standard procedure" Format="string" />
+      <GenericAttribute Name="Behavior of subobjects" Value="Mix subobjects" Format="string" />
+      <GenericAttribute Name="Priority2" Value="Target" Format="string" />
+      <GenericAttribute Name="Behavior for name/label" Value="Take from object with priority" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Safetyrequirements" Number="3">
+      <GenericAttribute Name="IP 1 (solids)" Value="Not protected" Format="string" />
+      <GenericAttribute Name="IP-code" Value="IP00" Format="string" />
+      <GenericAttribute Name="IP 2 (liquids)" Value="Not protected" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Proteus" Number="7">
+      <GenericAttribute Name="Sandbox ID" Value="SAGTBD000193" Format="string" />
+      <GenericAttribute Name="Sandbox URI" Value="SAGTBD000193" Format="string" />
+      <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+      <GenericAttribute Name="ComponentClass" Value="ManualInputFunction" Format="string" />
+      <GenericAttribute Name="ComponentName" Value="@30|M00|A60|A10|A10|H" Format="string" />
+      <GenericAttribute Name="XML class" Value="ProcessInstrumentationFunction" Format="string" />
+      <GenericAttribute Name="TagName" Value="HC" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Serviceconditions" Number="2">
+      <GenericAttribute Name="Zone" Value="No value" Format="string" />
+      <GenericAttribute Name="Zone2" Value="No value" Format="string" />
+    </GenericAttributes>
+    <Text Font="Arial" Width="5.1" Height="3.52777777777778" String="HC " Justification="CenterCenter" TextAngle="0" SlantAngle="0">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="137.45" Y="177.52" Z="0" />
+        <Max X="142.55" Y="181.47" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="140" Y="179.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+    </Text>
+    <Text Font="Arial" Width="3.92" Height="3.52777777777778" String="02" Justification="CenterCenter" TextAngle="0" SlantAngle="0">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="138.04" Y="172.52" Z="0" />
+        <Max X="141.96" Y="176.47" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="140" Y="174.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+    </Text>
+    <ConnectionPoints NumPoints="5">
+      <Extent>
+        <Min X="132.5" Y="172" Z="0" />
+        <Max X="147.5" Y="182" Z="0" />
+      </Extent>
+      <Node ID="XMP_11" Name="Origin">
+        <Position>
+          <Location X="140" Y="177" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_12" Name="DI1">
+        <Position>
+          <Location X="132.5" Y="177" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_13" Name="DI2">
+        <Position>
+          <Location X="140" Y="182" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_14" Name="DI3">
+        <Position>
+          <Location X="140" Y="172" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_15" Name="DI4">
+        <Position>
+          <Location X="147.5" Y="177" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <GenericAttributes Number="5">
+        <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+        <GenericAttribute Name="NodeName1" Value="DI1" Format="string" />
+        <GenericAttribute Name="NodeName2" Value="DI2" Format="string" />
+        <GenericAttribute Name="NodeName3" Value="DI3" Format="string" />
+        <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
+      </GenericAttributes>
+    </ConnectionPoints>
+    <Association Type="is a part of" ItemID="XMP_9" />
+    <InformationFlow>
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="147.5" Y="177" Z="0" />
+        <Max X="165" Y="177" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <CenterLine NumPoints="2">
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.25" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="147.5" Y="177" Z="0" />
+          <Max X="165" Y="177" Z="0" />
+        </Extent>
+        <Coordinate X="165" Y="177" Z="0" />
+        <Coordinate X="147.5" Y="177" Z="0" />
+      </CenterLine>
+      <Association Type="has logical start" ItemID="XMP_5" />
+      <Association Type="has logical end" ItemID="XMP_10" />
+      <Connection FromID="XMP_5" ToID="XMP_10" />
+    </InformationFlow>
+  </ProcessInstrumentationFunction>
+  <PipingNetworkSystem ID="XMP_19" TagName="Q001" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359" Status="Current">
+    <PersistentID Identifier="A3VFR0VOFZ" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A3VFR0VOFZ" Format="string" />
+      <GenericAttribute Name="Description" Value="Pipe" Format="string" />
+      <GenericAttribute Name="Name" Value="Q001" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A20.A20.Q001" Format="string" />
+      <GenericAttribute Name="Label" Value="Q001" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.Q001" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.Q001" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA40§&gt;08PQ001" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Systemdata" Number="8">
+      <GenericAttribute Name="Standard system" Value="EN/DIN metric" Format="string" />
+      <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+      <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+      <GenericAttribute Name="Top node of pipe structure" Value="Yes" Format="string" />
+      <GenericAttribute Name="Link to base object T-piece" Value="A10" Format="string" />
+      <GenericAttribute Name="Autodelete" Value="0" Format="string" />
+      <GenericAttribute Name="3D direction tolerance (Epsilon)" Value="0.0000001" Format="string" />
+      <GenericAttribute Name="3D length tolerance" Value="0.1" Units="mm" Format="double" />
+    </GenericAttributes>
+    <GenericAttributes Set="Processdata" Number="4">
+      <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+      <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+      <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+      <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+    </GenericAttributes>
+    <GenericAttributes Set="Proteus" Number="8">
+      <GenericAttribute Name="Sandbox ID" Value="RDS270359" Format="string" />
+      <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS270359" Format="string" />
+      <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+      <GenericAttribute Name="ComponentClass" Value="PipingNetworkSystem" Format="string" />
+      <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A40|A10|A10" Format="string" />
+      <GenericAttribute Name="XML class" Value="PipingNetworkSystem" Format="string" />
+      <GenericAttribute Name="TagName" Value="Q001" Format="string" />
+      <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A12" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Pipinglinelist" Number="48">
+      <GenericAttribute Name="Display in piping bar" Value="1" Format="string" />
+      <GenericAttribute Name="Field 4" Value="None" Format="string" />
+      <GenericAttribute Name="Field 5" Value="/  /  m³/h" Format="string" />
+      <GenericAttribute Name="Field 6" Value="/  /  °C" Format="string" />
+      <GenericAttribute Name="Field 7" Value="/  /  bar" Format="string" />
+      <GenericAttribute Name="Field 8" Value="/  °C" Format="string" />
+      <GenericAttribute Name="Field 9" Value="/  bar" Format="string" />
+      <GenericAttribute Name="Field 12" Value="mm" Format="string" />
+      <GenericAttribute Name="Field 13" Value="mm" Format="string" />
+      <GenericAttribute Name="Field 16" Value="kg" Format="string" />
+      <GenericAttribute Name="Field 17" Value="kg" Format="string" />
+      <GenericAttribute Name="Type of view" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view2" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view3" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view4" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view5" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view6" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view7" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view8" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view9" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view10" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view11" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view12" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view13" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view14" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view15" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view16" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view17" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view18" Value="Default" Format="string" />
+      <GenericAttribute Name="Type of view19" Value="Default" Format="string" />
+      <GenericAttribute Name="Link" Value="Nominal size (ND)" Format="string" />
+      <GenericAttribute Name="Link2" Value="Nominal pressure" Format="string" />
+      <GenericAttribute Name="Link3" Value="Pipe spec" Format="string" />
+      <GenericAttribute Name="Link4" Value="Medium" Format="string" />
+      <GenericAttribute Name="Link5" Value="Volume flow" Format="string" />
+      <GenericAttribute Name="Link6" Value="Operating temp." Format="string" />
+      <GenericAttribute Name="Link7" Value="Operating pressure" Format="string" />
+      <GenericAttribute Name="Link8" Value="Design temp." Format="string" />
+      <GenericAttribute Name="Link9" Value="Design pressure" Format="string" />
+      <GenericAttribute Name="Link10" Value="Main constr. material" Format="string" />
+      <GenericAttribute Name="Link11" Value="Insulation" Format="string" />
+      <GenericAttribute Name="Link12" Value="Wall thickness" Format="string" />
+      <GenericAttribute Name="Link13" Value="Outside diameter" Format="string" />
+      <GenericAttribute Name="Link14" Value="Cooling/heating facility" Format="string" />
+      <GenericAttribute Name="Link15" Value="Weight in filled condition" Format="string" />
+      <GenericAttribute Name="Link16" Value="Empty weight" Format="string" />
+      <GenericAttribute Name="Link17" Value="Isometric no." Format="string" />
+      <GenericAttribute Name="Link18" Value="Lifecycle status" Format="string" />
+    </GenericAttributes>
+    <PipingNetworkSegment ID="XMP_16" TagName="001" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" Status="Current">
+      <Presentation Layer="10" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="180" Y="182" Z="0" />
+        <Max X="180" Y="217" Z="0" />
+      </Extent>
+      <PersistentID Identifier="A3VFR0VPFZ" Context="Comos" />
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A3VFR0VPFZ" Format="string" />
+        <GenericAttribute Name="Description" Value="Pipe section" Format="string" />
+        <GenericAttribute Name="Name" Value="001" Format="string" />
+        <GenericAttribute Name="FullName" Value="=A10.A20.A20.Q001.001" Format="string" />
+        <GenericAttribute Name="Label" Value="001" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.Q001.001" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.Q001.001" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA40§&gt;08PQ001§&gt;08P001" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="Q" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="P" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Systemdata" Number="5">
+        <GenericAttribute Name="Standard system" Value="EN/DIN metric" Format="string" />
+        <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+        <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+        <GenericAttribute Name="VSUI attributes" Value="@N;@L;@D;Y00T00041.Y00A01036;Y00T00041.Y00A01677;Y00T00041.Y00A01182;Y00T00041.Y00A01143;Y00T00041.Y00A01157;Y00T00135.Y00A00744;Y00T00135.Y00A00746;Y00T00135.Y00A00052;Y00T00039.Y00A00176;Y00T00039.Y00A00186;Y00T00039.Y00A00679" Format="string" />
+        <GenericAttribute Name="Autodelete" Value="0" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Graphicaloptions" Number="2">
+        <GenericAttribute Name="Layer" Value="10" Format="string" />
+        <GenericAttribute Name="Line width" Value="0.25" Units="mm" Format="double" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <GenericAttributes Set="Proteus" Number="8">
+        <GenericAttribute Name="Sandbox ID" Value="RDS267704" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS267704" Format="string" />
+        <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+        <GenericAttribute Name="ComponentClass" Value="PipingNetworkSegment" Format="string" />
+        <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A40|A10|A10!A10" Format="string" />
+        <GenericAttribute Name="XML class" Value="PipingNetworkSegment" Format="string" />
+        <GenericAttribute Name="TagName" Value="001" Format="string" />
+        <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A12" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="IDFimport" Number="3">
+        <GenericAttribute Name="Flange standard" Value="-999" Format="string" />
+        <GenericAttribute Name="Contact face" Value="-999" Format="string" />
+        <GenericAttribute Name="Nominal pressure" Value="-999" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Pipinglinelist" Number="48">
+        <GenericAttribute Name="Display in piping bar" Value="1" Format="string" />
+        <GenericAttribute Name="Field 4" Value="None" Format="string" />
+        <GenericAttribute Name="Field 5" Value="/  /  m³/h" Format="string" />
+        <GenericAttribute Name="Field 6" Value="/  /  °C" Format="string" />
+        <GenericAttribute Name="Field 7" Value="/  /  bar" Format="string" />
+        <GenericAttribute Name="Field 8" Value="/  °C" Format="string" />
+        <GenericAttribute Name="Field 9" Value="/  bar" Format="string" />
+        <GenericAttribute Name="Field 12" Value="mm" Format="string" />
+        <GenericAttribute Name="Field 13" Value="mm" Format="string" />
+        <GenericAttribute Name="Field 16" Value="kg" Format="string" />
+        <GenericAttribute Name="Field 17" Value="kg" Format="string" />
+        <GenericAttribute Name="Type of view" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view2" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view3" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view4" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view5" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view6" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view7" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view8" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view9" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view10" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view11" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view12" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view13" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view14" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view15" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view16" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view17" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view18" Value="Default" Format="string" />
+        <GenericAttribute Name="Type of view19" Value="Default" Format="string" />
+        <GenericAttribute Name="Link" Value="Nominal size (ND)" Format="string" />
+        <GenericAttribute Name="Link2" Value="Nominal pressure" Format="string" />
+        <GenericAttribute Name="Link3" Value="Pipe spec" Format="string" />
+        <GenericAttribute Name="Link4" Value="Medium" Format="string" />
+        <GenericAttribute Name="Link5" Value="Volume flow" Format="string" />
+        <GenericAttribute Name="Link6" Value="Operating temp." Format="string" />
+        <GenericAttribute Name="Link7" Value="Operating pressure" Format="string" />
+        <GenericAttribute Name="Link8" Value="Design temp." Format="string" />
+        <GenericAttribute Name="Link9" Value="Design pressure" Format="string" />
+        <GenericAttribute Name="Link10" Value="Main constr. material" Format="string" />
+        <GenericAttribute Name="Link11" Value="Insulation" Format="string" />
+        <GenericAttribute Name="Link12" Value="Wall thickness" Format="string" />
+        <GenericAttribute Name="Link13" Value="Outside diameter" Format="string" />
+        <GenericAttribute Name="Link14" Value="Cooling/heating facility" Format="string" />
+        <GenericAttribute Name="Link15" Value="Weight in filled condition" Format="string" />
+        <GenericAttribute Name="Link16" Value="Empty weight" Format="string" />
+        <GenericAttribute Name="Link17" Value="Isometric no." Format="string" />
+        <GenericAttribute Name="Link18" Value="Lifecycle status" Format="string" />
+      </GenericAttributes>
+      <PipeFlowArrow ID="XMP_18" ComponentClass="PipeFlowArrow">
+        <Line>
+          <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+          <Extent>
+            <Min X="179.333333333333" Y="213" Z="0" />
+            <Max X="180" Y="215" Z="0" />
+          </Extent>
+          <Coordinate X="179.3333" Y="215" Z="0" />
+          <Coordinate X="180" Y="213" Z="0" />
+        </Line>
+        <Line>
+          <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+          <Extent>
+            <Min X="180" Y="213" Z="0" />
+            <Max X="180.666666666667" Y="215" Z="0" />
+          </Extent>
+          <Coordinate X="180.6667" Y="215" Z="0" />
+          <Coordinate X="180" Y="213" Z="0" />
+        </Line>
+      </PipeFlowArrow>
+      <PipeFlowArrow ID="XMP_21" ComponentClass="PipeFlowArrow">
+        <Line>
+          <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+          <Extent>
+            <Min X="179.333333333333" Y="168" Z="0" />
+            <Max X="180" Y="170" Z="0" />
+          </Extent>
+          <Coordinate X="179.3333" Y="170" Z="0" />
+          <Coordinate X="180" Y="168" Z="0" />
+        </Line>
+        <Line>
+          <Presentation Layer="250" Color="255" LineType="0" LineWeight="0.35" R="0.000" G="0.000" B="1.000" />
+          <Extent>
+            <Min X="180" Y="168" Z="0" />
+            <Max X="180.666666666667" Y="170" Z="0" />
+          </Extent>
+          <Coordinate X="180.6667" Y="170" Z="0" />
+          <Coordinate X="180" Y="168" Z="0" />
+        </Line>
+      </PipeFlowArrow>
+      <Connection FromID="" ToID="" />
+      <CenterLine NumPoints="2">
+        <Presentation Layer="10" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="180" Y="182" Z="0" />
+          <Max X="180" Y="217" Z="0" />
+        </Extent>
+        <Coordinate X="180" Y="217" Z="0" />
+        <Coordinate X="180" Y="182" Z="0" />
+        <GenericAttributes Set="ComosProperties" Number="11">
+          <GenericAttribute Name="SystemUID" Value="A3VFR0XQFZ" Format="string" />
+          <GenericAttribute Name="Description" Value="Pipe segment" Format="string" />
+          <GenericAttribute Name="Name" Value="SEG1" Format="string" />
+          <GenericAttribute Name="FullName" Value="=A10.A20.A20.Q001.001:SEG1" Format="string" />
+          <GenericAttribute Name="Label" Value="SEG1" Format="string" />
+          <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.Q001.001:SEG1" Format="string" />
+          <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.Q001.001:SEG1" Format="string" />
+          <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA40§&gt;08PQ001§&gt;08P001§&gt;08ESEG1" Format="string" />
+          <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+          <GenericAttribute Name="ComosDetailClass" Value="Q" Format="string" />
+          <GenericAttribute Name="ComosRIClass" Value="P" Format="string" />
+        </GenericAttributes>
+      </CenterLine>
+      <PipingComponent ID="XMP_1" TagName="B001" ComponentClass="TightShutOffValve" ComponentClassURI="http://posccaesar.org/rdl/RDS6331561" ComponentName="X8068" ComponentType="Explicit" Status="Current">
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="177.5" Y="171" Z="0" />
+          <Max X="186.98" Y="183" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="180" Y="177" Z="0" />
+          <Axis X="0" Y="0" Z="-1" />
+          <Reference X="0" Y="-1" Z="0" />
+        </Position>
+        <Scale X="1" Y="1" Z="1" />
+        <PersistentID Identifier="A3VFR10QFZ" Context="Comos" />
+        <GenericAttributes Set="ComosProperties" Number="11">
+          <GenericAttribute Name="SystemUID" Value="A3VFR10QFZ" Format="string" />
+          <GenericAttribute Name="Description" Value="2-way shut-off valve" Format="string" />
+          <GenericAttribute Name="Name" Value="B001" Format="string" />
+          <GenericAttribute Name="FullName" Value="=A10.A20.A20-B001" Format="string" />
+          <GenericAttribute Name="Label" Value="B001" Format="string" />
+          <GenericAttribute Name="FullLabel" Value="=A10.A20.A20-B001" Format="string" />
+          <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20-B001" Format="string" />
+          <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA30§&gt;08DB001" Format="string" />
+          <GenericAttribute Name="ComosClass" Value="D" Format="string" />
+          <GenericAttribute Name="ComosDetailClass" Value="U" Format="string" />
+          <GenericAttribute Name="ComosRIClass" Value="F" Format="string" />
+        </GenericAttributes>
+        <GenericAttributes Set="Systemdata" Number="10">
+          <GenericAttribute Name="Function code" Value="2-way valve" Format="string" />
+          <GenericAttribute Name="Standard system" Value="EN/DIN metric" Format="string" />
+          <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+          <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+          <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+          <GenericAttribute Name="Pipe cut mode" Value="Segment separative" Format="string" />
+          <GenericAttribute Name="Sort parallel to the disconnected pipe segment" Value="0" Format="string" />
+          <GenericAttribute Name="VSUI attributes" Value="@N;@L;@D;Y00T00135.Y00A00744;Y00T00135.Y00A00746;Y00T00135.Y00A00052;Y00T00037.Y00A00457;Y00T00039.Y00A00176;Y00T00039.Y00A00186" Format="string" />
+          <GenericAttribute Name="Top node of pipe structure" Value="0" Format="string" />
+          <GenericAttribute Name="Disable dynamic connector generation" Value="0" Format="string" />
+        </GenericAttributes>
+        <GenericAttributes Set="Accessories" Number="2">
+          <GenericAttribute Name="ActuatorType" Value="Membrane" Format="string" AttributeURI="SAGTBDY00T00037.Y00A00457" />
+          <GenericAttribute Name="PositioningResponse" Value="No response" Format="string" AttributeURI="SAGTBDY00T00037.Y00A01186" />
+        </GenericAttributes>
+        <GenericAttributes Set="Graphicaloptions" Number="2">
+          <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+          <GenericAttribute Name="Version of standard" Value="EN ISO 10628-2:2000" Format="string" />
+        </GenericAttributes>
+        <GenericAttributes Set="Processdata" Number="4">
+          <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+          <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+          <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+          <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+        </GenericAttributes>
+        <GenericAttributes Set="Designdata" Number="1">
+          <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00135.Y00A04155" />
+        </GenericAttributes>
+        <GenericAttributes Set="Equipmentlist" Number="47">
+          <GenericAttribute Name="Display in equipment bar" Value="1" Format="string" />
+          <GenericAttribute Name="Field 1" Value="/  /  bar" Format="string" />
+          <GenericAttribute Name="Field 2" Value="/  /  °C" Format="string" />
+          <GenericAttribute Name="Field 4" Value="/  /  m³/h" Format="string" />
+          <GenericAttribute Name="Field 5" Value="Membrane" Format="string" />
+          <GenericAttribute Name="Field 8" Value="/  bar" Format="string" />
+          <GenericAttribute Name="Field 9" Value="/  °C" Format="string" />
+          <GenericAttribute Name="Field 12" Value="bar" Format="string" />
+          <GenericAttribute Name="Field 13" Value="No value" Format="string" />
+          <GenericAttribute Name="Field 16" Value="kg" Format="string" />
+          <GenericAttribute Name="Field 17" Value="kg" Format="string" />
+          <GenericAttribute Name="Type of view" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view2" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view3" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view4" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view5" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view6" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view7" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view8" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view9" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view10" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view11" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view12" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view13" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view14" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view15" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view16" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view17" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view18" Value="Default" Format="string" />
+          <GenericAttribute Name="Type of view19" Value="Default" Format="string" />
+          <GenericAttribute Name="Link" Value="Operating pressure" Format="string" />
+          <GenericAttribute Name="Link2" Value="Operating temp." Format="string" />
+          <GenericAttribute Name="Link3" Value="Main constr. material" Format="string" />
+          <GenericAttribute Name="Link4" Value="Volume flow" Format="string" />
+          <GenericAttribute Name="Link5" Value="Actuator type" Format="string" />
+          <GenericAttribute Name="Link6" Value="Nominal size" Format="string" />
+          <GenericAttribute Name="Link7" Value="Nominal pressure" Format="string" />
+          <GenericAttribute Name="Link8" Value="Design pressure" Format="string" />
+          <GenericAttribute Name="Link9" Value="Design temp." Format="string" />
+          <GenericAttribute Name="Link10" Value="Pipe spec" Format="string" />
+          <GenericAttribute Name="Link11" Value="Safety position" Format="string" />
+          <GenericAttribute Name="Link12" Value="Test pressure" Format="string" />
+          <GenericAttribute Name="Link13" Value="(Ex) Zone" Format="string" />
+          <GenericAttribute Name="Link14" Value="Weight in filled condition" Format="string" />
+          <GenericAttribute Name="Link15" Value="Empty weight" Format="string" />
+          <GenericAttribute Name="Link16" Value="Count" Format="string" />
+          <GenericAttribute Name="Link17" Value="Lifecycle status" Format="string" />
+        </GenericAttributes>
+        <GenericAttributes Set="Proteus" Number="9">
+          <GenericAttribute Name="Sandbox ID" Value="RDS6331561" Format="string" />
+          <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS6331561" Format="string" />
+          <GenericAttribute Name="Registration number" Value="X8068" Format="string" />
+          <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+          <GenericAttribute Name="Component class" Value="TightShutOffValve" Format="string" />
+          <GenericAttribute Name="ComponentName" Value="X8068" Format="string" />
+          <GenericAttribute Name="XML class" Value="PipingComponent" Format="string" />
+          <GenericAttribute Name="TagName" Value="B001" Format="string" />
+          <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A26" Format="string" />
+        </GenericAttributes>
+        <Text Font="Arial" Width="3.95" Height="3.52777777777778" String="B001" Justification="CenterCenter" TextAngle="90" SlantAngle="0">
+          <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="183.03" Y="172.89" Z="0" />
+            <Max X="186.98" Y="181.12" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="185" Y="177" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Text>
+        <ConnectionPoints NumPoints="3" FlowIn="1" FlowOut="2">
+          <Extent>
+            <Min X="180" Y="172" Z="0" />
+            <Max X="180" Y="182" Z="0" />
+          </Extent>
+          <Node ID="XMP_2" Name="Origin">
+            <Position>
+              <Location X="180" Y="177" Z="0" />
+              <Axis X="0" Y="0" Z="1" />
+              <Reference X="1" Y="0" Z="0" />
+            </Position>
+          </Node>
+          <Node ID="XMP_3" Name="DI1 /T:R ">
+            <Position>
+              <Location X="180" Y="182" Z="0" />
+              <Axis X="0" Y="0" Z="1" />
+              <Reference X="1" Y="0" Z="0" />
+            </Position>
+          </Node>
+          <Node ID="XMP_4" Name="DO1 /T:R ">
+            <Position>
+              <Location X="180" Y="172" Z="0" />
+              <Axis X="0" Y="0" Z="1" />
+              <Reference X="1" Y="0" Z="0" />
+            </Position>
+          </Node>
+          <GenericAttributes Number="3">
+            <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+            <GenericAttribute Name="NodeName1" Value="DI1 /T:R " Format="string" />
+            <GenericAttribute Name="NodeName2" Value="DO1 /T:R " Format="string" />
+          </GenericAttributes>
+        </ConnectionPoints>
+        <Equipment ID="XMP_5" TagName="M001" ComponentClass="Diaphragm" ComponentClassURI="http://posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" ComponentType="Explicit" Status="Current">
+          <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="164" Y="173.25" Z="0" />
+            <Max X="180" Y="180.75" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="180" Y="177" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="0" Y="1" Z="0" />
+          </Position>
+          <Scale X="1" Y="1" Z="1" />
+          <PersistentID Identifier="A3VFR127FZ" Context="Comos" />
+          <GenericAttributes Set="ComosProperties" Number="11">
+            <GenericAttribute Name="SystemUID" Value="A3VFR127FZ" Format="string" />
+            <GenericAttribute Name="Description" Value="Membrane" Format="string" />
+            <GenericAttribute Name="Name" Value="M001" Format="string" />
+            <GenericAttribute Name="FullName" Value="=A10.A20.A20-B001M001" Format="string" />
+            <GenericAttribute Name="Label" Value="M001" Format="string" />
+            <GenericAttribute Name="FullLabel" Value="=A10.A20.A20-B001M001" Format="string" />
+            <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20-B001M001" Format="string" />
+            <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA30§&gt;08DB001§&gt;08EM001" Format="string" />
+            <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+            <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+            <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+          </GenericAttributes>
+          <GenericAttributes Set="Systemdata" Number="5">
+            <GenericAttribute Name="Allow multiple placement" Value="0" Format="string" />
+            <GenericAttribute Name="Unit system" Value="DIN - metric" Format="string" />
+            <GenericAttribute Name="Graphical connector mapping" Value="0" Format="string" />
+            <GenericAttribute Name="Sort parallel to the disconnected pipe segment" Value="0" Format="string" />
+            <GenericAttribute Name="Top node of pipe structure" Value="0" Format="string" />
+          </GenericAttributes>
+          <GenericAttributes Set="Graphicaloptions" Number="2">
+            <GenericAttribute Name="Labeling" Value="Position designation only" Format="string" />
+            <GenericAttribute Name="Version of standard" Value="EN ISO 10628-2:2000" Format="string" />
+          </GenericAttributes>
+          <GenericAttributes Set="Proteus" Number="7">
+            <GenericAttribute Name="Sandbox ID" Value="RDS428939" Format="string" />
+            <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS428939" Format="string" />
+            <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
+            <GenericAttribute Name="Component class" Value="Diaphragm" Format="string" />
+            <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A10|A60|A10|A40" Format="string" />
+            <GenericAttribute Name="XML class" Value="Equipment" Format="string" />
+            <GenericAttribute Name="TagName" Value="M001" Format="string" />
+          </GenericAttributes>
+          <ConnectionPoints NumPoints="3">
+            <Extent>
+              <Min X="165" Y="177" Z="0" />
+              <Max X="180" Y="177" Z="0" />
+            </Extent>
+            <Node ID="XMP_6" Name="Origin">
+              <Position>
+                <Location X="180" Y="177" Z="0" />
+                <Axis X="0" Y="0" Z="1" />
+                <Reference X="1" Y="0" Z="0" />
+              </Position>
+            </Node>
+            <Node ID="XMP_7" Name="DS1  /T:R">
+              <Position>
+                <Location X="165" Y="177" Z="0" />
+                <Axis X="0" Y="0" Z="1" />
+                <Reference X="1" Y="0" Z="0" />
+              </Position>
+            </Node>
+            <Node ID="XMP_8" Name="DS2  /T:R">
+              <Position>
+                <Location X="172.5" Y="177" Z="0" />
+                <Axis X="0" Y="0" Z="1" />
+                <Reference X="1" Y="0" Z="0" />
+              </Position>
+            </Node>
+            <GenericAttributes Number="3">
+              <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+              <GenericAttribute Name="NodeName1" Value="DS1  /T:R" Format="string" />
+              <GenericAttribute Name="NodeName2" Value="DS2  /T:R" Format="string" />
+            </GenericAttributes>
+          </ConnectionPoints>
+        </Equipment>
+      </PipingComponent>
+      <CenterLine NumPoints="2">
+        <Presentation Layer="10" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="180" Y="139.5" Z="0" />
+          <Max X="180" Y="172" Z="0" />
+        </Extent>
+        <Coordinate X="180" Y="172" Z="0" />
+        <Coordinate X="180" Y="139.5" Z="0" />
+        <GenericAttributes Set="ComosProperties" Number="11">
+          <GenericAttribute Name="SystemUID" Value="A3VFR110FZ" Format="string" />
+          <GenericAttribute Name="Description" Value="Pipe segment" Format="string" />
+          <GenericAttribute Name="Name" Value="SEG2" Format="string" />
+          <GenericAttribute Name="FullName" Value="=A10.A20.A20.Q001.001:SEG2" Format="string" />
+          <GenericAttribute Name="Label" Value="SEG2" Format="string" />
+          <GenericAttribute Name="FullLabel" Value="=A10.A20.A20.Q001.001:SEG2" Format="string" />
+          <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.A20.Q001.001:SEG2" Format="string" />
+          <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UA20§&gt;08UA40§&gt;08PQ001§&gt;08P001§&gt;08ESEG2" Format="string" />
+          <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+          <GenericAttribute Name="ComosDetailClass" Value="Q" Format="string" />
+          <GenericAttribute Name="ComosRIClass" Value="P" Format="string" />
+        </GenericAttributes>
+      </CenterLine>
+    </PipingNetworkSegment>
+  </PipingNetworkSystem>
+</PlantModel>
+<!--debug dll compiled on 14.03.2017 13:47:54-->
