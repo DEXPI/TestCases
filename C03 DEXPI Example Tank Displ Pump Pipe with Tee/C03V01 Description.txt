@@ -1,5 +1,0 @@
-Title:
-DEXPI Example Tank Displ Pump Pipe with Tee
-
-Description:
-This is the DEXPI Example Tank T4750 Displacement Pump P4711 Pipe with Tee and Refief Valve
