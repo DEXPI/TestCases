@@ -1,3 +1,3 @@
 # DEXPI Test Cases
 
-A place to track all test cases.
+1. pip3 install -r requirements.txt
