@@ -1,3 +1,3 @@
 # DEXPI Test Cases
 
-1. pip3 install -r requirements.txt
+The DEXPI repository for TestCases
