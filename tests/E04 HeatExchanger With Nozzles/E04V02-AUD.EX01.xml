@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="AutoCAD PnID" ProjectName="ISO10628-V2017" CompanyName="" Date="2017-04-27" Time="00:04:00" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Area="MetreSquared" Angle="deg" Distance="Millimetre" Temperature="DegreeCelsius" Pressure="Bar" Volume="MetreCubed" Weight="Kilogram" />
+  </PlantInformation>
+  <Extent>
+    <Min X="195.4463" Y="371.4663" Z="0" />
+    <Max X="226.8944" Y="405.9594" Z="0" />
+  </Extent>
+  <Drawing Name="Imp1.dwg" Title="Imp1" Type="PID">
+    <Presentation R="0" G="0" B="0" LineWeight="0" />
+    <Extent>
+      <Min X="195.4463" Y="371.4663" Z="0" />
+      <Max X="226.8944" Y="405.9594" Z="0" />
+    </Extent>
+    <Label ID="XMP_1" ComponentName="Tag">
+      <Extent>
+        <Min X="218.76433714560778" Y="390.00000035268522" Z="0" />
+        <Max X="218.76433714560778" Y="390.00000035268522" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="218.7643" Y="390" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_24704" String="N-2?" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="218.76433714560778" Y="390.00000035268522" Z="0" />
+          <Max X="218.76433714560778" Y="390.00000035268522" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="218.7643" Y="390" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_2" ComponentName="Tag">
+      <Extent>
+        <Min X="215.43100280605492" Y="368.75" Z="0" />
+        <Max X="215.43100280605492" Y="368.75" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="215.431" Y="368.75" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_24692" String="N-4" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="215.43100280605492" Y="368.75" Z="0" />
+          <Max X="215.43100280605492" Y="368.75" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="215.431" Y="368.75" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_3" ComponentName="Tag">
+      <Extent>
+        <Min X="202.49999959630406" Y="391.23566345691574" Z="0" />
+        <Max X="202.49999959630406" Y="391.23566345691574" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="202.5" Y="391.2357" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="2.5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_24713" String="N-3" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="202.49999959630406" Y="391.23566345691574" Z="0" />
+          <Max X="202.49999959630406" Y="391.23566345691574" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="202.5" Y="391.2357" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+    <Label ID="XMP_4" ComponentName="Equipment Tag">
+      <Extent>
+        <Min X="195.4463" Y="405.9594" Z="0" />
+        <Max X="226.8944" Y="405.9594" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="211.2643" Y="410" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Text Justification="CenterCenter" Width="0" Height="5" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="XMP_24419" String="H-1008" Font="Calibri">
+        <Presentation Color="0" R="1" G="1" B="1" LineWeight="0" />
+        <Extent>
+          <Min X="195.4463" Y="405.9594" Z="0" />
+          <Max X="226.8944" Y="405.9594" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="203.4023" Y="410" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="Symbols">
+    <Nozzle ID="ISO_ASSUMED_NOZZLE" ComponentName="ISO Assumed Nozzle">
+      <Circle Radius="1">
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="0" Y="0" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="0" Y="0" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </Nozzle>
+    <Nozzle ID="A2606" ComponentName="A2606">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="5" Y="-2.5" Z="0" />
+        <Coordinate X="5" Y="2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="0" Z="0" />
+        <Coordinate X="5" Y="0" Z="0" />
+      </Line>
+    </Nozzle>
+    <Equipment ID="A0306" ComponentName="A0306">
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-12.5" Y="-5" Z="0" />
+          <Max X="12.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="12.5" Y="5" Z="0" />
+        <Coordinate X="-12.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-12.5" Y="-5" Z="0" />
+          <Max X="12.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-12.5" Y="5" Z="0" />
+        <Coordinate X="12.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-7.5" Y="-5" Z="0" />
+          <Max X="-7.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-7.5" Y="5" Z="0" />
+        <Coordinate X="-7.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="7.5" Y="-5" Z="0" />
+          <Max X="7.5" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="7.5" Y="5" Z="0" />
+        <Coordinate X="7.5" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="0" Y="-5" Z="0" />
+          <Max X="0" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="5" Z="0" />
+        <Coordinate X="0" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="5" Z="0" />
+          <Max X="15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-15" Y="5" Z="0" />
+        <Coordinate X="15" Y="5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="15" Y="-5" Z="0" />
+          <Max X="15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="15" Y="5" Z="0" />
+        <Coordinate X="15" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="-5" Z="0" />
+          <Max X="15" Y="-5" Z="0" />
+        </Extent>
+        <Coordinate X="15" Y="-5" Z="0" />
+        <Coordinate X="-15" Y="-5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation R="1" G="1" B="1" LineWeight="0.5" />
+        <Extent>
+          <Min X="-15" Y="-5" Z="0" />
+          <Max X="-15" Y="5" Z="0" />
+        </Extent>
+        <Coordinate X="-15" Y="-5" Z="0" />
+        <Coordinate X="-15" Y="5" Z="0" />
+      </Line>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_24419" ComponentName="A0306" ComponentClass="PlateAndShellHeatExchanger" ComponentClassURI="http://posccaesar.org/rdl/RDS441719" TagName="H-1008?">
+    <PersistentID Identifier="40341b51-799b-4250-b74d-77b2d2ab1e69" />
+    <Extent>
+      <Min X="206.2643" Y="371.4663" Z="0" />
+      <Max X="216.2643" Y="401.4663" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="211.2643" Y="386.4663" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="0" Y="1" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <GenericAttributes Number="4" Set="DexpiAttributes">
+      <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="0306_Heat_exchanger_of_plate_type" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+      <GenericAttribute Name="Material" Format="string" Value="1.4306/8" AttributeURI="http://posccaesar.org/rdl/material" />
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="H" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="1008" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+    </GenericAttributes>
+    <GenericAttributes Number="15" Set="DefaultAttributes">
+      <GenericAttribute Name="ClassName" Format="string" Value="ISO0306_Heat_exchanger_of_plate_type" />
+      <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+      <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+      <GenericAttribute Name="Supplier" Format="string" Value="" />
+      <GenericAttribute Name="Comment" Format="string" Value="" />
+      <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+      <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Status" />
+      <GenericAttribute Name="Medium" Format="string" Value="Water" />
+      <GenericAttribute Name="RegNo" Format="string" Value="2516" />
+      <GenericAttribute Name="Status" Format="string" Value="New" />
+      <GenericAttribute Name="Tag" Format="string" Value="H-1008?" />
+      <GenericAttribute Name="DesTempMax" Format="string" Value="100" />
+      <GenericAttribute Name="DesTempMin" Format="string" Value="-45" />
+      <GenericAttribute Name="DesPressMax" Format="string" Value="60" />
+      <GenericAttribute Name="DesPressMin" Format="string" Value="-1" />
+    </GenericAttributes>
+    <Nozzle ID="XMP_24704" ComponentName="ISO Assumed Nozzle" ComponentClass="AssumedNozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" TagName="N-2?">
+      <PersistentID Identifier="11bc1923-c2e8-45a8-817a-10a97f015d7a" />
+      <Extent>
+        <Min X="216.2643" Y="395" Z="0" />
+        <Max X="216.2643" Y="395" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="216.2643" Y="395" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="2.5" />
+      <GenericAttributes Number="5" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="ASSUMED NOZZLE" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="Material" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/material" />
+        <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="N" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentSize" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/size" />
+        <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="2" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      </GenericAttributes>
+      <GenericAttributes Number="12" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="Assumed Nozzle" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="N-2?" />
+        <GenericAttribute Name="Spec" Format="string" Value="" />
+      </GenericAttributes>
+    </Nozzle>
+    <Nozzle ID="XMP_24692" ComponentName="A2606" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" TagName="N-4">
+      <PersistentID Identifier="dbfb6b23-3a5b-4459-b09f-980a0245f6b1" />
+      <Extent>
+        <Min X="216.2643" Y="372.5" Z="0" />
+        <Max X="221.2643" Y="377.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="216.2643" Y="375" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="2.5" />
+      <GenericAttributes Number="5" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2606_Socket_connection_nozzle" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="Material" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/material" />
+        <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="N" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentSize" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/size" />
+        <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="4" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      </GenericAttributes>
+      <GenericAttributes Number="12" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium,#Size,#Spec" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="N-4" />
+        <GenericAttribute Name="Spec" Format="string" Value="" />
+      </GenericAttributes>
+    </Nozzle>
+    <Nozzle ID="XMP_24713" ComponentName="A2606" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" TagName="N-3">
+      <PersistentID Identifier="e4d1bab7-4443-47e3-a11e-e4cb075f5d12" />
+      <Extent>
+        <Min X="201.2643" Y="392.5" Z="0" />
+        <Max X="206.2643" Y="397.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="206.2643" Y="395" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="-1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="1" />
+      <GenericAttributes Number="5" Set="DexpiAttributes">
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Format="string" Value="2606_Socket_connection_nozzle" AttributeURI="http://posccaesar.org/rdl/RDS2101566251" />
+        <GenericAttribute Name="Material" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/material" />
+        <GenericAttribute Name="TagNamePrefixAssignmentClass" Format="string" Value="N" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+        <GenericAttribute Name="FunctionalObjectDescriptionAssignmentSize" Format="string" Value="" AttributeURI="http://posccaesar.org/rdl/size" />
+        <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Format="string" Value="3" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      </GenericAttributes>
+      <GenericAttributes Number="12" Set="DefaultAttributes">
+        <GenericAttribute Name="ClassName" Format="string" Value="ISO2606_Socket_connection_nozzle" />
+        <GenericAttribute Name="Manufacturer" Format="string" Value="" />
+        <GenericAttribute Name="ModelNumber" Format="string" Value="" />
+        <GenericAttribute Name="Supplier" Format="string" Value="" />
+        <GenericAttribute Name="Comment" Format="string" Value="" />
+        <GenericAttribute Name="FlagValue" Format="integer" Value="0" />
+        <GenericAttribute Name="AcquisitionProperties" Format="string" Value="#Medium" />
+        <GenericAttribute Name="Medium" Format="string" Value="" />
+        <GenericAttribute Name="RegNo" Format="string" Value="X8160" />
+        <GenericAttribute Name="Status" Format="string" Value="New" />
+        <GenericAttribute Name="Tag" Format="string" Value="N-3" />
+        <GenericAttribute Name="Spec" Format="string" Value="" />
+      </GenericAttributes>
+    </Nozzle>
+  </Equipment>
+</PlantModel>
