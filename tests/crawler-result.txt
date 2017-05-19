@@ -1,0 +1,32 @@
+           ExportVersion                       ImportVersion                  \
+VendorFrom           AUD  AVV  DXI   ING   SAG           AUD  AVV  DXI   ING   
+VendorTo                                                                       
+AUD                  NaN  NaN  NaN   3.0   2.0           NaN  NaN  NaN   3.0   
+AVV                  NaN  NaN  NaN   NaN   1.0           NaN  NaN  NaN   NaN   
+ING                  NaN  NaN  NaN   NaN   1.0           NaN  NaN  NaN   NaN   
+SAG                  1.0  NaN  NaN   2.0   NaN           1.0  NaN  NaN   2.0   
+VER                  NaN  NaN  NaN   8.0   NaN           NaN  NaN  NaN   8.0   
+VTT                 10.0  6.0  1.0  10.0  10.0          10.0  6.0  1.0  10.0   
+XVT                  3.0  2.0  NaN   3.0   1.0           3.0  2.0  NaN   3.0   
+
+                 TestCase                       TestCaseVersion            \
+VendorFrom   SAG      AUD  AVV  DXI   ING   SAG             AUD  AVV  DXI   
+VendorTo                                                                    
+AUD          2.0      NaN  NaN  NaN   3.0   2.0             NaN  NaN  NaN   
+AVV          1.0      NaN  NaN  NaN   NaN   1.0             NaN  NaN  NaN   
+ING          1.0      NaN  NaN  NaN   NaN   1.0             NaN  NaN  NaN   
+SAG          NaN      1.0  NaN  NaN   2.0   NaN             1.0  NaN  NaN   
+VER          NaN      NaN  NaN  NaN   8.0   NaN             NaN  NaN  NaN   
+VTT         10.0     10.0  6.0  1.0  10.0  10.0            10.0  6.0  1.0   
+XVT          1.0      3.0  2.0  NaN   3.0   1.0             3.0  2.0  NaN   
+
+                        
+VendorFrom   ING   SAG  
+VendorTo                
+AUD          3.0   2.0  
+AVV          NaN   1.0  
+ING          NaN   1.0  
+SAG          2.0   NaN  
+VER          8.0   NaN  
+VTT         10.0  10.0  
+XVT          3.0   1.0  
