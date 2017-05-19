@@ -33,9 +33,8 @@ if __name__ == '__main__':
     # 1 - error
     df = pd.DataFrame({'Test':[], 'Vendor_original': [], 'Vendor_destination': [], 'Status': [], 'Original_version':[],
                        'Destination_version': []})
-    exported = glob.glob('./**/*EX[0-9]*.xml', recursive=True)
-    # exported = map()
-    imported = glob.glob('./**/*EX[0-9]*-*IM[0-9]*.png', recursive=True)
+    exported = glob.glob('../../tests/*/*EX[0-9]*.xml', recursive=True)
+    imported = glob.glob('../../tests/*/*EX[0-9]*-*IM[0-9]*.png', recursive=True)
 
     columns = ['TestCase', 'VendorFrom', 'TestCaseVersion', 'ExportVersion']
     exported_df = pd.DataFrame(columns=columns)
@@ -64,10 +63,3 @@ if __name__ == '__main__':
 
     print(imported_df.pivot_table(index=['VendorTo'], columns='VendorFrom',
                    aggfunc='count'))
-
-
-
-
-
-
-
