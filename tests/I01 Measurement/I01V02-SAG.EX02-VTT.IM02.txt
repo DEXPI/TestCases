@@ -1,0 +1,6 @@
+We cannot resolve symbol for ProcessIntrumentationFunction, since ShapeCatalogue conayins the symbol with different element tag.
+
+Line 803: <ProcessInstrumentationFunction ID="XMP_4"...
+Line 188: <ProcessInstrument ID="XMC_3"...
+
+Line 188 should have ProcessInstrumentationFunction element.

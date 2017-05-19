@@ -1,0 +1,1 @@
+PipingComponent ID="XMP_1" contains Equipment ID="XMP_5", this not allowed by Proteus schema
