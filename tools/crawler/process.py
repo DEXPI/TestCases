@@ -6,6 +6,8 @@ import glob
 
 from pandas import pivot_table
 
+
+
 PARTNERS = {
     'AUD': 'Autodesk',
     'AVV': 'Aveva',
@@ -20,6 +22,13 @@ PARTNERS = {
     'XVT': 'X-Visual'
 }
 
+# Path to test cases directory, relative to the directory containing this file.
+REL_TEST_CASES_DIR = '../../tests'
+
+# Absolute path to test cases directory.
+ABS_TEST_CASES_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), REL_TEST_CASES_DIR))
+
 TESTCASE_NAME_PATTERN = re.compile('\w*\d*(?=V\d*)')
 TESTCASE_VERSION_PATTERN = re.compile('(?<=V)\d*')
 EXPORT_VERSION_PATTERN = re.compile("(?<=EX)\d+")
@@ -31,10 +40,15 @@ if __name__ == '__main__':
     # Status
     # 0 - Ok
     # 1 - error
-    df = pd.DataFrame({'Test':[], 'Vendor_original': [], 'Vendor_destination': [], 'Status': [], 'Original_version':[],
-                       'Destination_version': []})
-    exported = glob.glob('../../tests/*/*EX[0-9]*.xml', recursive=True)
-    imported = glob.glob('../../tests/*/*EX[0-9]*-*IM[0-9]*.png', recursive=True)
+    df = pd.DataFrame({
+        'Test':[],
+        'Vendor_original': [],
+        'Vendor_destination': [],
+        'Status': [],
+        'Original_version':[],
+        'Destination_version': []})
+    exported = glob.glob(os.path.join(ABS_TEST_CASES_DIR, '*/*EX[0-9]*.xml'), recursive=True)
+    imported = glob.glob(os.path.join(ABS_TEST_CASES_DIR, '*/*EX[0-9]*-*IM[0-9]*.png'), recursive=True)
 
     columns = ['TestCase', 'VendorFrom', 'TestCaseVersion', 'ExportVersion']
     exported_df = pd.DataFrame(columns=columns)
