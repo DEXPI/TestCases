@@ -29,13 +29,13 @@ available online. See https://www.scipy.org/install.html for datails and alterna
   - Note that '32 bit' refers to the Python installation, not your OS.
 - Install first numpy, then scipy from console:
   - Navigate to the directory containing your downloads.
-  - Type: <python-directory>\\Scripts\\pip install <name-of-downloaded-lib>
+  - Type: PYTHON_DIRECTORY\\Scripts\\pip install NAME_OF_DOWNLOADED_LIB
 - Install other libraries from console:
   - Navigate to the directory containing this 'readme.md' and 'requirements.txt'.
-  - Type: <python-directory>\\Scripts\\pip install -r requirements.txt
+  - Type: PYTHON_DIRECTORY\\Scripts\\pip install -r requirements.txt
 
   
 Usage (Windows)
 ---------------
 
-Open console and type: <python-directory>\\python process.py
+Open console and type: PYTHON_DIRECTORY\\python process.py
