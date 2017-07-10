@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2014-03-07"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "13:34:01"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <Equipment
+        ID = "Tank1"
+        TagName = "T4750"
+        ComponentClass = "Tank"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS445139">
+        <GenericAttributes Number = "3" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "EquipmentDescriptionAssignmentClass"
+                Value = "Tank"
+                Format = "string"
+                AttributeURI = "http://data.posccaesar.org/rdl/RDS2181987301"/>
+            <GenericAttribute
+                Name = "CylinderLength"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/CylinderLength"
+                Value = "4.0"
+                Format = "double"
+                Units = "Metre"
+                UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+            <GenericAttribute
+                Name = "NominalCapacity(Volume)"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/NominalCapacity(Volume)"
+                Value = "26.0"
+                Format = "double"
+                Units = "MetreCubed"
+                UnitsURI = "http://data.posccaesar.org/rdl/RDS1349099"/>
+        </GenericAttributes>
+        <Equipment
+            ID = "Chamber1"
+            ComponentClass = "Chamber"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS903151421">
+            <GenericAttributes Number = "6" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "LowerLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360674"
+                    Value = "-1.0"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1470835011"
+                    Value = "0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "LowerLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360494"
+                    Value = "-45.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360449"
+                    Value = "100.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "NominalDiameter"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS366794"
+                    Value = "2.0"
+                    Format = "double"
+                    Units = "Metre"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+                <GenericAttribute
+                    Name = "MaterialOfConstructionCodeAssignmentClass"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1460719741"
+                    Value = "1.4306"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+        <Equipment
+            ID = "Chamber2"
+            ComponentClass = "Chamber"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS903151421">
+            <GenericAttributes Number = "6" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "LowerLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360674"
+                    Value = "-0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1470835011"
+                    Value = "0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "LowerLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360494"
+                    Value = "-45.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360449"
+                    Value = "100.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "NominalDiameter"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS366794"
+                    Value = "2.0"
+                    Format = "double"
+                    Units = "Metre"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+                <GenericAttribute
+                    Name = "MaterialOfConstructionCodeAssignmentClass"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1460719741"
+                    Value = "1.4305"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+    </Equipment>
+</PlantModel>
