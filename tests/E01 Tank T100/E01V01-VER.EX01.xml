@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PlantModel>
+<Fabrikanlage>
     <PlantInformation
         Date = "2014-03-07"
         Discipline = "PID"
