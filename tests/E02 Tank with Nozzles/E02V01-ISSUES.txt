@@ -1,11 +1,11 @@
 Some information shown in the equipment bar in E01V01.pptx cannot be represented with the DEXPI information model 1.2:
 
+Same issues as in E01:
+
 - Nominal diameter = 2.0 m is given for the entire tank.
   In DEXPI, tank does not have a nominal diameter attribute.
-  Workaround in E01V01-VER.EX01.xml: Each of the chambers has an attribute nominal diameter = 2.0 m
+  Workaround in E02V01-VER.EX01.xml: Each of the chambers has an attribute nominal diameter = 2.0 m
   
 - Nominal capacity = 22 m3 / 4 m3 is given for each chamber.
   In DEXPI, chamber does not have a nominal capacity attribute.
-  Workaround in E01V01-VER.EX01.xml: The NominalCapacity(Volume) attribute of the tank is set to 26 m3 (22 + 4)
-
-  
+  Workaround in E02V01-VER.EX01.xml: The NominalCapacity(Volume) attribute of the tank is set to 26 m3 (22 + 4)
