@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2017-07-11"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "14:18:34"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <Equipment
+        ID = "PressureVessel321"
+        ComponentClass = "PressureVessel"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS427229"
+        TagName = "PV321">
+        <Association Type = "is the location of" ItemID = "ColumnSection1"/>
+        <Association Type = "is the location of" ItemID = "ColumnSection2"/>
+        <Nozzle
+            ID = "N-1"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N11"/>
+                <Node ID = "N12" Type = "process"/>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N1"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-2"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N21"/>
+                <Node ID = "N22" Type = "process"/>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N2"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-3"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N31"/>
+                <Node ID = "N32" Type = "process"/>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N3"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-4"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N41"/>
+                <Node ID = "N42" Type = "process"/>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N4"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+    </Equipment>
+    <Equipment
+        ID = "ColumnSection1"
+        ComponentClass = "ColumnSection"
+        ComponentClassURI = "http://sandbox.dexpi.org/rdl/ColumnSection"
+        TagName = "S3211">
+        <Association Type = "is located in" ItemID = "PressureVessel321"/>
+        <Equipment
+            ID = "CPA"
+            ComponentClass = "ColumnPackingsArrangement"
+            ComponentClassURI = "http://sandbox.dexpi.org/rdl/ColumnPackingsArrangement">
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "PackingTypeAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/PackingTypeAssignmentClass"
+                    Value = "rings"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+    </Equipment>
+    <Equipment
+        ID = "ColumnSection2"
+        ComponentClass = "ColumnSection"
+        ComponentClassURI = "http://sandbox.dexpi.org/rdl/ColumnSection"
+        TagName = "S3212">
+        <Association Type = "is located in" ItemID = "PressureVessel321"/>
+        <Equipment
+            ID = "CTA"
+            ComponentClass = "ColumnTraysArrangement"
+            ComponentClassURI = "http://sandbox.dexpi.org/rdl/ColumnTraysArrangement">
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "NumberOfTrays"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/NumberOfTrays"
+                    Value = "8"
+                    Format = "integer"/>
+            </GenericAttributes>
+        </Equipment>
+    </Equipment>
+</PlantModel>

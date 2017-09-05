@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2014-03-07"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "13:34:01"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <Equipment
+        ID = "Tank1"
+        TagName = "T4750"
+        ComponentClass = "Tank"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS445139">
+        <GenericAttributes Number = "3" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "EquipmentDescriptionAssignmentClass"
+                Value = "Tank"
+                Format = "string"
+                AttributeURI = "http://data.posccaesar.org/rdl/RDS2181987301"/>
+            <GenericAttribute
+                Name = "CylinderLength"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/CylinderLength"
+                Value = "4.0"
+                Format = "double"
+                Units = "Metre"
+                UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+            <GenericAttribute
+                Name = "NominalCapacity(Volume)"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/NominalCapacity(Volume)"
+                Value = "26.0"
+                Format = "double"
+                Units = "MetreCubed"
+                UnitsURI = "http://data.posccaesar.org/rdl/RDS1349099"/>
+        </GenericAttributes>
+        <Equipment
+            ID = "Chamber1"
+            ComponentClass = "Chamber"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS903151421">
+            <GenericAttributes Number = "6" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "LowerLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360674"
+                    Value = "-1.0"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1470835011"
+                    Value = "0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "LowerLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360494"
+                    Value = "-45.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360449"
+                    Value = "100.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "NominalDiameter"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS366794"
+                    Value = "2.0"
+                    Format = "double"
+                    Units = "Metre"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+                <GenericAttribute
+                    Name = "MaterialOfConstructionCodeAssignmentClass"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1460719741"
+                    Value = "1.4306"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+        <Equipment
+            ID = "Chamber2"
+            ComponentClass = "Chamber"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS903151421">
+            <GenericAttributes Number = "6" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "LowerLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360674"
+                    Value = "-0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1470835011"
+                    Value = "0.1"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "LowerLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360494"
+                    Value = "-45.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360449"
+                    Value = "100.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "NominalDiameter"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS366794"
+                    Value = "2.0"
+                    Format = "double"
+                    Units = "Metre"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1332674"/>
+                <GenericAttribute
+                    Name = "MaterialOfConstructionCodeAssignmentClass"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1460719741"
+                    Value = "1.4305"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+        <Nozzle
+            ID = "N-1"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N1"/>
+                <Node ID = "N2" Type = "process">
+                    <GenericAttributes Number = "4" Set = "DexpiAttributes">
+                        <GenericAttribute
+                            Name = "NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            Value = "80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass"
+                            Value = "80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterStandardSpecialization"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization"
+                            Value = "Din2448ObjectDn80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterTypeRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass"
+                            Value = ""
+                            Format = "string"/>
+                    </GenericAttributes>
+                </Node>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-1"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-2"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N3"/>
+                <Node ID = "N4" Type = "process">
+                    <GenericAttributes Number = "4" Set = "DexpiAttributes">
+                        <GenericAttribute
+                            Name = "NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            Value = "80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass"
+                            Value = "80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterStandardSpecialization"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization"
+                            Value = "Din2448ObjectDn80"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterTypeRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass"
+                            Value = ""
+                            Format = "string"/>
+                    </GenericAttributes>
+                </Node>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-2"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-5"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N5"></Node>
+                <Node ID = "N6" Type = "process">
+                    <GenericAttributes Number = "4" Set = "DexpiAttributes">
+                        <GenericAttribute
+                            Name = "NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            Value = "50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass"
+                            Value = "50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterStandardSpecialization"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization"
+                            Value = "Din2448ObjectDn50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterTypeRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass"
+                            Value = ""
+                            Format = "string"/>
+                    </GenericAttributes>
+                </Node>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-5"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-6"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N7"></Node>
+                <Node ID = "N8" Type = "process">
+                    <GenericAttributes Number = "4" Set = "DexpiAttributes">
+                        <GenericAttribute
+                            Name = "NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            Value = "50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass"
+                            Value = "50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterStandardSpecialization"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization"
+                            Value = "Din2448ObjectDn50"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterTypeRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass"
+                            Value = ""
+                            Format = "string"/>
+                    </GenericAttributes>
+                </Node>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-6"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+        <Nozzle
+            ID = "N-7"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-7"
+                    Format = "string"/>
+            </GenericAttributes>
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N9"></Node>
+                <Node ID = "N10" Type = "process">
+                    <GenericAttributes Number = "4" Set = "DexpiAttributes">
+                        <GenericAttribute
+                            Name = "NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass"
+                            Value = "25"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass"
+                            Value = "25"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterStandardSpecialization"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization"
+                            Value = "Din2448ObjectDn25"
+                            Format = "string"/>
+                        <GenericAttribute
+                            Name = "NominalDiameterTypeRepresentationAssignmentClass"
+                            AttributeURI = "http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass"
+                            Value = ""
+                            Format = "string"/>
+                    </GenericAttributes>
+                </Node>
+            </ConnectionPoints>
+        </Nozzle>
+    </Equipment>
+</PlantModel>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2017-07-11"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "14:18:34"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <Equipment
+        ID = "PumpC"
+        TagName = "P-4713"
+        ComponentClass = "CentrifugalPump"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS416834">
+        <GenericAttributes Number = "3" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "EquipmentDescriptionAssignmentClass"
+                AttributeURI = "http://data.posccaesar.org/rdl/RDS2181987301"
+                Value = "1502_Pump_centrifugal_type"
+                Format = "string"/>
+            <GenericAttribute
+                Name = "TagNamePrefixAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass"
+                Value = "P"
+                Format = "string"/>
+            <GenericAttribute
+                Name = "TagNameSequenceNumberAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass"
+                Value = "4713"
+                Format = "string"/>
+        </GenericAttributes>
+        <Equipment
+            ID = "Chamber1"
+            ComponentClass = "Chamber"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS903151421">
+            <GenericAttributes Number = "5" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "LowerLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360674"
+                    Value = "-0.5"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignPressure"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1470835011"
+                    Value = "60"
+                    Format = "double"
+                    Units = "BarGauge"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1348874"/>
+                <GenericAttribute
+                    Name = "LowerLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360494"
+                    Value = "-45.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "UpperLimitDesignTemperature"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS360449"
+                    Value = "80.0"
+                    Format = "double"
+                    Units = "DegreeCelsius"
+                    UnitsURI = "http://data.posccaesar.org/rdl/RDS1322684"/>
+                <GenericAttribute
+                    Name = "MaterialOfConstructionCodeAssignmentClass"
+                    AttributeURI = "http://data.posccaesar.org/rdl/RDS1460719741"
+                    Value = "1.4306/8"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Equipment>
+        <Nozzle
+            ID = "N-1"
+            ComponentClass = "Nozzle"
+            ComponentClassURI = "http://data.posccaesar.org/rdl/RDS415214">
+            <ConnectionPoints NumPoints = "2">
+                <Node ID = "N1"/>
+                <Node ID = "N2" Type = "process"/>
+            </ConnectionPoints>
+            <GenericAttributes Number = "1" Set = "DexpiAttributes">
+                <GenericAttribute
+                    Name = "SubTagNameAssignmentClass"
+                    AttributeURI = "http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass"
+                    Value = "N-1"
+                    Format = "string"/>
+            </GenericAttributes>
+        </Nozzle>
+    </Equipment>
+</PlantModel>

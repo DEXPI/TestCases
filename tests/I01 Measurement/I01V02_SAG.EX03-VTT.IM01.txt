@@ -1,0 +1,1 @@
+SignalConveyingFunction associations are missing. We cannot detect connectivity between the instrument LI01 and the nozzle N01.

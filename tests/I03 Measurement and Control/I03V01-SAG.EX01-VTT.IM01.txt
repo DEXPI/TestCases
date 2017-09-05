@@ -1,0 +1,6 @@
+Our importer shows an error "Unknown element Equipment, parent PipingComponent"
+
+This is caused by line 1788: <Equipment ID="XMP_17" TagName="M001" ComponentClass="Diaphragm" ComponentClassURI="http://posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" ComponentType="Explicit" Status="Current">
+Schema definition dows not allow PipingComponents to contain Equipment.
+
+
