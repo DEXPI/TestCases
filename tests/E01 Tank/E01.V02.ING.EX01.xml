@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XMpLantPIDProfileSchema_4.0.1.xsd">
+  <!--Created with INGR ISO15926 PostProc V0.0.5.3 by PPM-VM-2014-R1\Intergraph on PPM-VM-2014-R1 at 9/6/2017 1:31:24 PM-->
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="SPPID" Date="2017-09-06" Time="11:18:31.0000000+02:00" Is3D="no" Units="Metre" Discipline="PID">
+    <UnitsOfMeasure Distance="Metre" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0" Y="0" />
+    <Max X="0.841" Y="0.594" />
+  </Extent>
+  <Drawing Name="E01-INTERGRAPH" Type="PID" Title="TANK" Size="A1">
+    <Presentation Layer="" Color="White" LineType="" LineWeight="" R="1" G="1" B="1" />
+    <Extent>
+      <Min X="0" Y="0" />
+      <Max X="0.841" Y="0.594" />
+    </Extent>
+    <GenericAttributes Number="19">
+      <GenericAttribute Name="SP_ID" Value="18FADB8F0EB147C7AE1F26E7F431F797" Format="string" />
+      <GenericAttribute Name="DocumentType" Value="P&amp;IDs" Format="string" />
+      <GenericAttribute Name="DocumentCategory" Value="Piping Documents" Format="string" />
+      <GenericAttribute Name="UpdateCount" Value="3" Format="string" />
+      <GenericAttribute Name="ItemStatus" Value="Active" Format="string" />
+      <GenericAttribute Name="SP_PlantGroupID" Value="21965A6820724688BB443B3EB454E19E" Format="string" />
+      <GenericAttribute Name="Path" Value="\UNIT1\E01-INTERGRAPH.pid" Format="string" />
+      <GenericAttribute Name="DateCreated" Value="8/30/2016 10:48:05 AM" Format="string" />
+      <GenericAttribute Name="DrawingNumber" Value="E01-INTERGRAPH" Format="string" />
+      <GenericAttribute Name="Template" Value="A1-Groesse.pid" Format="string" />
+      <GenericAttribute Name="SP_RulesUID" Value="3CDD9700299A48E9A09642BC8102E9B4" Format="string" />
+      <GenericAttribute Name="SP_FormatsUID" Value="7AAADD007B4C41F197DADA983354F3EE" Format="string" />
+      <GenericAttribute Name="SP_GappingUID" Value="D5D2765EF5AB4F7DAD74CB0D8FD250D5" Format="string" />
+      <GenericAttribute Name="SP_SymbologyUID" Value="D6AEF0450E0D42F5A2CA6B8DBD6C67DC" Format="string" />
+      <GenericAttribute Name="SP_HTraceUID" Value="C48CC28329714990A91C4867457BE7F8" Format="string" />
+      <GenericAttribute Name="SP_SelectListVersion" Value="47DEC1378640428FA53F1B6D6A08C7F8BFC5BDDD8E054239B592A1498040A787" Format="string" />
+      <GenericAttribute Name="SP_DefaultFormatsUID" Value="13E10564E7EA46AC8B620D7D925BF460" Format="string" />
+      <GenericAttribute Name="SP_ArePropertiesModified" Value="True" Format="string" />
+      <GenericAttribute Name="SP_AccessedBy" Value="Intergraph" Format="string" />
+    </GenericAttributes>
+    <Label ID="SPEBC2839EDA9D491BBC6F1690802E5154" ComponentClass="DexpiLabel" ComponentName="Equipment Tag Info">
+      <Position>
+        <Location X="0.199999999999999" Y="0.399999999999999" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Extent>
+        <Min X="0.19366824159090787" Y="0.39520908836363577" />
+        <Max X="0.20633175840908968" Y="0.42992213368415833" />
+      </Extent>
+      <Presentation Color="Black" LineType="Solid" LineWeight="0.00035" />
+      <Text String="T100" Font="Intergraph ISO" Justification="CenterCenter" Width="0.004938892" Height="0.004938892" TextAngle="0" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="SPF0BEEA8135E34400B6548B58E9DE17F7">
+        <Presentation Layer="Labels" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0.19366824159090787" Y="0.39520908836363577" />
+          <Max X="0.20633175840908968" Y="0.40479091163636305" />
+        </Extent>
+        <Position>
+          <Location X="0.19999999999999879" Y="0.39999999999999941" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <Equipment ID="SPF0BEEA8135E34400B6548B58E9DE17F7" TagName="T-100" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
+    <GenericAttributes Number="7" Set="DexpiAttributes">
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Value="T" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Value="100" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="TagNameSuffixAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSuffixAssignmentClass" />
+      <GenericAttribute Name="EquipmentDescriptionAssignmentClass" Value="" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS2181987301" />
+      <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="Beh m gewoelbten Boeden(1)" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
+      <GenericAttribute Name="NominalCapacity(Volume)" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/NominalCapacity(Volume)" />
+      <GenericAttribute Name="CylinderLength" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/CylinderLength" />
+    </GenericAttributes>
+    <PersistentID Identifier="SPF0BEEA8135E34400B6548B58E9DE17F7" Context="SmartPID - DEXPI" />
+    <Position>
+      <Location X="0.199999999999999" Y="0.395063535022899" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="0.17999084398150345" Y="0.36010443103627843" />
+      <Max X="0.22000182896852394" Y="0.43002446984069032" />
+    </Extent>
+    <TrimmedCurve StartAngle="60" EndAngle="120">
+      <Circle Radius="0.039999988675119488">
+        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0.17999999225139618" Y="0.42464098334312439" />
+          <Max X="0.2200000137090683" Y="0.43000003695487976" />
+        </Extent>
+        <Position>
+          <Location X="0.2" Y="0.39" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </TrimmedCurve>
+    <Line>
+      <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="0.17999999225139618" Y="0.3654860258102417" />
+        <Max X="0.18000002205371857" Y="0.42464104294776917" />
+      </Extent>
+      <Coordinate X="0.18000000566243926" Y="0.42464101528443982" />
+      <Coordinate X="0.18000000566243926" Y="0.36548605476135881" />
+    </Line>
+    <Line>
+      <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="0.21999998390674591" Y="0.3654860258102417" />
+        <Max X="0.2200000137090683" Y="0.42464104294776917" />
+      </Extent>
+      <Coordinate X="0.21999999433755874" Y="0.42464101528443982" />
+      <Coordinate X="0.21999999433755874" Y="0.36548605476135887" />
+    </Line>
+    <TrimmedCurve StartAngle="240" EndAngle="300">
+      <Circle Radius="0.039999988675119488">
+        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0.17999999225139618" Y="0.3601270318031311" />
+          <Max X="0.2200000137090683" Y="0.36548608541488647" />
+        </Extent>
+        <Position>
+          <Location X="0.2" Y="0.4001" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </TrimmedCurve>
+  </Equipment>
+</PlantModel>
