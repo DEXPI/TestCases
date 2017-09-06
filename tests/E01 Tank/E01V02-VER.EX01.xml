@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2014-03-07"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "13:34:01"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <Equipment
+        ID = "Tank1"
+        TagName = "T4750"
+        ComponentClass = "Tank"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS445139">
+    </Equipment>
+</PlantModel>
