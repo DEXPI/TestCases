@@ -4,17 +4,17 @@ Priorities for DEXPI Test Cases
 Priority 1: Main topics
 -----------------------
 
-yellow belt
+Earn the DEXPI **yellow belt**!
 
-E01: simple equipment
-E02: simple equipment with nozzles
-E09: equipment with equipment bar
-E10: with equipment bar and nozzles
-
-P01: simple pipe (single PipingNetworkSegment) between equipment
-P02: piping with off page connector
-
-I01-I02, I09, I10: basic instrumentation
+Test Cases | Description
+-----------|------------
+E01 | simple equipment
+E02 | simple equipment with nozzles
+E09 | equipment with equipment bar
+E10 | with equipment bar and nozzles
+P01 | simple pipe (single PipingNetworkSegment) between equipment
+P02 | piping with off page connector
+I01, I02, I09, I10 | basic instrumentation
 
 
 Priority 2:
