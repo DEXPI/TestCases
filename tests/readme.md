@@ -1,10 +1,11 @@
 # TestCases for the DEXPI import and export of the software vendors. 
 
+
 For the abbriviations and Workflow of Test Case development, import and export see the Documentation in  "DEXPI Test Cases DOC.*".
 
-## Status of the TestCase development
-
 # Implementation status for the test cases
+On 6th hackathon of DEXPI in Cologne, Germany, the DEXPI initiative agreed on setting differnt priorities for the implementation of DEXPI within the software tools. These priorities go from and easy level (yellow belt) to more sophisticated test cases (black belt).
+
 ## Yellow Belt 
 ![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/BJJ_Yellow_Belt.svg/200px-BJJ_Yellow_Belt.svg.png)
 
