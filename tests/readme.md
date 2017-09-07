@@ -29,6 +29,7 @@ I10V01|||||X|i|||
 
 ## Orange Belt
 ![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BJJ_Orange_Belt.svg/200px-BJJ_Orange_Belt.svg.png)
+
 TestCase |AUD|AVV|HEX|ING|SAG|VTT|XVT|PTC|
 ---|---|---|---|---|---|---|---|---
 E11V01|||||||||
@@ -43,6 +44,7 @@ P05V01|||||||||
 
 ## Green Belt
 ![green belt](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BJJ_Green_Belt.svg/200px-BJJ_Green_Belt.svg.png)
+
 TestCase |AUD|AVV|HEX|ING|SAG|VTT|XVT|PTC|
 ---|---|---|---|---|---|---|---|---
 E07V01|||||||||
@@ -55,6 +57,7 @@ I12V01||||X|X||||
 
 ## Black Belt
 ![black belt](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/BJJ_Grey_Belt.svg/200px-BJJ_Grey_Belt.svg.png)
+
 TestCase |AUD|AVV|HEX|ING|SAG|VTT|XVT|PTC|
 ---|---|---|---|---|---|---|---|---
 C02V01||X||X||i|||
