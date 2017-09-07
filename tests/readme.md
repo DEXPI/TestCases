@@ -21,8 +21,8 @@ E02 V02    | X   |     |     |     | i   |
 (E10)      |     |     |     |     |     |     
 P01 V01    | Xii | Xi  | X   | X   |iiii |     
 P02 V02    |     | X   | X   | X   |iii  |    
-I01 V01    |     | X   | X   | X   |iiii | i 
-I02 V01    |     | X   | X   | X   |i    |    
+I01 V01    |     | X   | X   | X   |iii  | i 
+I02 V01    |     | X   | X   | X   |iii  |    
 I09 V01    |     |     |     | X   |i    |    
 I10 V01    |     |     |     | X   |i    |    
 
