@@ -7,7 +7,6 @@ import org.apache.commons.io.FilenameUtils;
 public class BeltCrawler {
 
 	private static String version = "0.1";
-	private static String folder = "\\\\malres94.eu.degussanet.com\\usrh94\\M39233\\03_DEXPI\\2017-09-06 Hackathon\\TestCases-master\\TestCases-master\\tests\\";
 	
 	private static ArrayList<String> vendors = new ArrayList<String>(
 			Arrays.asList("AUD", "AVV", "HEX", "ING", "SAG", "VTT", "XVT", "PTC")); 
