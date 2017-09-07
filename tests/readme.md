@@ -65,7 +65,7 @@ W01        |     |     |     |     |     |
 W02        |     |     |     |     |     |   
 
 
-# Abbriviations of software vendors: 
+# Abbreviations of software vendors: 
 Abbr. | Name
 ---|---
 AUD | Autodesk
