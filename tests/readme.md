@@ -10,7 +10,8 @@ On 6th hackathon of DEXPI in Cologne, Germany, the DEXPI initiative agreed on se
 A huge **X** defines that an export for that testcase exists. 
 A small i defines that this test case has been imported by the software. 
 
-DEXPI Belt Crawler version 0.1
+# DEXPI Belt Crawler version 0.1
+Thu Sep 07 14:34:10 CEST 2017
 ## Yellow Belt
 ![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/BJJ_Yellow_Belt.svg/200px-BJJ_Yellow_Belt.svg.png)
 
@@ -63,6 +64,8 @@ TestCase |AUD|AVV|HEX|ING|SAG|VTT|XVT|PTC|
 C02V01||X||X||i|||
 W01V01|||||||||
 W02V01|||||||||
+
+
 
 # Abbreviations of software vendors: 
 Abbr. | Name
