@@ -9,7 +9,7 @@ public class BeltCrawler {
 	private static String version = "0.1";
 	
 	private static ArrayList<String> vendors = new ArrayList<String>(
-			Arrays.asList("AUD", "AVV", "HEX", "ING", "SAG", "VTT", "XVT", "PTC")); 
+			Arrays.asList("AUD", "AVV", "HEX", "SAG", "VTT", "XVT")); 
 	
 	private static ArrayList<String> yellowBelt = new ArrayList<String>(
 			Arrays.asList("E01V02","E02V02","E09V01","E10V01","P01V01","P02V01","I01V01","I02V01","I09V01","I10V01")); 
@@ -65,24 +65,25 @@ private static ArrayList<String> blackBelt = new ArrayList<String>(
 
 
 	private String convertTableToMD(List<List> table) {
+		int cellWidth = 10;
 		String s = "";
 		
 		//Header
-		s += "TestCase |";
+		s += String.format("%-"+cellWidth+"s","TestCase |");
 		for (String vendor : vendors) {
-			s += vendor + "|";
+			s += String.format("%-"+cellWidth+"s",(vendor + "|"));
 		}
 		s += "\n";
 		
 		//Line under Header
-		s += "---";
-		for(int i=0; i<vendors.size(); i++) s += "|---";
+		s += String.format("%-"+cellWidth+"s","---");
+		for(int i=0; i<vendors.size(); i++) s += String.format("%-"+cellWidth+"s","|---");
 		s += "\n";
 		
 		//the table
 		for (List<String> row : table) {
 			for (String cell : row) {
-				s += cell + "|";
+				s += String.format("%-"+cellWidth+"s",cell + "|");
 			}
 			s += "\n";
 		}
@@ -159,8 +160,13 @@ private static ArrayList<String> blackBelt = new ArrayList<String>(
 		List<String> newBfs = new ArrayList<String>();
 		for (String fileName : bfs) {
 			fileName = FilenameUtils.removeExtension(fileName);
+			
+			//Make Intergraph to Hexagon: 
+			fileName = fileName.replaceAll("ING", "HEX");
+			
 			if (!newBfs.contains(fileName)) newBfs.add(fileName);
 		}
+		//System.out.println(newBfs);
 		return newBfs;
 	}
 
