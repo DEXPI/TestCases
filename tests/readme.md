@@ -17,8 +17,8 @@ Mon Sep 11 16:47:17 CEST 2017
 
 TestCase |AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
 ---       |---      |---      |---      |---      |---      |---      
-E01V02|   X|        |         X|        |         |         |         
-E02V02|   X|        |         |         |         |         |         
+E01V02|   X|        X|         X|        |         |         |         
+E02V02|   X|        X|         |         |         |         |         
 E09V01|   |         |         |         X|        |         |         
 E10V01|   |         |         |         |         |         |         
 P01V01|   Xii|      X|        X|        Xi|       iiii|     |         
