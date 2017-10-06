@@ -11,20 +11,6 @@ A huge **X** defines that an export for that testcase exists.
 A small i defines that this test case has been imported by the software. 
 
 # DEXPI Belt Crawler version 0.1
-Mon Sep 11 16:47:17 CEST 2017
-## Yellow Belt
-![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/BJJ_Yellow_Belt.svg/200px-BJJ_Yellow_Belt.svg.png)
-
-TestCase |AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
----       |---      |---      |---      |---      |---      |---      
-E01V02|   X|        X|         X|        |         |         |         
-E02V02|   X|        X|         |         |         |         |         
-E09V01|   |         |         |         X|        |         |         
-E10V01|   |         |         |         |         |         |         
-P01V01|   Xii|      X|        X|        Xi|       iiii|     |         
-P02V01|   i|        X|        Xi|       X|        iii|      |         
-I01V01|   |         X|        X|        X|        iii|      i|        
-# DEXPI Belt Crawler version 0.1
 Fri Oct 06 10:16:22 CEST 2017
 ## Yellow Belt
 ![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/BJJ_Yellow_Belt.svg/200px-BJJ_Yellow_Belt.svg.png)
