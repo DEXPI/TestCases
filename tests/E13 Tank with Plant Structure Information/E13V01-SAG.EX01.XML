@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMpLantPIDProfileSchema_4.0.1.xsd">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="Comos" Date="2018-02-21" Time="09:48:15" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Distance="mm" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0" Y="0" Z="0" />
+    <Max X="594" Y="420" Z="0" />
+  </Extent>
+  <Drawing Name="FB.001" Type="PID" Title="P&amp;ID diagram in relation to EN 10628, DIN A2">
+    <Presentation Layer="" Color="16777215" LineType="0" LineWeight="" R="1.000" G="1.000" B="1.000" />
+    <Extent>
+      <Min X="0" Y="0" Z="0" />
+      <Max X="594" Y="420" Z="0" />
+    </Extent>
+  </Drawing>
+  <ShapeCatalogue Name="ShapeCatalogue">
+    <Equipment ID="XMC_227" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="SAGTBD000001" ComponentName="206256" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-10" Y="0" Z="0" />
+        <Max X="10" Y="29.9982869918396" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A3NQJOSTEZ" Format="string" />
+        <GenericAttribute Name="Description" Value="Vessel with dished heads, with optional agitator" Format="string" />
+        <GenericAttribute Name="Name" Value="A20" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A15|A10|A10|A10|A20" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A15|A10|A10|A10|A20" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A15|A10|A10|A10|A20" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA15§&gt;13DA10§&gt;13DA10§&gt;13DA10§&gt;13PA20" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Accessories" Number="1">
+        <GenericAttribute Name="Agitator" Value="No agitator" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS16045622" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <GenericAttributes Set="Detaildesigndata" Number="1">
+        <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04155" />
+      </GenericAttributes>
+      <Line>
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-10" Y="2.5" Z="0" />
+          <Max X="-10" Y="27.5" Z="0" />
+        </Extent>
+        <Coordinate X="-10" Y="2.5" Z="0" />
+        <Coordinate X="-10" Y="27.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="10" Y="2.5" Z="0" />
+          <Max X="10" Y="27.5" Z="0" />
+        </Extent>
+        <Coordinate X="10" Y="2.5" Z="0" />
+        <Coordinate X="10" Y="27.5" Z="0" />
+      </Line>
+      <TrimmedCurve StartAngle="61.927513064147" EndAngle="118.072486935853">
+        <Circle Radius="21.25">
+          <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-21.25" Y="-12.5" Z="0" />
+            <Max X="21.25" Y="30" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="8.75" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <TrimmedCurve StartAngle="241.927513064147" EndAngle="298.072486935853">
+        <Circle Radius="21.25">
+          <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-21.25" Y="0" Z="0" />
+            <Max X="21.25" Y="42.5" Z="0" />
+          </Extent>
+          <Position>
+            <Location X="0" Y="21.25" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <ConnectionPoints NumPoints="1">
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="0" Y="0" Z="0" />
+        </Extent>
+        <Node ID="XMC_228" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="1">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_282" TagName="T1301" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="SAGTBD000001" ComponentName="206256" ComponentType="Normal" Status="Current">
+    <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="200" Y="182.5" Z="0" />
+      <Max X="260" Y="282.494289972799" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="230" Y="182.5" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="3" Y="3.3333" Z="1" />
+    <PersistentID Identifier="A41HYE6Y7S" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A41HYE6Y7S" Format="string" />
+      <GenericAttribute Name="Description" Value="Vessel with dished heads, with optional agitator" Format="string" />
+      <GenericAttribute Name="Name" Value="B001" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A20.E13.A80B001" Format="string" />
+      <GenericAttribute Name="Label" Value="T1301" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A20.E13.A80T1301" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.E13.A80T1301" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UE13§&gt;08UA80§&gt;08PB001" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="P" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Accessories" Number="1">
+      <GenericAttribute Name="Agitator" Value="No agitator" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS16045622" />
+    </GenericAttributes>
+    <GenericAttributes Set="Processdata" Number="4">
+      <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+      <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+      <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+      <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+    </GenericAttributes>
+    <GenericAttributes Set="Detaildesigndata" Number="1">
+      <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04155" />
+    </GenericAttributes>
+    <Line>
+      <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="200" Y="190.833333333333" Z="0" />
+        <Max X="200" Y="274.166666666667" Z="0" />
+      </Extent>
+      <Coordinate X="200" Y="190.8333" Z="0" />
+      <Coordinate X="200" Y="274.1667" Z="0" />
+    </Line>
+    <Line>
+      <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="260" Y="190.833333333333" Z="0" />
+        <Max X="260" Y="274.166666666667" Z="0" />
+      </Extent>
+      <Coordinate X="260" Y="190.8333" Z="0" />
+      <Coordinate X="260" Y="274.1667" Z="0" />
+    </Line>
+    <TrimmedCurve StartAngle="61.927513064147" EndAngle="118.072486935853">
+      <Circle Radius="21.25">
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="208.75" Y="190.416666666667" Z="0" />
+          <Max X="251.25" Y="232.916666666667" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="230" Y="211.6667" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </TrimmedCurve>
+    <TrimmedCurve StartAngle="241.927513064147" EndAngle="298.072486935853">
+      <Circle Radius="21.25">
+        <Presentation Layer="40" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="208.75" Y="232.083333333333" Z="0" />
+          <Max X="251.25" Y="274.583333333333" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="230" Y="253.3333" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+    </TrimmedCurve>
+    <Text Font="Arial" Width="24.01" Height="8.46666666666667" String="T1301" Justification="CenterCenter" TextAngle="0" SlantAngle="0">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="218" Y="227.77" Z="0" />
+        <Max X="242.01" Y="237.23" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="230" Y="232.5" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+    </Text>
+    <ConnectionPoints NumPoints="1">
+      <Extent>
+        <Min X="230" Y="182.5" Z="0" />
+        <Max X="230" Y="182.5" Z="0" />
+      </Extent>
+      <Node ID="XMP_283" Name="Origin">
+        <Position>
+          <Location X="230" Y="182.5" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <GenericAttributes Number="1">
+        <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+      </GenericAttributes>
+    </ConnectionPoints>
+  </Equipment>
+</PlantModel>
+<!--debug dll compiled on 19.02.2018 10:34:28-->
