@@ -11,7 +11,7 @@ A huge **X** defines that an export for that testcase exists.
 A small i defines that this test case has been imported by the software. 
 
 # DEXPI Belt Crawler version 0.1
-Fri Oct 06 10:16:22 CEST 2017
+Wed Feb 21 13:40:19 CET 2018
 ## Yellow Belt
 ![yellow belt](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/BJJ_Yellow_Belt.svg/200px-BJJ_Yellow_Belt.svg.png)
 
@@ -33,14 +33,14 @@ I10V01|   |         |         |         X|        i|        |
 
 TestCase |AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
 ---       |---      |---      |---      |---      |---      |---      
-E11V01|   |         |         |         |         |         |         
-E12V01|   |         |         |         |         |         |         
+E11V01|   |         |         |         X|        |         |         
+E12V01|   |         |         |         X|        |         |         
 I03V01|   |         X|        X|        X|        i|        |         
 I04V01|   |         |         X|        X|        |         |         
 I05V01|   |         |         |         X|        |         |         
 I06V01|   |         |         |         X|        |         |         
-P03V01|   X|        X|        |         |         i|        |         
-P04V01|   X|        X|        |         |         i|        |         
+P03V01|   X|        X|        |         X|        i|        |         
+P04V01|   X|        X|        |         X|        i|        |         
 P05V01|   |         |         |         |         |         |         
 
 ## Green Belt
@@ -48,9 +48,9 @@ P05V01|   |         |         |         |         |         |
 
 TestCase |AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
 ---       |---      |---      |---      |---      |---      |---      
-E07V01|   |         |         |         |         |         |         
-E08V01|   |         |         |         |         |         |         
-E13V01|   |         |         |         |         |         |         
+E07V01|   |         |         |         X|        |         |         
+E08V01|   |         |         |         X|        |         |         
+E13V01|   |         |         |         X|        |         |         
 I07V01|   |         |         |         X|        |         |         
 I08V01|   |         |         |         X|        |         |         
 I11V01|   |         |         X|        X|        |         |         
@@ -61,7 +61,7 @@ I12V01|   |         |         X|        X|        |         |
 
 TestCase |AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
 ---       |---      |---      |---      |---      |---      |---      
-C02V01|   |         X|        X|        |         i|        |         
+C02V01|   ii|       X|        X|        ii|       ii|       |         
 W01V01|   |         |         |         |         |         |         
 W02V01|   |         |         |         |         |         |         
 
