@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMpLantPIDProfileSchema_4.0.1.xsd">
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="Comos" Date="2018-02-21" Time="09:47:46" Is3D="no" Units="mm" Discipline="PID">
+    <UnitsOfMeasure Distance="mm" />
+  </PlantInformation>
+  <Extent>
+    <Min X="0" Y="0" Z="0" />
+    <Max X="594" Y="420" Z="0" />
+  </Extent>
+  <Drawing Name="FB.001" Type="PID" Title="P&amp;ID diagram in relation to EN 10628, DIN A2">
+    <Presentation Layer="" Color="16777215" LineType="0" LineWeight="" R="1.000" G="1.000" B="1.000" />
+    <Extent>
+      <Min X="0" Y="0" Z="0" />
+      <Max X="594" Y="420" Z="0" />
+    </Extent>
+  </Drawing>
+  <ShapeCatalogue Name="ShapeCatalogue">
+    <Equipment ID="XMC_65" ComponentClass="RotaryPump" ComponentClassURI="http://posccaesar.org/rdl/RDS420749" ComponentName="2322" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-8.5" Y="-11.98" Z="0" />
+        <Max X="8.5" Y="7.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A382B2IMP6" Format="string" />
+        <GenericAttribute Name="Description" Value="Rotary pump" Format="string" />
+        <GenericAttribute Name="Name" Value="A20" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A10|A20|A10|A20" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A10|A20|A10|A20" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A10|A20|A10|A20" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA10§&gt;13DA20§&gt;13DA10§&gt;13DA20" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="D" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Accessories" Number="1">
+        <GenericAttribute Name="DriverType" Value="No actuator" Format="string" AttributeURI="SAGTBDY00T00037.Y00A01281" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <GenericAttributes Set="Detaildesigndata" Number="2">
+        <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04155" />
+        <GenericAttribute Name="MotorType" Value="No actuator" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04778" />
+      </GenericAttributes>
+      <Circle Radius="7.5">
+        <Presentation Layer="50" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-7.5" Y="-7.5" Z="0" />
+          <Max X="7.5" Y="7.5" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="0" Y="0" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Circle>
+      <Line>
+        <Presentation Layer="50" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="7.5" Y="7.5" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="7.5" Z="0" />
+        <Coordinate X="7.5" Y="0" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="50" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="-7.5" Z="0" />
+          <Max X="7.5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="7.5" Y="0" Z="0" />
+        <Coordinate X="0" Y="-7.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="50" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-7.5" Y="0" Z="0" />
+          <Max X="7.5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="7.5" Y="0" Z="0" />
+        <Coordinate X="-7.5" Y="0" Z="0" />
+      </Line>
+      <ConnectionPoints NumPoints="3" FlowIn="1" FlowOut="2">
+        <Extent>
+          <Min X="-7.5" Y="0" Z="0" />
+          <Max X="7.5" Y="9.18454765366783E-16" Z="0" />
+        </Extent>
+        <Node ID="XMC_66" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_67" Name="DI1 /I/T:R">
+          <Position>
+            <Location X="-7.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_68" Name="DO1 /O/T:R">
+          <Position>
+            <Location X="7.5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="3">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DI1 /I/T:R" Format="string" />
+          <GenericAttribute Name="NodeName2" Value="DO1 /O/T:R" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Equipment>
+    <Nozzle ID="XMC_69" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X816010" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-6" Y="-6.97" Z="0" />
+        <Max X="0.36" Y="2.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="0" Y="0" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A384RS9T6P" Format="string" />
+        <GenericAttribute Name="Description" Value="Nozzle, straight" Format="string" />
+        <GenericAttribute Name="Name" Value="A10" Format="string" />
+        <GenericAttribute Name="FullName" Value="@30|M00|A50|A10|A60|A20|A10|A10|A10" Format="string" />
+        <GenericAttribute Name="Label" Value="" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="@30|M00|A50|A10|A60|A20|A10|A10|A10" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="@30|M00|A50|A10|A60|A20|A10|A10|A10" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="13I@30§&gt;13[M00§&gt;13DA50§&gt;13DA10§&gt;13DA60§&gt;13DA20§&gt;13DA10§&gt;13DA10§&gt;13EA10" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="&lt;" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <Line>
+        <Presentation Layer="75" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="5" Y="-2.5" Z="0" />
+          <Max X="5" Y="2.5" Z="0" />
+        </Extent>
+        <Coordinate X="5" Y="-2.5" Z="0" />
+        <Coordinate X="5" Y="2.5" Z="0" />
+      </Line>
+      <Line>
+        <Presentation Layer="75" Color="0" LineType="0" LineWeight="0.5" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="5" Y="0" Z="0" />
+        </Extent>
+        <Coordinate X="0" Y="0" Z="0" />
+        <Coordinate X="5" Y="0" Z="0" />
+      </Line>
+      <ConnectionPoints NumPoints="2" FlowIn="1" FlowOut="1">
+        <Extent>
+          <Min X="0" Y="0" Z="0" />
+          <Max X="5" Y="0" Z="0" />
+        </Extent>
+        <Node ID="XMC_70" Name="Origin">
+          <Position>
+            <Location X="0" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMC_71" Name="DI1  /D:10/T:R">
+          <Position>
+            <Location X="5" Y="0" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="2">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DI1  /D:10/T:R" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Nozzle>
+  </ShapeCatalogue>
+  <Equipment ID="XMP_99" TagName="P-4713" ComponentClass="RotaryPump" ComponentClassURI="http://posccaesar.org/rdl/RDS420749" ComponentName="2322" ComponentType="Explicit" Status="Current">
+    <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="191.5" Y="228.02" Z="0" />
+      <Max X="208.5" Y="247.5" Z="0" />
+    </Extent>
+    <Position>
+      <Location X="200" Y="240" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1" Y="1" Z="1" />
+    <PersistentID Identifier="A41HVPZE7S" Context="Comos" />
+    <GenericAttributes Set="ComosProperties" Number="11">
+      <GenericAttribute Name="SystemUID" Value="A41HVPZE7S" Format="string" />
+      <GenericAttribute Name="Description" Value="Rotary pump" Format="string" />
+      <GenericAttribute Name="Name" Value="P-4713" Format="string" />
+      <GenericAttribute Name="FullName" Value="=A10.A20.E03P-4713" Format="string" />
+      <GenericAttribute Name="Label" Value="P-4713" Format="string" />
+      <GenericAttribute Name="FullLabel" Value="=A10.A20.E03P-4713" Format="string" />
+      <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.E03P-4713" Format="string" />
+      <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UE03§&gt;08UA20§&gt;08DP-4713" Format="string" />
+      <GenericAttribute Name="ComosClass" Value="D" Format="string" />
+      <GenericAttribute Name="ComosDetailClass" Value="A" Format="string" />
+      <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+    </GenericAttributes>
+    <GenericAttributes Set="Accessories" Number="1">
+      <GenericAttribute Name="DriverType" Value="No actuator" Format="string" AttributeURI="SAGTBDY00T00037.Y00A01281" />
+    </GenericAttributes>
+    <GenericAttributes Set="Processdata" Number="4">
+      <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+      <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+      <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+      <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+    </GenericAttributes>
+    <GenericAttributes Set="Detaildesigndata" Number="2">
+      <GenericAttribute Name="ExZone" Value="No value" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04155" />
+      <GenericAttribute Name="MotorType" Value="No actuator" Format="string" AttributeURI="SAGTBDY00T00298.Y00A04778" />
+    </GenericAttributes>
+    <Text Font="Arial" Width="11.37" Height="3.52777777777778" String="P-4713" Justification="CenterCenter" TextAngle="0" SlantAngle="0">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="194.32" Y="228.02" Z="0" />
+        <Max X="205.69" Y="231.97" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="200" Y="230" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+    </Text>
+    <ConnectionPoints NumPoints="3" FlowIn="1" FlowOut="2">
+      <Extent>
+        <Min X="192.5" Y="240" Z="0" />
+        <Max X="207.5" Y="240" Z="0" />
+      </Extent>
+      <Node ID="XMP_100" Name="Origin">
+        <Position>
+          <Location X="200" Y="240" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_101" Name="DI1 /I/T:R">
+        <Position>
+          <Location X="192.5" Y="240" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <Node ID="XMP_102" Name="DO1 /O/T:R">
+        <Position>
+          <Location X="207.5" Y="240" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Node>
+      <GenericAttributes Number="3">
+        <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+        <GenericAttribute Name="NodeName1" Value="DI1 /I/T:R" Format="string" />
+        <GenericAttribute Name="NodeName2" Value="DO1 /O/T:R" Format="string" />
+      </GenericAttributes>
+    </ConnectionPoints>
+    <Nozzle ID="XMP_103" TagName="N-1" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X816010" ComponentType="Explicit" Status="Current">
+      <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="186.5" Y="233.03" Z="0" />
+        <Max X="192.86" Y="242.5" Z="0" />
+      </Extent>
+      <Position>
+        <Location X="192.5" Y="240" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="-1" Y="0" Z="0" />
+      </Position>
+      <Scale X="1" Y="1" Z="1" />
+      <PersistentID Identifier="A41HVPZT7S" Context="Comos" />
+      <GenericAttributes Set="ComosProperties" Number="11">
+        <GenericAttribute Name="SystemUID" Value="A41HVPZT7S" Format="string" />
+        <GenericAttribute Name="Description" Value="Nozzle, straight" Format="string" />
+        <GenericAttribute Name="Name" Value="N-1" Format="string" />
+        <GenericAttribute Name="FullName" Value="=A10.A20.E03P-4713:N-1" Format="string" />
+        <GenericAttribute Name="Label" Value="N-1" Format="string" />
+        <GenericAttribute Name="FullLabel" Value="=A10.A20.E03P-4713:N-1" Format="string" />
+        <GenericAttribute Name="AliasFullLabel" Value="=A10.A20.E03P-4713:N-1" Format="string" />
+        <GenericAttribute Name="PathFullName" Value="08UA10§&gt;08UA20§&gt;08UE03§&gt;08UA20§&gt;08DP-4713§&gt;08EN-1" Format="string" />
+        <GenericAttribute Name="ComosClass" Value="E" Format="string" />
+        <GenericAttribute Name="ComosDetailClass" Value="&lt;" Format="string" />
+        <GenericAttribute Name="ComosRIClass" Value="S" Format="string" />
+      </GenericAttributes>
+      <GenericAttributes Set="Processdata" Number="4">
+        <GenericAttribute Name="Medium" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A01157" />
+        <GenericAttribute Name="AggregateState" Value="None" Format="string" AttributeURI="SAGTBDY00T00041.Y00A02610" />
+        <GenericAttribute Name="Abrasive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04789" />
+        <GenericAttribute Name="Corrosive" Value="No" Format="string" AttributeURI="SAGTBDY00T00041.Y00A04793" />
+      </GenericAttributes>
+      <Text Font="Arial" Width="5.69" Height="3.52777777777778" String="N-1" Justification="CenterCenter" TextAngle="0" SlantAngle="0">
+        <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="187.17" Y="233.03" Z="0" />
+          <Max X="192.86" Y="236.98" Z="0" />
+        </Extent>
+        <Position>
+          <Location X="190" Y="235" Z="0" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+      <ConnectionPoints NumPoints="2" FlowIn="1" FlowOut="1">
+        <Extent>
+          <Min X="187.5" Y="240" Z="0" />
+          <Max X="192.5" Y="240" Z="0" />
+        </Extent>
+        <Node ID="XMP_104" Name="Origin">
+          <Position>
+            <Location X="192.5" Y="240" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <Node ID="XMP_105" Name="DI1  /D:10/T:R">
+          <Position>
+            <Location X="187.5" Y="240" Z="0" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Node>
+        <GenericAttributes Number="2">
+          <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
+          <GenericAttribute Name="NodeName1" Value="DI1  /D:10/T:R" Format="string" />
+        </GenericAttributes>
+      </ConnectionPoints>
+    </Nozzle>
+  </Equipment>
+</PlantModel>
+<!--debug dll compiled on 19.02.2018 10:34:28-->
