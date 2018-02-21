@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlantModel>
+    <PlantInformation
+        Date = "2014-03-07"
+        Discipline = "PID"
+        Is3D = "no"
+        OriginatingSystem = "DEXPI Test"
+        SchemaVersion = "4.0.1"
+        Time = "13:34:01"
+        Units = "mm">
+        <UnitsOfMeasure/>
+    </PlantInformation>
+    <PlantStructureItem
+        ID = "PlantTrain2"
+        ComponentClass = "PlantTrain"
+        ComponentClassURI = "http://sandbox.dexpi.org/rdl/PlantTrain">
+        <Association Type = "is the location of" ItemID = "T4750"/>
+        <GenericAttributes Number = "1" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "PlantTrainIdentificationCodeAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/PlantTrainIdentificationCodeAssignmentClass"
+                Value = "Train 2"
+                Format = "string"/>
+        </GenericAttributes>
+    </PlantStructureItem>
+    <PlantStructureItem
+        ID = "DEXPI-Site"
+        ComponentClass = "SiteIsa95"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS10418236632">
+        <Association Type = "is a collection including" ItemID = "ABC-Plant"/>
+        <GenericAttributes Number = "1" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "SiteIdentificationCodeAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/SiteIdentificationCodeAssignmentClass"
+                Value = "DEXPI Site"
+                Format = "string"/>
+        </GenericAttributes>
+    </PlantStructureItem>
+    <PlantStructureItem
+        ID = "ABC-Plant"
+        ComponentClass = "ProcessPlant"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS7151859">
+        <Association Type = "is a part of" ItemID = "DEXPI-Site"/>
+        <Association Type = "is a collection including" ItemID = "Section1001"/>
+        <GenericAttributes Number = "1" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "ProcessPlantIdentificationCodeAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/ProcessPlantIdentificationCodeAssignmentClass"
+                Value = "ABC Plant"
+                Format = "string"/>
+        </GenericAttributes>
+    </PlantStructureItem>
+    <PlantStructureItem
+        ID = "Section1001"
+        ComponentClass = "PlantSectionIso10209-2012"
+        ComponentClassURI = "http://sandbox.dexpi.org/rdl/PlantSectionIso10209-2012">
+        <Association Type = "is a part of" ItemID = "ABC-Plant"/>
+        <Association Type = "is a collection including" ItemID = "T4750"/>
+        <GenericAttributes Number = "1" Set = "DexpiAttributes">
+            <GenericAttribute
+                Name = "PlantSectionIdentificationCodeAssignmentClass"
+                AttributeURI = "http://sandbox.dexpi.org/rdl/PlantSectionIdentificationCodeAssignmentClass"
+                Value = "Section-1001"
+                Format = "string"/>
+        </GenericAttributes>
+    </PlantStructureItem>
+    <Equipment
+        ID = "T4750"
+        TagName = "T4750"
+        ComponentClass = "Tank"
+        ComponentClassURI = "http://data.posccaesar.org/rdl/RDS445139">
+        <Association Type = "is a part of" ItemID = "Section1001"/>
+        <Association Type = "is located in" ItemID = "PlantTrain2"/>
+    </Equipment>
+</PlantModel>
