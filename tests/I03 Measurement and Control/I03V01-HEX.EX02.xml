@@ -392,7 +392,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="SP5CFF229062EC4177A137FE35B982D079" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="SP5CFF229062EC4177A137FE35B982D079" TagName="LISCA 03" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SP5CFF229062EC4177A137FE35B982D079" TagName="LISCA 03" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />
