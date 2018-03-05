@@ -91,7 +91,7 @@
     </Label>
   </Drawing>
   <ShapeCatalogue Name="ShapeCatalogue">
-    <Equipment ID="XMC_1" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="SAGTBD000001" ComponentName="2062" Status="Current">
+    <Equipment ID="XMC_1" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139" ComponentName="2062" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-10" Y="-4.48" Z="0" />
@@ -261,7 +261,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </Equipment>
-    <ProcessInstrumentationFunction ID="XMC_3" ComponentClass="MeasurementFunctionLevel" ComponentClassURI="SAGTBD000195" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_3" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -460,7 +460,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </ProcessInstrumentationFunction>
-    <Nozzle ID="XMC_9" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X8160" Status="Current">
+    <Nozzle ID="XMC_9" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" ComponentName="X8160" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-2.5" Y="0" Z="0" />
@@ -769,7 +769,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </PipingComponent>
-    <Equipment ID="XMC_16" ComponentClass="Diaphragm" ComponentClassURI="http://posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" Status="Current">
+    <Equipment ID="XMC_16" ComponentClass="Diaphragm" ComponentClassURI="http://data.posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-3.75" Y="0" Z="0" />
@@ -878,7 +878,7 @@
       </ConnectionPoints>
     </Equipment>
   </ShapeCatalogue>
-  <Equipment ID="XMP_1" TagName="B001" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="SAGTBD000001" ComponentName="2062" ComponentType="Explicit" Status="Current">
+  <Equipment ID="XMP_1" TagName="B001" ComponentClass="VesselWithDishedHeadsWithOptionalAgitator" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139" ComponentName="2062" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="140" Y="165.02" Z="0" />
@@ -1016,7 +1016,7 @@
         <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
       </GenericAttributes>
     </ConnectionPoints>
-    <Nozzle ID="XMP_10" TagName="N01" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X8160" ComponentType="Explicit" Status="Current">
+    <Nozzle ID="XMP_10" TagName="N01" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" ComponentName="X8160" ComponentType="Explicit" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="150" Y="199.35" Z="0" />
@@ -1164,7 +1164,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_4" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_4" TagName="LISCA" ComponentClass="MeasurementFunctionLevel" ComponentClassURI="SAGTBD000195" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_4" TagName="LISCA" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="144" Y="226" Z="0" />
@@ -1626,7 +1626,7 @@
           <GenericAttribute Name="ComosRIClass" Value="P" Format="string" />
         </GenericAttributes>
       </CenterLine>
-      <PipingComponent ID="XMP_13" TagName="LV 03" ComponentClass="TightShutOffValve" ComponentClassURI="http://posccaesar.org/rdl/RDS6331561" ComponentName="X8068" ComponentType="Explicit" Status="Current">
+      <PipingComponent ID="XMP_13" TagName="LV 03" ComponentClass="TightShutOffValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS6331561" ComponentName="X8068" ComponentType="Explicit" Status="Current">
         <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
         <Extent>
           <Min X="194" Y="182.52" Z="0" />
@@ -1785,7 +1785,7 @@
             <GenericAttribute Name="NodeName2" Value="DO1 /T:R " Format="string" />
           </GenericAttributes>
         </ConnectionPoints>
-        <Equipment ID="XMP_17" TagName="M001" ComponentClass="Diaphragm" ComponentClassURI="http://posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" ComponentType="Explicit" Status="Current">
+        <Equipment ID="XMP_17" TagName="M001" ComponentClass="Diaphragm" ComponentClassURI="http://data.posccaesar.org/rdl/RDS428939" ComponentName="@30|M00|A50|A10|A60|A10|A40" ComponentType="Explicit" Status="Current">
           <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
           <Extent>
             <Min X="196.25" Y="189.5" Z="0" />
