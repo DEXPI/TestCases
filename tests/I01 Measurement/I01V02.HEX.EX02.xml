@@ -360,7 +360,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="SPF207F63523B94EE7B07D01446D424645" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="SPF207F63523B94EE7B07D01446D424645" TagName="LI-01" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SPF207F63523B94EE7B07D01446D424645" TagName="LI-01" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />
