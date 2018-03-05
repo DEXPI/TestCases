@@ -5856,7 +5856,7 @@
 </PolyLine>
 </Drawing>
 <ShapeCatalogue Name="Symbol Library" >
-<InstrumentComponent ID="XMP_97" ComponentName="iin1" ComponentClass="HandWheel" ComponentClassURI="http://data.posccaesar.org/rdl/RDS420929 " >
+<InstrumentComponent ID="XMP_97" ComponentName="iin1" ComponentClass="HandWheel" ComponentClassURI="http://data.posccaesar.org/rdl/RDS420929">
 <Extent>  
 <Min X="-8.353553" Y="-8.353553" Z="0.000000"/> 
 <Max X="8.353553" Y="8.353553" Z="0.000000"/> 
@@ -7331,7 +7331,7 @@
 <NominalDiameter Value="100.000000" Units="mm"  />
 </Nozzle>
 </Equipment>
-<InstrumentComponent ID="XMP_39" TagName="HC-02" ComponentClass="HandWheel" ComponentName="iin1" StockNumber="iin1" ComponentClassURI="http://data.posccaesar.org/rdl/RDS420929 " >
+<InstrumentComponent ID="XMP_39" TagName="HC-02" ComponentClass="HandWheel" ComponentName="iin1" StockNumber="iin1" ComponentClassURI="http://data.posccaesar.org/rdl/RDS420929" >
 <Association Type="is a part of"  ItemID="XMP_5"  TagName="H-02" />
 <Extent>  
 <Min X="486.646447" Y="346.646447" Z="0.000000"/> 
