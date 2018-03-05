@@ -380,7 +380,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </Equipment>
-    <Nozzles ID="XMC_3" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X8160" Status="Current">
+    <Nozzle ID="XMC_3" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" ComponentName="X8160" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-2.5" Y="0" Z="0" />
@@ -450,12 +450,12 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="8">
         <GenericAttribute Name="Sandbox ID" Value="RDS415214" Format="string" />
-        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS415214" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS415214" Format="string" />
         <GenericAttribute Name="Registration number" Value="X8160" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="Component class" Value="Nozzle" Format="string" />
         <GenericAttribute Name="ComponentName" Value="X8160" Format="string" />
-        <GenericAttribute Name="XML class" Value="Nozzles" Format="string" />
+        <GenericAttribute Name="XML class" Value="Nozzle" Format="string" />
         <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A44" Format="string" />
       </GenericAttributes>
       <Line>
@@ -512,8 +512,8 @@
           <GenericAttribute Name="NodeName1" Value="DI1  /D:10/T:R" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </Nozzles>
-    <ProcessInstrumentationFunction ID="XMC_6" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
+    </Nozzle>
+    <ProcessInstrumentationFunction ID="XMC_6" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -579,7 +579,7 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="7">
         <GenericAttribute Name="Sandbox ID" Value="ProcessInstrumentationFunction" Format="string" />
-        <GenericAttribute Name="Sandbox URI" Value="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" Format="string" />
+        <GenericAttribute Name="Sandbox URI" Value="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="ComponentClass" Value="ProcessInstrumentationFunction" Format="string" />
         <GenericAttribute Name="ComponentName" Value="@30|M00|A60|A10|A10|L" Format="string" />
@@ -819,7 +819,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </PipingComponent>
-    <InstrumentationLoopFunction ID="XMC_16" ComponentClass="InstrumentationLoopFunction" ComponentClassURI="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" ComponentName="@30|M00|A25|A10|L" Status="Current">
+    <InstrumentationLoopFunction ID="XMC_16" ComponentClass="InstrumentationLoopFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" ComponentName="@30|M00|A25|A10|L" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="0" Y="0" Z="0" />
@@ -850,7 +850,7 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="6">
         <GenericAttribute Name="Sandbox ID" Value="InstrumentationLoopFunction" Format="string" />
-        <GenericAttribute Name="Sandbox URI" Value="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" Format="string" />
+        <GenericAttribute Name="Sandbox URI" Value="http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="ComponentClass" Value="InstrumentationLoopFunction" Format="string" />
         <GenericAttribute Name="ComponentName" Value="@30|M00|A25|A10|L" Format="string" />
@@ -1028,7 +1028,7 @@
         <GenericAttribute Name="NodeName0" Value="Origin" Format="string" />
       </GenericAttributes>
     </ConnectionPoints>
-    <Nozzles ID="XMP_3" TagName="N01" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X8160" ComponentType="Explicit" Status="Current">
+    <Nozzle ID="XMP_3" TagName="N01" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214" ComponentName="X8160" ComponentType="Explicit" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="209.99" Y="661.09" Z="0" />
@@ -1056,7 +1056,7 @@
       </GenericAttributes>
       <GenericAttributes Set="DexpiAttributes" Number="3">
         <GenericAttribute Name="RDL - ID" Value="RDS415214" Format="string" />
-        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS415214" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS415214" Format="string" />
         <GenericAttribute Name="ComponentClass" Value="Nozzle" Format="string" />
       </GenericAttributes>
       <GenericAttributes Set="Systemdata" Number="5">
@@ -1100,12 +1100,12 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="9">
         <GenericAttribute Name="Sandbox ID" Value="RDS415214" Format="string" />
-        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS415214" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS415214" Format="string" />
         <GenericAttribute Name="Registration number" Value="X8160" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="Component class" Value="Nozzle" Format="string" />
         <GenericAttribute Name="ComponentName" Value="X8160" Format="string" />
-        <GenericAttribute Name="XML class" Value="Nozzles" Format="string" />
+        <GenericAttribute Name="XML class" Value="Nozzle" Format="string" />
         <GenericAttribute Name="TagName" Value="N01" Format="string" />
         <GenericAttribute Name="Link to mapping table" Value="Y40M22N00001A44" Format="string" />
       </GenericAttributes>
@@ -1145,9 +1145,9 @@
           <GenericAttribute Name="NodeName1" Value="DI1  /D:10/T:R" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </Nozzles>
+    </Nozzle>
   </Equipment>
-  <ProcessInstrumentationFunction ID="XMP_6" TagName="LI" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_6" TagName="LI" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="203.94" Y="695.1" Z="0" />
@@ -1220,7 +1220,7 @@
     </GenericAttributes>
     <GenericAttributes Set="Proteus" Number="8">
       <GenericAttribute Name="Sandbox ID" Value="ProcessInstrumentationFunction" Format="string" />
-      <GenericAttribute Name="Sandbox URI" Value="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" Format="string" />
+      <GenericAttribute Name="Sandbox URI" Value="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" Format="string" />
       <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
       <GenericAttribute Name="ComponentClass" Value="ProcessInstrumentationFunction" Format="string" />
       <GenericAttribute Name="ComponentName" Value="@30|M00|A60|A10|A10|L" Format="string" />
@@ -1337,7 +1337,7 @@
       </ConnectionPoints>
     </InformationFlow>
   </ProcessInstrumentationFunction>
-  <InstrumentationLoopFunction ID="XMP_16" TagName="01" ComponentClass="InstrumentationLoopFunction" ComponentClassURI="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" ComponentName="@30|M00|A25|A10|L" ComponentType="Explicit" Status="Current">
+  <InstrumentationLoopFunction ID="XMP_16" TagName="01" ComponentClass="InstrumentationLoopFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" ComponentName="@30|M00|A25|A10|L" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="208.75" Y="701" Z="0" />
@@ -1381,7 +1381,7 @@
     </GenericAttributes>
     <GenericAttributes Set="Proteus" Number="7">
       <GenericAttribute Name="Sandbox ID" Value="InstrumentationLoopFunction" Format="string" />
-      <GenericAttribute Name="Sandbox URI" Value="ComponentClassURI=&quot;http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" Format="string" />
+      <GenericAttribute Name="Sandbox URI" Value="http://sandbox.dexpi.org/rdl/InstrumentationLoopFunction" Format="string" />
       <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
       <GenericAttribute Name="ComponentClass" Value="InstrumentationLoopFunction" Format="string" />
       <GenericAttribute Name="ComponentName" Value="@30|M00|A25|A10|L" Format="string" />
