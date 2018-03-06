@@ -547,7 +547,7 @@
       <Connection />
     </PipingNetworkSegment>
   </PipingNetworkSystem>
-  <ProcessInstrumentationFunction ID="SP2173BF343A914B10B89E13E61E65912D" TagName="FIC 04" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte_1_0_0" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SP2173BF343A914B10B89E13E61E65912D" TagName="FIC 04" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte_1_0_0" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />
