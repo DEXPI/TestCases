@@ -166,7 +166,7 @@
         <GenericAttribute Name="NominalPressureTypeRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureTypeRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalPressureStandardSpecialization" Value="" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureStandardSpecialization" />
         <GenericAttribute Name="SubTagNameAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SubTagNameAssignmentClass" />
-        <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="Stutzen 2_5mm,gefl" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
+        <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="Stutzen 2_5mmgefl" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
       </GenericAttributes>
       <PersistentID Identifier="SP45C36A6826DB4669834B32EB2A874DFF" Context="SmartPID - DEXPI" />
       <Position>
@@ -232,7 +232,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="SP952BC94AE3634C33A707D374D9310B77" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="SP952BC94AE3634C33A707D374D9310B77" TagName="LI 09" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SP952BC94AE3634C33A707D374D9310B77" TagName="LI 09" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />
