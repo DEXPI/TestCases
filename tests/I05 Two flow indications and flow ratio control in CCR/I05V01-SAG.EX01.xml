@@ -205,7 +205,7 @@
     </Label>
   </Drawing>
   <ShapeCatalogue Name="ShapeCatalogue">
-    <ProcessInstrument ID="XMC_1" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_1" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -390,7 +390,7 @@
           <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </ProcessInstrument>
+    </ProcessInstrumentationFunction>
     <Equipment ID="XMC_7" ComponentName="XMC_7" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
@@ -645,7 +645,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </Equipment>
-    <ProcessInstrument ID="XMC_12" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F1" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_12" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F1" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -830,7 +830,7 @@
           <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </ProcessInstrument>
+    </ProcessInstrumentationFunction>
     <Equipment ID="XMC_18" ComponentName="2" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
@@ -1085,7 +1085,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </Equipment>
-    <ProcessInstrument ID="XMC_23" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F3" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_23" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F3" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -1270,8 +1270,8 @@
           <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </ProcessInstrument>
-    <PipingComponent ID="XMC_29" ComponentClass="TightShutOffValve" ComponentClassURI="http://posccaesar.org/rdl/RDS6331561" ComponentName="X8068" Status="Current">
+    </ProcessInstrumentationFunction>
+    <PipingComponent ID="XMC_29" ComponentClass="TightShutOffValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS6331561" ComponentName="X8068" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-6" Y="-6.98" Z="0" />
@@ -1463,7 +1463,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </PipingComponent>
-    <Equipment ID="XMC_33" ComponentClass="Actuator" ComponentClassURI="http://posccaesar.org/rdl/RDS418769" ComponentName="@30|M00|A50|A15|A60|A10|A10" Status="Current">
+    <Equipment ID="XMC_33" ComponentClass="Actuator" ComponentClassURI="http://data.posccaesar.org/rdl/RDS418769" ComponentName="@30|M00|A50|A15|A60|A10|A10" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-2.5" Y="0" Z="0" />
@@ -1774,7 +1774,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_2" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_2" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_2" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="121.5" Y="211" Z="0" />
@@ -1995,7 +1995,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_14" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_14" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_14" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="121.5" Y="131" Z="0" />
@@ -2216,7 +2216,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_26" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_26" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_26" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="191.5" Y="171" Z="0" />
@@ -2464,7 +2464,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_40" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_40" TagName="Y" ComponentName="@30|M00|A60|A30|A20|Y" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_40" TagName="Y" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A20|Y" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="251.5" Y="151" Z="0" />
@@ -3925,7 +3925,7 @@
           <GenericAttribute Name="ComosRIClass" Value="P" Format="string" />
         </GenericAttributes>
       </CenterLine>
-      <PipingComponent ID="XMP_32" TagName="B001" ComponentClass="TightShutOffValve" ComponentClassURI="http://posccaesar.org/rdl/RDS6331561" ComponentName="X8068" ComponentType="Explicit" Status="Current">
+      <PipingComponent ID="XMP_32" TagName="B001" ComponentClass="TightShutOffValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS6331561" ComponentName="X8068" ComponentType="Explicit" Status="Current">
         <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
         <Extent>
           <Min X="254" Y="110.02" Z="0" />
@@ -4084,7 +4084,7 @@
             <GenericAttribute Name="NodeName2" Value="DO1 /T:R " Format="string" />
           </GenericAttributes>
         </ConnectionPoints>
-        <Equipment ID="XMP_36" TagName="M001" ComponentClass="Actuator" ComponentClassURI="http://posccaesar.org/rdl/RDS418769" ComponentName="@30|M00|A50|A15|A60|A10|A10" ComponentType="Explicit" Status="Current">
+        <Equipment ID="XMP_36" TagName="M001" ComponentClass="Actuator" ComponentClassURI="http://data.posccaesar.org/rdl/RDS418769" ComponentName="@30|M00|A50|A15|A60|A10|A10" ComponentType="Explicit" Status="Current">
           <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
           <Extent>
             <Min X="257.5" Y="117" Z="0" />
