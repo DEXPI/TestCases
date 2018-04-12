@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ProteusPIDSchema_4.0.1.xsd">
-  <!--Created with INGR ISO15926 PostProc V0.0.7.1 and ConfigurationFileVersion 1.1 by PPM-VM-2014-R1\Intergraph on PPM-VM-2014-R1 at 4/12/2018 5:14:34 PM-->
-  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="SPPID" Date="2018-04-12" Time="14:36:59.0000000+02:00" Is3D="no" Units="Metre" Discipline="PID">
+  <!--Created with INGR ISO15926 PostProc V0.0.7.1 and ConfigurationFileVersion 1.1 by PPM-VM-2014-R1\Intergraph on PPM-VM-2014-R1 at 4/12/2018 10:15:44 PM-->
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="SPPID" Date="2018-04-12" Time="20:14:55.0000000+02:00" Is3D="no" Units="Metre" Discipline="PID">
     <UnitsOfMeasure Distance="Metre" />
   </PlantInformation>
   <PlantStructureItem ID="PBS945900F29F424D32A292F07BB90792E2" ComponentClass="PlantSectionIso10209-2012" ComponentName="Github" ComponentClassURI="http://sandbox.dexpi.org/rdl/PlantSectionIso10209-2012">
@@ -27,7 +27,7 @@
     <Association Type="is a part of" ItemID="PBS0D9331D91F4D4144B93903B01D5C7F4A" />
     <Association Type="is a collection including" ItemID="SPDAFEA8641A274A729F6AD4166E59AA56" />
     <Association Type="is a collection including" ItemID="SP069C8D8627C14BF1A475309625E9CFA0" />
-    <Association Type="is a collection including" ItemID="SY813DB7623BBA45468B8941DC2C7E28DF" />
+    <Association Type="is a collection including" ItemID="SYE34633E8B2834A66AA06920EFA6551C9" />
     <Association Type="is a collection including" ItemID="SY64AA0C24FC5B40E9BA42A570005BF5A8" />
     <Association Type="is a collection including" ItemID="SYD5FD2679F14C43C49F589752D86941C7" />
   </PlantStructureItem>
@@ -315,94 +315,9 @@
         </Position>
       </Text>
     </Label>
-    <Component ID="SP398C1973066547719897E50E5872C8BD" ComponentClass="In-line component" ComponentName="Reducing Blindflansch mit Bohrung">
-      <Position>
-        <Location X="0.489999999999995" Y="0.300317594143154" Z="0" />
-        <Axis X="0" Y="0" Z="1" />
-        <Reference X="1" Y="0" Z="0" />
-      </Position>
-      <GenericAttributes Number="22">
-        <GenericAttribute Name="PipingCompType" Value="Blind flange" Format="string" />
-        <GenericAttribute Name="PipingCompSubclass" Value="In-Line Fitting" Format="string" />
-        <GenericAttribute Name="IsInline" Value="False" Format="string" />
-        <GenericAttribute Name="SP_IsSpecialtyItem" Value="False" Format="string" />
-        <GenericAttribute Name="PipingMaterialsClass" Value="73KH12" Format="string" />
-        <GenericAttribute Name="PlantItemType" Value="Piping Component" Format="string" />
-        <GenericAttribute Name="TagReqdFlag" Value="False" Format="string" />
-        <GenericAttribute Name="aabbcc_code" Value="BQ2C97" Format="string" />
-        <GenericAttribute Name="IsBulkItem" Value="False" Format="string" />
-        <GenericAttribute Name="ConstructionStatus" Value="New" Format="string" />
-        <GenericAttribute Name="ModelItemType" Value="Plant Item" Format="string" />
-        <GenericAttribute Name="UpdateCount" Value="9" Format="string" />
-        <GenericAttribute Name="ItemStatus" Value="Active" Format="string" />
-        <GenericAttribute Name="ItemTypeName" Value="PipingComp" Format="string" />
-        <GenericAttribute Name="SP_IsTypical" Value="False" Format="string" />
-        <GenericAttribute Name="InlineComp.SP_ID" Value="398C1973066547719897E50E5872C8BD" Format="string" />
-        <GenericAttribute Name="MaterialOfConstClass" Value="1.4306" Format="string" />
-        <GenericAttribute Name="InlineComp.UpdateCount" Value="0" Format="string" />
-        <GenericAttribute Name="InlineComp.SP_PipingCompID" Value="398C1973066547719897E50E5872C8BD" Format="string" />
-        <GenericAttribute Name="IsReducing" Value="True" Format="string" />
-        <GenericAttribute Name="FluidSystem" Value="Chemical" Format="string" />
-        <GenericAttribute Name="OperFluidCode" Value="MNc" Format="string" />
-      </GenericAttributes>
-      <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00025" R="0" G="0" B="0" />
-      <Extent>
-        <Min X="0.48874870292841877" Y="0.29998918588698009" />
-        <Max X="0.49125129707157122" Y="0.30063009414315411" />
-      </Extent>
-      <Line>
-        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
-        <Extent>
-          <Min X="0.48874998092651367" Y="0.30000755190849304" />
-          <Max X="0.49125003814697266" Y="0.30000761151313782" />
-        </Extent>
-        <Coordinate X="0.49124999999999508" Y="0.30000759414315409" />
-        <Coordinate X="0.48874999999999508" Y="0.3000075941431532" />
-      </Line>
-      <ConnectionPoints NumPoints="3">
-        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="" R="0" G="0" B="0" />
-        <Extent>
-          <Min X="0.48874870292841877" Y="0.29998918588698009" />
-          <Max X="0.49125129707157122" Y="0.30063009414315411" />
-        </Extent>
-        <Node ID="SP398C1973066547719897E50E5872C8BD_0">
-          <Position>
-            <Location X="0.489999999999995" Y="0.30031759414315368" />
-            <Axis X="0" Y="0" Z="1" />
-            <Reference X="1" Y="0" Z="0" />
-          </Position>
-        </Node>
-        <Node ID="SP398C1973066547719897E50E5872C8BD_1" Name="1" Type="process">
-          <GenericAttributes Number="4" Set="DexpiAttributes">
-            <GenericAttribute Name="NominalDiameterStandardSpecialization" Value="" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization" />
-            <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
-            <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
-            <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-          </GenericAttributes>
-          <Position>
-            <Location X="0.48999999999999488" Y="0.30063009414315367" />
-            <Axis X="0" Y="0" Z="1" />
-            <Reference X="1" Y="0" Z="0" />
-          </Position>
-        </Node>
-        <Node ID="SP398C1973066547719897E50E5872C8BD_2" Name="2" Type="process">
-          <GenericAttributes Number="4" Set="DexpiAttributes">
-            <GenericAttribute Name="NominalDiameterStandardSpecialization" Value="" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterStandardSpecialization" />
-            <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
-            <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
-            <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-          </GenericAttributes>
-          <Position>
-            <Location X="0.48999999999999511" Y="0.3000075941431537" />
-            <Axis X="0" Y="0" Z="1" />
-            <Reference X="1" Y="0" Z="0" />
-          </Position>
-        </Node>
-      </ConnectionPoints>
-    </Component>
   </Drawing>
   <ShapeCatalogue Name="Symbol Library">
-    <Nozzle ComponentName="Nozzle_4eebeac5-bbd4-4e85-abef-a7268f28939a" ID="_4eebeac5-bbd4-4e85-abef-a7268f28939a" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_7b96c6ea-762e-4fa1-a10e-edade98a0267" ID="_7b96c6ea-762e-4fa1-a10e-edade98a0267" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -453,7 +368,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Nozzle ComponentName="Nozzle_a7331ca0-730d-4554-9d48-abe23fc0e398" ID="_a7331ca0-730d-4554-9d48-abe23fc0e398" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_3c943be5-e947-467a-86e0-43df04ca2ca9" ID="_3c943be5-e947-467a-86e0-43df04ca2ca9" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -504,7 +419,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Equipment ComponentName="Equipment_924412f5-0595-428d-8c39-5f490d4f59e9" ID="_924412f5-0595-428d-8c39-5f490d4f59e9" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
+    <Equipment ComponentName="Equipment_c0ca842d-1afa-448d-b61c-4c6bfbf14e2f" ID="_c0ca842d-1afa-448d-b61c-4c6bfbf14e2f" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
       <Description>TANK</Description>
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
@@ -563,7 +478,7 @@
         </Circle>
       </TrimmedCurve>
     </Equipment>
-    <Nozzle ComponentName="Nozzle_beb69503-f12d-4a65-994c-7e719af4aae5" ID="_beb69503-f12d-4a65-994c-7e719af4aae5" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_b923e2df-0d5c-481e-bb0d-f14f3a3ac0d9" ID="_b923e2df-0d5c-481e-bb0d-f14f3a3ac0d9" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -614,7 +529,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Nozzle ComponentName="Nozzle_97470b30-274d-434b-b8b1-00eb15803c08" ID="_97470b30-274d-434b-b8b1-00eb15803c08" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_38aaeb2f-1549-4236-95c9-69e045bb317b" ID="_38aaeb2f-1549-4236-95c9-69e045bb317b" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -665,7 +580,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Equipment ComponentName="Equipment_cbc6f4a4-50a9-4228-9225-819a9000754c" ID="_cbc6f4a4-50a9-4228-9225-819a9000754c" ComponentClass="ReciprocatingPump" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416969">
+    <Equipment ComponentName="Equipment_196bcba8-afe9-48a7-89bd-77205f525e79" ID="_196bcba8-afe9-48a7-89bd-77205f525e79" ComponentClass="ReciprocatingPump" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416969">
       <Description>DISPLACEMENT PUMP</Description>
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
@@ -744,7 +659,7 @@
         </Position>
       </Circle>
     </Equipment>
-    <PipingComponent ComponentName="PipingComponent_ac8354ba-2996-4787-8357-741fc433b7ae" ID="_ac8354ba-2996-4787-8357-741fc433b7ae" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+    <PipingComponent ComponentName="PipingComponent_e9afee92-467c-4be6-8e61-14aa9e9540da" ID="_e9afee92-467c-4be6-8e61-14aa9e9540da" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -862,7 +777,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_7612b1c7-aa9f-4dc1-94ca-8a26304a0f32" ID="_7612b1c7-aa9f-4dc1-94ca-8a26304a0f32" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+    <PipingComponent ComponentName="PipingComponent_c6090cca-6705-41ef-9add-9c66c36c2886" ID="_c6090cca-6705-41ef-9add-9c66c36c2886" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -903,7 +818,7 @@
         </Node>
       </ConnectionPoints>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_5ef5bab3-099b-422b-91a5-2f37d8855948" ID="_5ef5bab3-099b-422b-91a5-2f37d8855948" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+    <PipingComponent ComponentName="PipingComponent_8a140e78-2b33-49b6-b670-7d309ed05252" ID="_8a140e78-2b33-49b6-b670-7d309ed05252" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -944,7 +859,7 @@
         </Node>
       </ConnectionPoints>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_a081c4d2-8167-419c-b4f8-381f71e44250" ID="_a081c4d2-8167-419c-b4f8-381f71e44250" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+    <PipingComponent ComponentName="PipingComponent_17a9f225-ae33-450e-938f-66903480f7a3" ID="_17a9f225-ae33-450e-938f-66903480f7a3" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1062,7 +977,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_ef96332c-4fe2-40d5-bbe7-b2168ec1c111" ID="_ef96332c-4fe2-40d5-bbe7-b2168ec1c111" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+    <PipingComponent ComponentName="PipingComponent_11792b51-331d-4318-b796-6e7bbf6f712a" ID="_11792b51-331d-4318-b796-6e7bbf6f712a" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1103,7 +1018,7 @@
         </Node>
       </ConnectionPoints>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_cff0feb0-37a0-495c-bac5-07decd1d49d7" ID="_cff0feb0-37a0-495c-bac5-07decd1d49d7" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+    <PipingComponent ComponentName="PipingComponent_debdbc4c-25d7-4e50-8457-83dea7a07940" ID="_debdbc4c-25d7-4e50-8457-83dea7a07940" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1221,7 +1136,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_93623f5d-8e9d-452d-b62a-d93c11e40f7a" ID="_93623f5d-8e9d-452d-b62a-d93c11e40f7a" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
+    <PipingComponent ComponentName="PipingComponent_485e906d-eba2-4819-8b15-e7c111d6bc46" ID="_485e906d-eba2-4819-8b15-e7c111d6bc46" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1339,7 +1254,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_07cb1f50-6c27-4022-881f-ab6eba594156" ID="_07cb1f50-6c27-4022-881f-ab6eba594156" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
+    <PipingComponent ComponentName="PipingComponent_c03c4fdd-29f3-45f1-9ce6-2ce895d0b868" ID="_c03c4fdd-29f3-45f1-9ce6-2ce895d0b868" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1457,7 +1372,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_7c6c085a-6406-44a5-9c34-d066ed6567ef" ID="_7c6c085a-6406-44a5-9c34-d066ed6567ef" ComponentClass="PipeReducer" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416294">
+    <PipingComponent ComponentName="PipingComponent_7a48b8e7-bd7c-47b3-a255-5b95590ae6f7" ID="_7a48b8e7-bd7c-47b3-a255-5b95590ae6f7" ComponentClass="PipeReducer" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416294">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1536,7 +1451,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_b549aeaf-ddfc-4abd-8f61-ed7867558706" ID="_b549aeaf-ddfc-4abd-8f61-ed7867558706" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+    <PipingComponent ComponentName="PipingComponent_c1d669fd-22d8-41fe-9c22-60702ec1e3c8" ID="_c1d669fd-22d8-41fe-9c22-60702ec1e3c8" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1654,7 +1569,7 @@
         </Position>
       </Text>
     </PipingComponent>
-    <PipingComponent ComponentName="PipingComponent_2935a76a-feb4-47f1-887b-04d414263257" ID="_2935a76a-feb4-47f1-887b-04d414263257" ComponentClass="SpringLoadedAngleGlobeSafetyValve" ComponentClassURI="http://sandbox.dexpi.org/rdl/SpringLoadedAngleGlobeSafetyValve">
+    <PipingComponent ComponentName="PipingComponent_f1f62f7f-9bb4-47b5-85cc-cb2d03e5d7af" ID="_f1f62f7f-9bb4-47b5-85cc-cb2d03e5d7af" ComponentClass="SpringLoadedAngleGlobeSafetyValve" ComponentClassURI="http://sandbox.dexpi.org/rdl/SpringLoadedAngleGlobeSafetyValve">
       <Position>
         <Location X="0.000000" Y="0.000000" Z="0.000000" />
         <Axis X="0" Y="0" Z="1" />
@@ -1938,7 +1853,7 @@
       </ConnectionPoints>
     </PipingComponent>
   </ShapeCatalogue>
-  <Equipment ComponentName="Equipment_924412f5-0595-428d-8c39-5f490d4f59e9" ID="SPDAFEA8641A274A729F6AD4166E59AA56" TagName="T4704" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
+  <Equipment ComponentName="Equipment_c0ca842d-1afa-448d-b61c-4c6bfbf14e2f" ID="SPDAFEA8641A274A729F6AD4166E59AA56" TagName="T4704" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
     <GenericAttributes Number="7" Set="DexpiAttributes">
       <GenericAttribute Name="TagNamePrefixAssignmentClass" Value="T" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
       <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Value="4704" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
@@ -2000,7 +1915,7 @@
         <GenericAttribute Name="Width" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS361709" />
       </GenericAttributes>
     </Equipment>
-    <Nozzle ComponentName="Nozzle_4eebeac5-bbd4-4e85-abef-a7268f28939a" ID="SP937F209C8F2C48D39FC068289EFD6CA4" TagName="N2" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_7b96c6ea-762e-4fa1-a10e-edade98a0267" ID="SP937F209C8F2C48D39FC068289EFD6CA4" TagName="N2" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <GenericAttributes Number="6" Set="DexpiAttributes">
         <GenericAttribute Name="NominalPressureNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalPressureRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureRepresentationAssignmentClass" />
@@ -2049,7 +1964,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Nozzle ComponentName="Nozzle_a7331ca0-730d-4554-9d48-abe23fc0e398" ID="SP0DBD56CB3B6B4B1AABC9741C87BFDD34" TagName="N5" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_3c943be5-e947-467a-86e0-43df04ca2ca9" ID="SP0DBD56CB3B6B4B1AABC9741C87BFDD34" TagName="N5" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <GenericAttributes Number="6" Set="DexpiAttributes">
         <GenericAttribute Name="NominalPressureNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalPressureRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureRepresentationAssignmentClass" />
@@ -2099,7 +2014,7 @@
       </ConnectionPoints>
     </Nozzle>
   </Equipment>
-  <Equipment ComponentName="Equipment_cbc6f4a4-50a9-4228-9225-819a9000754c" ID="SP069C8D8627C14BF1A475309625E9CFA0" TagName="P4704" ComponentClass="ReciprocatingPump" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416969">
+  <Equipment ComponentName="Equipment_196bcba8-afe9-48a7-89bd-77205f525e79" ID="SP069C8D8627C14BF1A475309625E9CFA0" TagName="P4704" ComponentClass="ReciprocatingPump" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416969">
     <GenericAttributes Number="11" Set="DexpiAttributes">
       <GenericAttribute Name="TagNamePrefixAssignmentClass" Value="P" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
       <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Value="4704" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
@@ -2174,7 +2089,7 @@
         <GenericAttribute Name="VolumePerStroke" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS7503244" />
       </GenericAttributes>
     </Equipment>
-    <Nozzle ComponentName="Nozzle_beb69503-f12d-4a65-994c-7e719af4aae5" ID="SPB125529E74594B1298CEB8F7FDCF3CCE" TagName="N1" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_b923e2df-0d5c-481e-bb0d-f14f3a3ac0d9" ID="SPB125529E74594B1298CEB8F7FDCF3CCE" TagName="N1" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <GenericAttributes Number="6" Set="DexpiAttributes">
         <GenericAttribute Name="NominalPressureNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalPressureRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureRepresentationAssignmentClass" />
@@ -2223,7 +2138,7 @@
         </Node>
       </ConnectionPoints>
     </Nozzle>
-    <Nozzle ComponentName="Nozzle_97470b30-274d-434b-b8b1-00eb15803c08" ID="SP22BF33D280F64360A211FE1E2318CDF0" TagName="N2" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ComponentName="Nozzle_38aaeb2f-1549-4236-95c9-69e045bb317b" ID="SP22BF33D280F64360A211FE1E2318CDF0" TagName="N2" ComponentClass="Nozzle" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <GenericAttributes Number="6" Set="DexpiAttributes">
         <GenericAttribute Name="NominalPressureNumericalValueRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalPressureRepresentationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalPressureRepresentationAssignmentClass" />
@@ -2273,7 +2188,7 @@
       </ConnectionPoints>
     </Nozzle>
   </Equipment>
-  <PipingNetworkSystem ID="SY813DB7623BBA45468B8941DC2C7E28DF" TagName="MNc-" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359">
+  <PipingNetworkSystem ID="SYE34633E8B2834A66AA06920EFA6551C9" TagName="46126" ComponentClass="PipingNetworkSystem" ComponentClassURI="http://data.posccaesar.org/rdl/RDS270359">
     <GenericAttributes Number="17" Set="DexpiAttributes">
       <GenericAttribute Name="FluidCodeAssignmentClass" Value="MNc" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/FluidCodeAssignmentClass" />
       <GenericAttribute Name="PipingClassCodeAssignmentClass" Value="73KH12" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassCodeAssignmentClass" />
@@ -2290,7 +2205,7 @@
       <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
       <GenericAttribute Name="JacketLineNumberAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/JacketLineNumberAssignmentClass" />
       <GenericAttribute Name="JacketedLineNumberAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/JacketedLineNumberAssignmentClass" />
-      <GenericAttribute Name="LineNumberAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/LineNumberAssignmentClass" />
+      <GenericAttribute Name="LineNumberAssignmentClass" Value="46126" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/LineNumberAssignmentClass" />
       <GenericAttribute Name="PipingNetworkSystemGroupNumberAssignmentClass" Value="Chemical" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PipingNetworkSystemGroupNumberAssignmentClass" />
     </GenericAttributes>
     <Association Type="is a part of" ItemID="PBS21965A6820724688BB443B3EB454E19E" />
@@ -2298,7 +2213,7 @@
       <Min X="0.36999994516372681" Y="0.27985715866088867" />
       <Max X="0.51400384530425225" Y="0.44840322278439793" />
     </Extent>
-    <PipingNetworkSegment ID="SG813DB7623BBA45468B8941DC2C7E28DF" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" DualFlow="true">
+    <PipingNetworkSegment ID="SGE34633E8B2834A66AA06920EFA6551C9" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" DualFlow="true">
       <GenericAttributes Number="23" Set="DexpiAttributes">
         <GenericAttribute Name="FluidCodeAssignmentClass" Value="MNc" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/FluidCodeAssignmentClass" />
         <GenericAttribute Name="PipingClassCodeAssignmentClass" Value="73KH12" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassCodeAssignmentClass" />
@@ -2313,7 +2228,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="25" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 25" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_1" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_1" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-X8156A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -2348,17 +2263,7 @@
           </Position>
         </Text>
       </Label>
-      <CenterLine ID="SP813DB7623BBA45468B8941DC2C7E28DF" NumPoints="2">
-        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00025" R="0" G="0" B="0" />
-        <Extent>
-          <Min X="0.48999997973442078" Y="0.29749998450279236" />
-          <Max X="0.49000003933906555" Y="0.30000761151313782" />
-        </Extent>
-        <Coordinate X="0.48999999999999511" Y="0.3000075941431537" />
-        <Coordinate X="0.48999999999999494" Y="0.2975" />
-        <PersistentID Identifier="SP32B85B337B37476CAA133413BA24FB1D" Context="SmartPID - DEXPI" />
-      </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_ac8354ba-2996-4787-8357-741fc433b7ae" ID="SPA196D062434F454F8C3DA2EF05A19885" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+      <PipingComponent ComponentName="PipingComponent_e9afee92-467c-4be6-8e61-14aa9e9540da" ID="SPA196D062434F454F8C3DA2EF05A19885" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -2441,7 +2346,7 @@
         <Coordinate X="0.49" Y="0.27985719882446203" />
         <PersistentID Identifier="SP32B85B337B37476CAA133413BA24FB1D" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <Connection ToID="SP7283B1B37A424A59AE8589DC07951E5F" ToNode="3" FromID="SP398C1973066547719897E50E5872C8BD" FromNode="2" />
+      <Connection ToID="SP7283B1B37A424A59AE8589DC07951E5F" ToNode="3" FromID="SPA196D062434F454F8C3DA2EF05A19885" FromNode="1" />
     </PipingNetworkSegment>
     <PipingNetworkSegment ID="SGF11AAACF254E472A89515B01242BA1A4" ComponentClass="PipingNetworkSegment" ComponentClassURI="http://data.posccaesar.org/rdl/RDS267704" DualFlow="false">
       <GenericAttributes Number="23" Set="DexpiAttributes">
@@ -2458,7 +2363,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_2" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_2" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-405-A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -2469,7 +2374,7 @@
         <GenericAttribute Name="ColorCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/ColorCodeAssignmentClass" />
         <GenericAttribute Name="PressureTestCircuitNumberAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PressureTestCircuitNumberAssignmentClass" />
       </GenericAttributes>
-      <PipingComponent ComponentName="PipingComponent_7612b1c7-aa9f-4dc1-94ca-8a26304a0f32" ID="SPB2E6FC60C98F40C18FE307663B6BC44D" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+      <PipingComponent ComponentName="PipingComponent_c6090cca-6705-41ef-9add-9c66c36c2886" ID="SPB2E6FC60C98F40C18FE307663B6BC44D" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
         <GenericAttributes Number="14" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -2556,7 +2461,7 @@
         <Coordinate X="0.49" Y="0.27985719882446203" />
         <PersistentID Identifier="SPBA4FDA4E777A4614A808BFF7C52662FE" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_5ef5bab3-099b-422b-91a5-2f37d8855948" ID="SP7283B1B37A424A59AE8589DC07951E5F" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+      <PipingComponent ComponentName="PipingComponent_8a140e78-2b33-49b6-b670-7d309ed05252" ID="SP7283B1B37A424A59AE8589DC07951E5F" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
         <GenericAttributes Number="14" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -2650,7 +2555,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_3" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_3" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-405-A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -2668,15 +2573,15 @@
           <Reference X="1" Y="0" Z="0" />
         </Position>
         <Extent>
-          <Min X="0.520744767534091" Y="0.27985715866088867" />
-          <Max X="0.54925523246590924" Y="0.28649176566537049" />
+          <Min X="0.51709872672727286" Y="0.27985715866088867" />
+          <Max X="0.55290127327272742" Y="0.28649176566537049" />
         </Extent>
         <Presentation Color="Black" LineType="Solid" LineWeight="0.00035" />
-        <Text String="MNc   75HB13 50  " Font="Intergraph ISO" Justification="CenterCenter" Width="0.002998613" Height="0.002998613" TextAngle="0" DependantAttribute="[FluidCodeAssignmentClass] [SegmentNumberAssignmentClass] [PipingClassCodeAssignmentClass]  [NominalDiameterNumericalValueRepresentationAssignmentClass]" ItemID="SG82D3C86FA4E0404EBBA52CEEE311A0F5">
+        <Text String="MNc 46126 75HB13 50  " Font="Intergraph ISO" Justification="CenterCenter" Width="0.002998613" Height="0.002998613" TextAngle="0" DependantAttribute="[FluidCodeAssignmentClass] [SegmentNumberAssignmentClass] [PipingClassCodeAssignmentClass]  [NominalDiameterNumericalValueRepresentationAssignmentClass]" ItemID="SG82D3C86FA4E0404EBBA52CEEE311A0F5">
           <Presentation Layer="Labels" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
           <Extent>
-            <Min X="0.520744767534091" Y="0.2800849443926432" />
-            <Max X="0.54925523246590924" Y="0.28649176566537049" />
+            <Min X="0.51709872672727286" Y="0.2800849443926432" />
+            <Max X="0.55290127327272742" Y="0.28649176566537049" />
           </Extent>
           <Position>
             <Location X="0.53500000000000014" Y="0.28260719882446139" />
@@ -2719,7 +2624,7 @@
         <Coordinate X="0.50750000000000006" Y="0.27985719882446203" />
         <PersistentID Identifier="SPBA4FDA4E777A4614A808BFF7C52662FE" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_a081c4d2-8167-419c-b4f8-381f71e44250" ID="SPBEDBA1B23E49423AA095821332E22B84" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+      <PipingComponent ComponentName="PipingComponent_17a9f225-ae33-450e-938f-66903480f7a3" ID="SPBEDBA1B23E49423AA095821332E22B84" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -2921,7 +2826,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_4" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_4" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-405-A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -2959,7 +2864,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 50" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_5" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_5" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-405-A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -2980,7 +2885,7 @@
         <Coordinate X="0.465" Y="0.27985719882446203" />
         <PersistentID Identifier="SPBA4FDA4E777A4614A808BFF7C52662FE" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_ef96332c-4fe2-40d5-bbe7-b2168ec1c111" ID="SP4D3F484B703843F492001969B26442A2" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
+      <PipingComponent ComponentName="PipingComponent_11792b51-331d-4318-b796-6e7bbf6f712a" ID="SP4D3F484B703843F492001969B26442A2" ComponentClass="PipeTee" ComponentClassURI="http://data.posccaesar.org/rdl/RDS427724">
         <GenericAttributes Number="14" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -3074,7 +2979,7 @@
         <GenericAttribute Name="NominalDiameterNumericalValueRepresentationAssignmentClass" Value="25" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterNumericalValueRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterRepresentationAssignmentClass" Value="DN 25" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterRepresentationAssignmentClass" />
         <GenericAttribute Name="NominalDiameterTypeRepresentationAssignmentClass" Value="DN" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/NominalDiameterTypeRepresentationAssignmentClass" />
-        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="_6" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
+        <GenericAttribute Name="SegmentNumberAssignmentClass" Value="46126_6" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SegmentNumberAssignmentClass" />
         <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="ISO10628_2:2012-X8156A" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
         <GenericAttribute Name="SlopeSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/UnslopedPipingNetworkSegment" Value="UnslopedPipingNetworkSegment" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/SlopeSpecialization" />
         <GenericAttribute Name="Inclination" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS17688057" />
@@ -3119,7 +3024,7 @@
         <Coordinate X="0.46499999999999997" Y="0.27" />
         <PersistentID Identifier="SPB9B72B65AC9747F0B8EC4C98B1F29B73" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_cff0feb0-37a0-495c-bac5-07decd1d49d7" ID="SP34DA56EF3FE2443481EE2CBCC63B659E" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+      <PipingComponent ComponentName="PipingComponent_debdbc4c-25d7-4e50-8457-83dea7a07940" ID="SP34DA56EF3FE2443481EE2CBCC63B659E" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -3352,7 +3257,7 @@
         <Coordinate X="0.31558180794698093" Y="0.313272140751313" />
         <PersistentID Identifier="SP376792C1F3F74BC7B50F4E00D503A83F" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_93623f5d-8e9d-452d-b62a-d93c11e40f7a" ID="SPF4660C4C5B8341D08787B9F0555BF475" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
+      <PipingComponent ComponentName="PipingComponent_485e906d-eba2-4819-8b15-e7c111d6bc46" ID="SPF4660C4C5B8341D08787B9F0555BF475" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -3436,7 +3341,7 @@
         <Coordinate X="0.34082664332504703" Y="0.27985719882445903" />
         <PersistentID Identifier="SP376792C1F3F74BC7B50F4E00D503A83F" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_07cb1f50-6c27-4022-881f-ab6eba594156" ID="SP9C3C4ED73F6149E2897D17DD154B981B" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
+      <PipingComponent ComponentName="PipingComponent_c03c4fdd-29f3-45f1-9ce6-2ce895d0b868" ID="SP9C3C4ED73F6149E2897D17DD154B981B" ComponentClass="ButterflyValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416609">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -3656,7 +3561,7 @@
         <Coordinate X="0.368034786208488" Y="0.27985719882445903" />
         <PersistentID Identifier="SP5E0F0C4AFC674BD38363FD02B937BA66" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_7c6c085a-6406-44a5-9c34-d066ed6567ef" ID="SP234F9742522C4E57946F6BCFDE42D063" ComponentClass="PipeReducer" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416294">
+      <PipingComponent ComponentName="PipingComponent_7a48b8e7-bd7c-47b3-a255-5b95590ae6f7" ID="SP234F9742522C4E57946F6BCFDE42D063" ComponentClass="PipeReducer" ComponentClassURI="http://data.posccaesar.org/rdl/RDS416294">
         <GenericAttributes Number="15" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -3789,7 +3694,7 @@
         <Coordinate X="0.3975" Y="0.27985719882445903" />
         <PersistentID Identifier="SP68BB8C6FA8ED455D91AF645E6C896E58" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_b549aeaf-ddfc-4abd-8f61-ed7867558706" ID="SP8C573C8C71FA49CFA6692AAAC1C19D1C" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
+      <PipingComponent ComponentName="PipingComponent_c1d669fd-22d8-41fe-9c22-60702ec1e3c8" ID="SP8C573C8C71FA49CFA6692AAAC1C19D1C" ComponentClass="PlugValve" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421109">
         <GenericAttributes Number="17" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
@@ -4076,7 +3981,7 @@
         <Coordinate X="0.47500000000000003" Y="0.27985719882446203" />
         <PersistentID Identifier="SP36E04966E51C4A36BDCC80692E114245" Context="SmartPID - DEXPI" />
       </CenterLine>
-      <PipingComponent ComponentName="PipingComponent_2935a76a-feb4-47f1-887b-04d414263257" ID="SP24D602D99607471681AC0A55C32A200B" ComponentClass="SpringLoadedAngleGlobeSafetyValve" ComponentClassURI="http://sandbox.dexpi.org/rdl/SpringLoadedAngleGlobeSafetyValve">
+      <PipingComponent ComponentName="PipingComponent_f1f62f7f-9bb4-47b5-85cc-cb2d03e5d7af" ID="SP24D602D99607471681AC0A55C32A200B" ComponentClass="SpringLoadedAngleGlobeSafetyValve" ComponentClassURI="http://sandbox.dexpi.org/rdl/SpringLoadedAngleGlobeSafetyValve">
         <GenericAttributes Number="13" Set="DexpiAttributes">
           <GenericAttribute Name="OnHoldSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/NotOnHold" Value="NotOnHold" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/OnHoldSpecialization" />
           <GenericAttribute Name="PipingClassArtefactSpecialization" ValueURI="http://sandbox.dexpi.org/rdl/PipingClassArtefact" Value="PipingClassArtefact" Format="anyURI" AttributeURI="http://sandbox.dexpi.org/rdl/PipingClassArtefactSpecialization" />
