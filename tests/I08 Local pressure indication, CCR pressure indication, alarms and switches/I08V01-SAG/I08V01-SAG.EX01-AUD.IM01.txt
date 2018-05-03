@@ -1,0 +1,2 @@
+1. ComponentClassURI's is invalid.
+2. Texts must be in Label.

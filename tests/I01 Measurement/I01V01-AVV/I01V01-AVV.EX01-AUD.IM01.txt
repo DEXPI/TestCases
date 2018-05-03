@@ -1,0 +1,2 @@
+1. LevelIndicator (Instrument) is located in PipingNetworkSystem => PipingComponent, instead of ProcessInstrumentationFunction.
+2. InformationFlow of ProcessInstrumentationFunction does not have a Connection tag.

@@ -1,0 +1,6 @@
+1. ShapeCatalogue is missing.
+2. ProcessInstrumentationFunction Labels with Type and LoopNumber is missing.
+3. Equipment Position is missing.
+4. Nozzle Position is missing.
+5. PipingComponent Position is missing.
+6. ProcessInstrumentationFunction Position is missing.

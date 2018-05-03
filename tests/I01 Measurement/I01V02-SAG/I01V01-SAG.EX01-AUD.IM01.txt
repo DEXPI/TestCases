@@ -1,0 +1,6 @@
+1. ComponentClassURI of ProcessInstrumentationFunction is ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction instead of http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction.
+2. InformationFlow of ProcessInstrumentationFunction is missed Connection tag.
+3. Equipment have tag "Nozzles" instead of "Nozzle".
+4. ComponentClassURI of Equipment's "Nozzles" is http://posccaesar.org/rdl/RDS415214 instead of http://data.posccaesar.org/rdl/RDS415214.
+5. ProcessInstrumentationFunction is missed Label with Type and LoopNumber of instrument.
+6. "Nozzles" Text must be in Label.

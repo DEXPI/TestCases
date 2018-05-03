@@ -1,0 +1,5 @@
+1. ComponentClassURI of ProcessInstrumentationFunction is invalid. (ComponentClassURI="SAGTBD000195")
+2. ProcessInstrumentationFunction texts must be in Label.
+3. Texts of ProcessInstrumentationFunction missed DependantAttributes.
+4. ComponentClassURI of Equipment is invalid. (ComponentClassURI="SAGTBD000001").
+5. Equipment texts must be in Label.
