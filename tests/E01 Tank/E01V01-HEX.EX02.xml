@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlantModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ProteusPIDSchema_4.0.1.xsd">
+  <!--Created with INGR ISO15926 PostProc V0.0.7.1 and ConfigurationFileVersion 1.1 by PPM-VM-2014-R1\Intergraph on PPM-VM-2014-R1 at 4/12/2018 5:14:34 PM-->
+  <PlantInformation SchemaVersion="4.0.1" OriginatingSystem="SPPID" Date="2018-04-12" Time="14:36:20.0000000+02:00" Is3D="no" Units="Metre" Discipline="PID">
+    <UnitsOfMeasure Distance="Metre" />
+  </PlantInformation>
+  <PlantStructureItem ID="PBS945900F29F424D32A292F07BB90792E2" ComponentClass="PlantSectionIso10209-2012" ComponentName="Github" ComponentClassURI="http://sandbox.dexpi.org/rdl/PlantSectionIso10209-2012">
+    <GenericAttributes Number="2" Set="DexpiAttributes">
+      <GenericAttribute Name="PlantSectionIdentificationCodeAssignmentClass" Value="Github" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PlantSectionIdentificationCodeAssignmentClass" />
+      <GenericAttribute Name="PlantSectionNameAssignmentClass" Value="Github" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PlantSectionNameAssignmentClass" />
+    </GenericAttributes>
+    <Association Type="is a part of" ItemID="PBS0D9331D91F4D4144B93903B01D5C7F4A" />
+  </PlantStructureItem>
+  <PlantStructureItem ID="PBS0D9331D91F4D4144B93903B01D5C7F4A" ComponentClass="ProcessPlant" ComponentName="DEXPI" ComponentClassURI="http://data.posccaesar.org/rdl/RDS7151859">
+    <GenericAttributes Number="2" Set="DexpiAttributes">
+      <GenericAttribute Name="ProcessPlantIdentificationCodeAssignmentClass" Value="DEXPI" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/ProcessPlantIdentificationCodeAssignmentClass" />
+      <GenericAttribute Name="ProcessPlantNameAssignmentClass" Value="DEXPI" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/ProcessPlantNameAssignmentClass" />
+    </GenericAttributes>
+    <Association Type="is a collection including" ItemID="PBS945900F29F424D32A292F07BB90792E2" />
+    <Association Type="is a collection including" ItemID="PBS21965A6820724688BB443B3EB454E19E" />
+  </PlantStructureItem>
+  <PlantStructureItem ID="PBS21965A6820724688BB443B3EB454E19E" ComponentClass="PlantSectionIso10209-2012" ComponentName="UNIT1" ComponentClassURI="http://sandbox.dexpi.org/rdl/PlantSectionIso10209-2012">
+    <GenericAttributes Number="2" Set="DexpiAttributes">
+      <GenericAttribute Name="PlantSectionIdentificationCodeAssignmentClass" Value="UNIT1" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PlantSectionIdentificationCodeAssignmentClass" />
+      <GenericAttribute Name="PlantSectionNameAssignmentClass" Value="UNIT1" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PlantSectionNameAssignmentClass" />
+    </GenericAttributes>
+    <Association Type="is a part of" ItemID="PBS0D9331D91F4D4144B93903B01D5C7F4A" />
+    <Association Type="is a collection including" ItemID="SPC67D4EDB63054251A2CA72E8D130A62C" />
+  </PlantStructureItem>
+  <Extent>
+    <Min X="0" Y="0" />
+    <Max X="0.841" Y="0.594" />
+  </Extent>
+  <Drawing Name="E01V01-HEX.EX02" Type="PID" Title="TANK" Size="A1">
+    <Presentation Layer="" Color="White" LineType="" LineWeight="" R="1" G="1" B="1" />
+    <Extent>
+      <Min X="0" Y="0" />
+      <Max X="0.841" Y="0.594" />
+    </Extent>
+    <GenericAttributes Number="23">
+      <GenericAttribute Name="Description" Value="TEST CASE" Format="string" />
+      <GenericAttribute Name="SP_ID" Value="18FADB8F0EB147C7AE1F26E7F431F797" Format="string" />
+      <GenericAttribute Name="DocumentType" Value="P&amp;IDs" Format="string" />
+      <GenericAttribute Name="DocumentCategory" Value="Piping Documents" Format="string" />
+      <GenericAttribute Name="UpdateCount" Value="12" Format="string" />
+      <GenericAttribute Name="ItemStatus" Value="Active" Format="string" />
+      <GenericAttribute Name="SP_PlantGroupID" Value="21965A6820724688BB443B3EB454E19E" Format="string" />
+      <GenericAttribute Name="Path" Value="\UNIT1\E01V01-HEX.EX02.pid" Format="string" />
+      <GenericAttribute Name="DateCreated" Value="8/30/2016 10:48:05 AM" Format="string" />
+      <GenericAttribute Name="DrawingNumber" Value="E01" Format="string" />
+      <GenericAttribute Name="Template" Value="A1-Groesse.pid" Format="string" />
+      <GenericAttribute Name="SP_RulesUID" Value="3CDD9700299A48E9A09642BC8102E9B4" Format="string" />
+      <GenericAttribute Name="SP_FormatsUID" Value="7AAADD007B4C41F197DADA983354F3EE" Format="string" />
+      <GenericAttribute Name="SP_GappingUID" Value="D5D2765EF5AB4F7DAD74CB0D8FD250D5" Format="string" />
+      <GenericAttribute Name="SP_SymbologyUID" Value="D6AEF0450E0D42F5A2CA6B8DBD6C67DC" Format="string" />
+      <GenericAttribute Name="SP_HTraceUID" Value="C48CC28329714990A91C4867457BE7F8" Format="string" />
+      <GenericAttribute Name="SP_SelectListVersion" Value="47DEC1378640428FA53F1B6D6A08C7F8BFC5BDDD8E054239B592A1498040A787" Format="string" />
+      <GenericAttribute Name="SP_DefaultFormatsUID" Value="13E10564E7EA46AC8B620D7D925BF460" Format="string" />
+      <GenericAttribute Name="SP_ArePropertiesModified" Value="True" Format="string" />
+      <GenericAttribute Name="SP_AccessedBy" Value="Intergraph" Format="string" />
+      <GenericAttribute Name="Revision" Value="" Format="string" />
+      <GenericAttribute Name="Title" Value="TANK" Format="string" />
+      <GenericAttribute Name="DEXPI_REVISION" Value="" Format="string" />
+    </GenericAttributes>
+    <Label ID="SP69DA775193444792B88B46D58F84ECF2" ComponentClass="DexpiLabel" ComponentName="Equipment Tag Info">
+      <Position>
+        <Location X="0.300000000000001" Y="0.4" Z="0" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Extent>
+        <Min X="0.29366824159091037" Y="0.39520908836363627" />
+        <Max X="0.30633175840909221" Y="0.43000003695487976" />
+      </Extent>
+      <Presentation Color="Black" LineType="Solid" LineWeight="0.00035" />
+      <Text String="T100" Font="Intergraph ISO" Justification="CenterCenter" Width="0.004938892" Height="0.004938892" TextAngle="0" DependantAttribute="[TagNamePrefixAssignmentClass][TagNameSequenceNumberAssignmentClass]" ItemID="SPC67D4EDB63054251A2CA72E8D130A62C">
+        <Presentation Layer="Labels" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0.29366824159091037" Y="0.39520908836363627" />
+          <Max X="0.30633175840909221" Y="0.40479091163636355" />
+        </Extent>
+        <Position>
+          <Location X="0.30000000000000127" Y="0.39999999999999991" />
+          <Axis X="0" Y="0" Z="1" />
+          <Reference X="1" Y="0" Z="0" />
+        </Position>
+      </Text>
+    </Label>
+  </Drawing>
+  <ShapeCatalogue Name="Symbol Library">
+    <Equipment ComponentName="Equipment_496a4b84-8be4-4580-9366-ed2fa8ad816c" ID="_496a4b84-8be4-4580-9366-ed2fa8ad816c" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
+      <Position>
+        <Location X="0.000000" Y="0.000000" Z="0.000000" />
+        <Axis X="0" Y="0" Z="1" />
+        <Reference X="1" Y="0" Z="0" />
+      </Position>
+      <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
+      <Extent>
+        <Min X="-0.020009" Y="-0.034959" />
+        <Max X="0.020002" Y="0.034961" />
+      </Extent>
+      <TrimmedCurve StartAngle="60" EndAngle="120">
+        <Circle Radius="0.039999988675116657">
+          <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-0.020000" Y="0.029577" />
+            <Max X="0.020000" Y="0.034936" />
+          </Extent>
+          <Position>
+            <Location X="0.000000" Y="-0.005064" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+      <Line>
+        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="-0.020000" Y="-0.029578" />
+          <Max X="-0.020000" Y="0.029577" />
+        </Extent>
+        <Coordinate X="-0.020000" Y="0.029577" />
+        <Coordinate X="-0.020000" Y="-0.029577" />
+      </Line>
+      <Line>
+        <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+        <Extent>
+          <Min X="0.020000" Y="-0.029578" />
+          <Max X="0.020000" Y="0.029577" />
+        </Extent>
+        <Coordinate X="0.020000" Y="0.029577" />
+        <Coordinate X="0.020000" Y="-0.029577" />
+      </Line>
+      <TrimmedCurve StartAngle="240" EndAngle="300">
+        <Circle Radius="0.039999988675116657">
+          <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00013" R="0" G="0" B="0" />
+          <Extent>
+            <Min X="-0.020000" Y="-0.034937" />
+            <Max X="0.020000" Y="-0.029577" />
+          </Extent>
+          <Position>
+            <Location X="0.000000" Y="0.005036" />
+            <Axis X="0" Y="0" Z="1" />
+            <Reference X="1" Y="0" Z="0" />
+          </Position>
+        </Circle>
+      </TrimmedCurve>
+    </Equipment>
+  </ShapeCatalogue>
+  <Equipment ComponentName="Equipment_496a4b84-8be4-4580-9366-ed2fa8ad816c" ID="SPC67D4EDB63054251A2CA72E8D130A62C" TagName="T-100" ComponentClass="Tank" ComponentClassURI="http://data.posccaesar.org/rdl/RDS445139">
+    <GenericAttributes Number="6" Set="DexpiAttributes">
+      <GenericAttribute Name="TagNamePrefixAssignmentClass" Value="T" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNamePrefixAssignmentClass" />
+      <GenericAttribute Name="TagNameSequenceNumberAssignmentClass" Value="100" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSequenceNumberAssignmentClass" />
+      <GenericAttribute Name="TagNameSuffixAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/TagNameSuffixAssignmentClass" />
+      <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="Beh m gewoelbten Boeden(1)" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
+      <GenericAttribute Name="NominalCapacity(Volume)" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/NominalCapacity(Volume)" />
+      <GenericAttribute Name="CylinderLength" Format="double" AttributeURI="http://sandbox.dexpi.org/rdl/CylinderLength" />
+    </GenericAttributes>
+    <Association Type="is a part of" ItemID="PBS21965A6820724688BB443B3EB454E19E" />
+    <PersistentID Identifier="SPC67D4EDB63054251A2CA72E8D130A62C" Context="SmartPID - DEXPI" />
+    <Position>
+      <Location X="0.3" Y="0.395063535022899" Z="0" />
+      <Axis X="0" Y="0" Z="1" />
+      <Reference X="1" Y="0" Z="0" />
+    </Position>
+    <Scale X="1.0" Y="1.0" Z="1.0" />
+    <Presentation Layer="Default" Color="Black" LineType="Solid" LineWeight="0.00035" R="0" G="0" B="0" />
+    <Extent>
+      <Min X="0.27999084398150487" Y="0.36010443103627843" />
+      <Max X="0.32000182896852536" Y="0.43002446984069032" />
+    </Extent>
+  </Equipment>
+</PlantModel>
