@@ -1,6 +1,5 @@
-1. ComponentName of ProcessInstrumentationFunction is invalid. Commas is not allowed (ComponentName="EMSR, Prozessleitwarte_1_0_0")
-2. ProcessInstrumentationFunction texts must be in Label.
-3. Texts of ProcessInstrumentationFunction missing a DependantAttribute.
-4. InfromationFlow missing a Connection tag.
-5. ShapeCatalogue is missing.
-6. Equipment text missing DependantAttribute.
+1. ProcessInstrumentationFunction texts must be in Label.
+2. Texts of ProcessInstrumentationFunction missing a DependantAttribute.
+3. InfromationFlow missing a Connection tag.
+4. ShapeCatalogue is missing.
+5. Equipment text missing DependantAttribute.

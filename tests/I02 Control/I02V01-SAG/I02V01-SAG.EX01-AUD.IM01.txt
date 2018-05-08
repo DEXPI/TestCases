@@ -1,3 +1,2 @@
 1. ComponentClassURI's is invalid.
 2. ProcessInstrumentation texts must be in Label.
-3. ProcessInstrumentation texts must have a relative coordinates.
