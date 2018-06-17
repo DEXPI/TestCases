@@ -186,7 +186,7 @@
     <Association Type="is a collection including" ItemID="SP3416250CF4874E4A8932E429627BB2D8" />
     <Association Type="is a collection including" ItemID="SPFEF8CDB4FC02483AA6DE7EA589B53EBF" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="SPFEF8CDB4FC02483AA6DE7EA589B53EBF" TagName="FI 11" ComponentClass="Off-lineinstruments" ComponentName="EMSR, Prozessleitwarte">
+  <ProcessInstrumentationFunction ID="SPFEF8CDB4FC02483AA6DE7EA589B53EBF" TagName="FI 11" ComponentClass="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte">
     <PersistentID Identifier="SPFEF8CDB4FC02483AA6DE7EA589B53EBF" Context="SmartPID - DEXPI" />
     <Position>
       <Location X="0.325024042216816" Y="0.402444970804408" Z="0" />

@@ -94,7 +94,7 @@
       </Text>
     </Label>
   </Drawing>
-  <ProcessInstrumentationFunction ID="SP3D0C3A8FD40E4E30B1577AF50F25E91B" TagName="HC 02" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SP3D0C3A8FD40E4E30B1577AF50F25E91B" TagName="HC 02" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR Prozessleitwarte" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />

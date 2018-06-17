@@ -91,7 +91,7 @@
     </Label>
   </Drawing>
   <ShapeCatalogue Name="ShapeCatalogue">
-    <ProcessInstrument ID="XMC_1" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_1" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -276,7 +276,7 @@
           <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </ProcessInstrument>
+    </ProcessInstrumentationFunction>
     <Equipment ID="XMC_7" ComponentName="XMC_7" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
@@ -577,7 +577,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_2" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_2" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="SAGTBD000191" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_2" TagName="F" ComponentClass="MeasurementFunctionFlow" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A30|A10|F" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="171.5" Y="186" Z="0" />
@@ -753,7 +753,7 @@
       <Connection FromID="XMP_8" ToID="XMP_2" />
     </InformationFlow>
   </ProcessInstrumentationFunction>
-  <PipingNetworkSystem ID="XMP_16" TagName="Q001" ComponentClass="Pipe" ComponentClassURI="http://posccaesar.org/rdl/RDS421199" Status="Current">
+  <PipingNetworkSystem ID="XMP_16" TagName="Q001" ComponentClass="Pipe" ComponentClassURI="http://data.posccaesar.org/rdl/RDS421199" Status="Current">
     <PersistentID Identifier="A3Y7KTPYV2" Context="Comos" />
     <GenericAttributes Set="ComosProperties" Number="11">
       <GenericAttribute Name="SystemUID" Value="A3Y7KTPYV2" Format="string" />
@@ -786,7 +786,7 @@
     </GenericAttributes>
     <GenericAttributes Set="Proteus" Number="8">
       <GenericAttribute Name="Sandbox ID" Value="RDS421199" Format="string" />
-      <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS421199" Format="string" />
+      <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS421199" Format="string" />
       <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
       <GenericAttribute Name="Component class" Value="Pipe" Format="string" />
       <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A15|A40|A10|A10" Format="string" />
@@ -844,7 +844,7 @@
       <GenericAttribute Name="Link17" Value="Isometric no." Format="string" />
       <GenericAttribute Name="Link18" Value="Lifecycle status" Format="string" />
     </GenericAttributes>
-    <PipingNetworkSegment ID="XMP_13" TagName="001" ComponentClass="PipeSection" ComponentClassURI="http://posccaesar.org/rdl/RDS13174725" Status="Current">
+    <PipingNetworkSegment ID="XMP_13" TagName="001" ComponentClass="PipeSection" ComponentClassURI="http://data.posccaesar.org/rdl/RDS13174725" Status="Current">
       <Presentation Layer="10" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
       <Extent>
         <Min X="160" Y="157" Z="0" />
@@ -884,7 +884,7 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="8">
         <GenericAttribute Name="Sandbox ID" Value="RDS13174725" Format="string" />
-        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS13174725" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS13174725" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="Component class" Value="PipeSection" Format="string" />
         <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A15|A40|A10|A10!A10" Format="string" />
@@ -1225,7 +1225,7 @@
       </Equipment>
       <Connection FromID="" ToID="XMP_8" />
     </PipingNetworkSegment>
-    <PipingNetworkSegment ID="XMP_17" TagName="002" ComponentClass="PipeSection" ComponentClassURI="http://posccaesar.org/rdl/RDS13174725" Status="Current">
+    <PipingNetworkSegment ID="XMP_17" TagName="002" ComponentClass="PipeSection" ComponentClassURI="http://data.posccaesar.org/rdl/RDS13174725" Status="Current">
       <Presentation Layer="10" Color="0" LineType="0" LineWeight="0.35" R="0" G="0" B="0" />
       <Extent>
         <Min X="182.5" Y="157" Z="0" />
@@ -1265,7 +1265,7 @@
       </GenericAttributes>
       <GenericAttributes Set="Proteus" Number="8">
         <GenericAttribute Name="Sandbox ID" Value="RDS13174725" Format="string" />
-        <GenericAttribute Name="RDL - URI" Value="http://posccaesar.org/rdl/RDS13174725" Format="string" />
+        <GenericAttribute Name="RDL - URI" Value="http://data.posccaesar.org/rdl/RDS13174725" Format="string" />
         <GenericAttribute Name="Only export following attributes" Value="0" Format="string" />
         <GenericAttribute Name="Component class" Value="PipeSection" Format="string" />
         <GenericAttribute Name="ComponentName" Value="@30|M00|A50|A15|A40|A10|A10!A10" Format="string" />

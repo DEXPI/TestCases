@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PlantModel>
     <PlantInformation
         SchemaVersion = "4.0.1"
@@ -379,7 +379,7 @@
         ComponentClass = "Tank"
         ComponentClassURI = "http://data.posccaesar.org/rdl/RDS445139">
         <Position>
-            <Location X = "250" Y = "400"/>
+            <Location X = "250" Y = "402"/>
             <Axis
                 X = "0"
                 Y = "0"

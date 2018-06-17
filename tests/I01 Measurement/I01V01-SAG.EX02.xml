@@ -185,7 +185,7 @@
         </GenericAttributes>
       </ConnectionPoints>
     </Equipment>
-    <ProcessInstrument ID="XMC_3" ComponentClass="MeasurementFunctionLevel" ComponentClassURI="SAGTBD000195" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
+    <ProcessInstrumentationFunction ID="XMC_3" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
         <Min X="-8.5" Y="-6" Z="0" />
@@ -383,7 +383,7 @@
           <GenericAttribute Name="NodeName4" Value="DI4" Format="string" />
         </GenericAttributes>
       </ConnectionPoints>
-    </ProcessInstrument>
+    </ProcessInstrumentationFunction>
     <Nozzle ID="XMC_9" ComponentClass="Nozzle" ComponentClassURI="http://posccaesar.org/rdl/RDS415214" ComponentName="X8160" Status="Current">
       <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
       <Extent>
@@ -800,7 +800,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="XMP_4" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="XMP_4" TagName="LI" ComponentClass="MeasurementFunctionLevel" ComponentClassURI="SAGTBD000195" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
+  <ProcessInstrumentationFunction ID="XMP_4" TagName="LI" ComponentClass="ProcessInstrumentationFunction" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction" ComponentName="@30|M00|A60|A10|A10|L" ComponentType="Explicit" Status="Current">
     <Presentation Layer="0" Color="0" LineType="0" LineWeight="0.1" R="0" G="0" B="0" />
     <Extent>
       <Min X="169" Y="226" Z="0" />

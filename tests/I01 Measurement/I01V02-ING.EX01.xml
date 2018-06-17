@@ -167,10 +167,10 @@
         <GenericAttribute Name="FunctionalObjectDescriptionAssignmentClass" Value="" Format="string" AttributeURI="http://data.posccaesar.org/rdl/RDS2101566251" />
       </GenericAttributes>
     </Equipment>
-    <Nozzle ID="SP0A7D05D3D1CA444CA94F97AAFF7538A5" ComponentClass="Nozzle" ComponentName="Stutzen 2_5mm,gefl_1_0_0" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
+    <Nozzle ID="SP0A7D05D3D1CA444CA94F97AAFF7538A5" ComponentClass="Nozzle" ComponentName="Stutzen 2_5mm_gefl_1_0_0" ComponentClassURI="http://data.posccaesar.org/rdl/RDS415214">
       <GenericAttributes Number="2" Set="DexpiAttributes">
         <GenericAttribute Name="NominalPressure" Format="double" AttributeURI="http://data.posccaesar.org/rdl/RDS6949380" />
-        <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="Stutzen 2_5mm,gefl" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
+        <GenericAttribute Name="SymbolRegistrationNumberAssignmentClass" Value="StutzenNozzle" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/SymbolRegistrationNumberAssigmentClass" />
       </GenericAttributes>
       <PersistentID Identifier="SP0A7D05D3D1CA444CA94F97AAFF7538A5" Context="SmartPID - DEXPI" />
       <Position>
@@ -369,7 +369,7 @@
     </GenericAttributes>
     <Association Type="is a collection including" ItemID="SPF207F63523B94EE7B07D01446D424645" />
   </InstrumentationLoopFunction>
-  <ProcessInstrumentationFunction ID="SPF207F63523B94EE7B07D01446D424645" TagName="LI 01" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR, Prozessleitwarte_1_0_0" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
+  <ProcessInstrumentationFunction ID="SPF207F63523B94EE7B07D01446D424645" TagName="LI 01" ComponentClass="ProcessInstrumentationFunction" ComponentName="EMSR_ Prozessleitwarte_1_0_0" ComponentClassURI="http://sandbox.dexpi.org/rdl/ProcessInstrumentationFunction">
     <GenericAttributes Number="14" Set="DexpiAttributes">
       <GenericAttribute Name="DeviceInformationAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/DeviceInformationAssignmentClass" />
       <GenericAttribute Name="PanelIdentificationCodeAssignmentClass" Value="" Format="string" AttributeURI="http://sandbox.dexpi.org/rdl/PanelIdentificationCodeAssignmentClass" />
