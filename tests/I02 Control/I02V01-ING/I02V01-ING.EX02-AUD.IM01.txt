@@ -1,0 +1,2 @@
+1. Label ID=SP4201B50F00114917ABF581BF7289C32C must be inside ProcessInstrumentationFunction component.
+2. PipingComponent text must be in Label.

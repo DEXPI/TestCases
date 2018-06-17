@@ -1,0 +1,5 @@
+1. ProcessInstrumentationFunction texts must be in Label.
+2. Texts of ProcessInstrumentationFunction missing a DependantAttribute.
+3. InfromationFlow missing a Connection tag.
+4. ShapeCatalogue is missing.
+5. Equipment text missing DependantAttribute.

@@ -1,0 +1,2 @@
+1. PipingNetworkSegment with ID="SG8B12D6816E9F432695222500F08A648F" must be divided into 2 PipingNetworkSegments with 1 PipingComponent and 1 CenterLine each.
+2. Bad connection info in PipingNetworkSegment with ID="SG8B12D6816E9F432695222500F08A648F". "To" field is incorrent, id inside "To" must be like PipingComponent id.
