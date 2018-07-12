@@ -19,6 +19,18 @@ public class BeltCrawlerStarter {
 }
 ```
 
+## Starter Class for the Matrix-Crawler
+
+```java
+public class MatrixCrawlerStarter {
+	public static void main(String[] args) {
+		String folder = "c:\\\\Users\\user\\github\\where\\ever\\you\\have\\your\\files\\";
+		MatrixCrawler mc = new MatrixCrawler();
+		mc.startCrawling(folder);
+	}
+}
+```
+
 ## How to start
 1. Compile the code
 2. Run the code
