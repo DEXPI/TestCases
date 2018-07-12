@@ -5,7 +5,7 @@ The DEXPI repository for TestCases
 
 Status of the interface test cases for DEXPI based data exchange on 12th of July 2018:
 
- |        AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
+__ |        AUD|      AVV|      HEX|      SAG|      VTT|      XVT|      
 ---       |---      |---      |---      |---      |---      |---      
 AUD |     0% |      0% |      0% |      0% |      11,5% |   0% |      
 AVV |     7,7% |    0% |      0% |      0% |      15,4% |   0% |      
