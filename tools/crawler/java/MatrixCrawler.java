@@ -17,7 +17,8 @@ public class MatrixCrawler {
 	private static ArrayList<String> testCases = new ArrayList<String>(
 			Arrays.asList("E01V02","E02V02","E09V01","E10V01","P01V01","P02V01","I01V01","I02V01","I09V01","I10V01", "E11V01","E12V01","I03V01","I04V01","I05V01","I06V01","P03V01","P04V01","P05V01", "E07V01","E08V01","E13V01","I07V01","I08V01","I11V01","I12V01")); 
 
-
+	private List<String> checkedTestCases = new ArrayList<String>();
+	
 	public MatrixCrawler() {
 		System.out.println("# DEXPI Matrix Crawler version " + version);
 		java.util.Date date = new java.util.Date();
@@ -92,8 +93,20 @@ public class MatrixCrawler {
 					//example file name: C01V01-HEX.EX02-SAG.IM01.pdf
 					//If a file exists that contains the e.g. HEX.EX and SAG.IM it is a point for "from Hex to SAG"
 					if (fName.contains(fromVendor + ".EX") && fName.contains(toVendor + ".IM")) {
-						table[fi][ti]++;  //increase the value for this matrix entry
-						System.out.println("Found: " + fromVendor + " -> " + toVendor + " (" + table[fi][ti] + ") in " + fName);
+						
+						//check if already checked
+						boolean found = false; 
+						String shortName = fName.substring(0, 5) + fromVendor + toVendor;
+						if (!this.checkedTestCases.contains(shortName)) {					
+							table[fi][ti]++;  //increase the value for this matrix entry
+							System.out.println("Found: " + fromVendor + " -> " + toVendor + " (" + table[fi][ti] + ") in " + fName);
+							this.checkedTestCases.add(shortName);
+						}
+						else {
+							System.out.println("Skipped: " + fromVendor + " -> " + toVendor + " (" + table[fi][ti] + ") in " + fName);
+
+						}
+						
 					}
 					
 				}
