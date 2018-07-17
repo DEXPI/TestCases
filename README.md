@@ -7,7 +7,7 @@ __ |      AUD|      AVV|      HEX|      SAG|      VTT|      XVT|
 AUD |     0% |      0% |      0% |      1,8% |    14,3% |   1,8% |    
 AVV |     7,1% |    0% |      0% |      5,4% |    14,3% |   3,6% |    
 HEX |     19,6% |   0% |      0% |      10,7% |   17,9% |   5,4% |    
-SAG |     21,4% |   1,8% |    1,8% |    3,6% |    17,9% |   1,8% |    
+SAG |     21,4% |   1,8% |    0% |    3,6% |    17,9% |   1,8% |    
 VTT |     0% |      0% |      0% |      0% |      0% |      0% |      
 XVT |     0% |      0% |      0% |      0% |      0% |      0% |    
 
@@ -160,7 +160,7 @@ Number of TestCases analysed:56
 * Found: SAG -> AUD (11) in P01V01-SAG.EX02-AUD.IM01
 * Found: SAG -> AUD (12) in P02V01-SAG.EX02-AUD.IM01
 * Found: SAG -> AVV (1) in E02V01-SAG.EX01-AVV.IM01
-* Found: SAG -> HEX (1) in P02V01_SAG.EX01-HEX.IM01
+* Found: SAG -> HEX (1) in P02V01_SAG.EX01-HEX.IM01 --> TWEAKED! 
 * Found: SAG -> SAG (1) in C04V01-SAG.EX01-SAG.IM01
 * Found: SAG -> SAG (2) in C05V01-SAG.EX01-SAG.IM01
 * Found: SAG -> VTT (1) in C03V01-SAG.EX01-VTT.IM01
